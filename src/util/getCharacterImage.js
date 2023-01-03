@@ -19,6 +19,6 @@ const characters = {
 
 export default function(characterName) {
     if (characterName in characters) {
-        return `src/assets/characters/${characters[characterName]}.png`;
+        return `assets/characters/${characters[characterName]}.png`;
     }
 };

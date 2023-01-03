@@ -8,8 +8,8 @@ export default (props) => {
     const [exampleText, setExampleText] = createSignal(phrase);
     const [textPosition, setTextPosition] = createSignal(0);
     const [soundEffectsOn, setSoundEffectsOn] = createSignal(true);
-    const cursorSound = new Audio("src/assets/audio/sound-effects/cursor.mp3");
-    const saveSound = new Audio("src/assets/audio/sound-effects/save.mp3");
+    const cursorSound = new Audio("assets/audio/sound-effects/cursor.mp3");
+    const saveSound = new Audio("assets/audio/sound-effects/save.mp3");
 
     queueMicrotask(() => {
         if (window.localStorage.getItem('textSpeed') !== null) props.setTextSpeed(window.localStorage.getItem('textSpeed'));

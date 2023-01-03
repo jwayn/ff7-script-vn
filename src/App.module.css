@@ -6,7 +6,7 @@
 }
 
 button, input, label {
-  cursor: url(src/assets/FF7Cursor.webp) 48 5, auto;
+  cursor: url(FF7Cursor.webp) 48 5, auto;
 }
 
 .App {

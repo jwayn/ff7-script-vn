@@ -4,19 +4,19 @@ import getCharacterImage from '../util/getCharacterImage';
 
 function updateBackground({ useCustomBackgroundColor, customBackgroundColor, backgroundName}) {
     const backgrounds = {
-        "BOMBING MISSION": "src/assets/backgrounds/ch01/midgar.jpg",
-        "REACTOR EXPLOSION": "src/assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 8 STREETS": "src/assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR TRAIN": "src/assets/backgrounds/ch01/midgar.jpg",
-        "MIGAR TRAIN TUNNEL": "src/assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 7 SLUMS": "src/assets/backgrounds/ch01/midgar.jpg",
-        "7th HEAVEN": "src/assets/backgrounds/ch01/midgar.jpg",
-        "NIBELHEIM_TOWER": "src/assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR TRAIN RED ALARM": "src/assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR SECTOR 4 PLATE": "src/assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 4 REACTOR": "src/assets/backgrounds/ch01/midgar.jpg",
-        "NIBELHEIM REACTOR OLD": "src/assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 4 WALKWAY": "src/assets/backgrounds/ch01/midgar.jpg",
+        "BOMBING MISSION": "assets/backgrounds/ch01/midgar.jpg",
+        "REACTOR EXPLOSION": "assets/backgrounds/ch01/midgar.jpg",
+        "SECTOR 8 STREETS": "assets/backgrounds/ch01/midgar.jpg",
+        "MIDGAR TRAIN": "assets/backgrounds/ch01/midgar.jpg",
+        "MIGAR TRAIN TUNNEL": "assets/backgrounds/ch01/midgar.jpg",
+        "SECTOR 7 SLUMS": "assets/backgrounds/ch01/midgar.jpg",
+        "7th HEAVEN": "assets/backgrounds/ch01/midgar.jpg",
+        "NIBELHEIM_TOWER": "assets/backgrounds/ch01/midgar.jpg",
+        "MIDGAR TRAIN RED ALARM": "assets/backgrounds/ch01/midgar.jpg",
+        "MIDGAR SECTOR 4 PLATE": "assets/backgrounds/ch01/midgar.jpg",
+        "SECTOR 4 REACTOR": "assets/backgrounds/ch01/midgar.jpg",
+        "NIBELHEIM REACTOR OLD": "assets/backgrounds/ch01/midgar.jpg",
+        "SECTOR 4 WALKWAY": "assets/backgrounds/ch01/midgar.jpg",
     };
     if (useCustomBackgroundColor) {
         document.body.style.backgroundImage = 'none';
