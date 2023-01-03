@@ -1,0 +1,94 @@
+.optionsContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+}
+
+.btnOptionsButton {
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.hidden:hover {
+    opacity: 1;
+}
+
+.btnOptionsButton svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.buttonFull {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid red;
+}
+
+.btnOptionsButton:hover {
+    background-color: rgba(1, 1, 1, .25);
+    border-radius: 50%;
+    transition: all .125s ease-out;
+}
+
+.options {
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+}
+
+.ffbox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 4px solid;
+    border-image: linearGradient(#909090, #484848);
+    background: linear-gradient(.5turn, #0000A4, #000028);
+    color: white;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
+.ffbox > .ffbox {
+    margin: .5rem 0;
+}
+
+.ffbox label {
+    margin-left: .5rem;
+}
+
+.ffbox h2 {
+    margin: 0;
+}
+
+.radioGroup {
+    margin-bottom: .5rem;
+}
+
+.colorPicker {
+    width: 200px;
+}
+
+.ffbox > .saveButton {
+    width: 200px;
+    margin-top: auto;
+    align-self: flex-end;
+}

@@ -1,0 +1,71 @@
+.backlogContainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: rgba(1, 1, 1, .75);
+    backdrop-filter: blur(25px);
+}
+
+.backlogLinesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.closeBacklog {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(1, 1, 1, .75);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backlogLine {
+    display: flex;
+    border-radius: 8px;
+    border: 4px solid;
+    border-image: linearGradient(#909090, #484848);
+    background: linear-gradient(.5turn, #0000A4, #000028);
+    color: white;
+    padding: 1rem;
+    max-width: 700px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.backlogLineName {
+    font-weight: 700;
+}
+
+.backlogLineText {
+    font-weight: 500;
+}
+.backlogLineImage {
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.backlogLineImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.backlogLineContent {
+    max-width: 609px;
+    width: 100%;
+}
