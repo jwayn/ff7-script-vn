@@ -32,7 +32,6 @@ export default (props) => {
     const [currentDialogueText, setCurrentDialogueText] = createSignal('');
     const [textIsAnimating, setTextIsAnimating] = createSignal(true);
     const [textPosition, setTextPosition] = createSignal(0);
-    const [showBacklog, setShowBacklog] = createSignal(false);
     
     let timeout;
     createEffect(() => {
@@ -50,22 +49,14 @@ export default (props) => {
     });
 
     onMount(async () => {
-        let curPage = window.localStorage.getItem('currentDialoguePage');
-        if (curPage) {
-            props.setCurrentDialoguePage(Number(curPage));
-        }
-
         document.addEventListener("keyup", (e) => {
-            if (e.key === " ") {
-                endTextAnimationOrGoToNextDialogue();
+            if (!props.menuIsUp && !window.getSelection) {
+                if (e.key === " ") {
+                    endTextAnimationOrGoToNextDialogue();
+                }
             }
         });
     })
-
-    const updateDialoguePage = function(num) {
-        window.localStorage.setItem('currentDialoguePage', num);
-        props.setCurrentDialoguePage(Number(num))
-    }
 
     const animateText = function() {
         if (props.textSpeed() > 0) {
@@ -90,7 +81,13 @@ export default (props) => {
             setTextIsAnimating(false);
             setCurrentDialogueText(props.data[props.currentDialoguePage()].dialogue);
         } else {
-            updateDialoguePage(Number(props.currentDialoguePage()) + 1);
+            props.setCurrentDialoguePage(Number(props.currentDialoguePage()) + 1);
+        }
+    }
+
+    const clickNextDialogue = () => {
+        if (!window.getSelection().toString()) {
+            endTextAnimationOrGoToNextDialogue();
         }
     }
 
@@ -101,7 +98,7 @@ export default (props) => {
                 <img class={styles.dialogueImage} src={getCharacterImage(currentDialogueLine().character)} alt={currentDialogueLine().character} />
             </div>
         </Show>
-        <div class={styles.dialogueBox} onClick={() => endTextAnimationOrGoToNextDialogue()}>
+        <div class={styles.dialogueBox} onClick={() => clickNextDialogue()}>
             <h1>{currentDialogueLine().character}</h1>
             <span class={styles.dialogueText}>{currentDialogueText()}</span>
             <Show when={textIsAnimating() === false}>

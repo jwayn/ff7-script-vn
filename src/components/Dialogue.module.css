@@ -44,6 +44,8 @@
     margin: 0;
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 16px;
 }
 
 .dialogueText {

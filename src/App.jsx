@@ -5,6 +5,9 @@ import Options from './components/Options';
 import Backlog from './components/Backlog';
 import { createSignal, onMount } from 'solid-js'
 
+// TODO:
+// Convert all px to rem for better responsiveness on large screens
+
 function App() {
   const [textSpeed, setTextSpeed] = createSignal(localStorage.getItem('textSpeed') || 70);
   const [customBackgroundColor, setCustomBackgroundColor] = createSignal(false);
@@ -26,7 +29,6 @@ function App() {
       }
     });
 
-  
     document.addEventListener("keyup", (e) => {
         if (e.key === "Escape") {
           if(showBacklog() !== true) {
@@ -36,8 +38,16 @@ function App() {
           }
         }
     });
+
+    if (window.localStorage.getItem('currentDialoguePage')) {
+      setCurrentDialoguePage(JSON.parse(window.localStorage.getItem('currentDialoguePage')));
+    }
   });
 
+  function setDialoguePage(page) {
+    window.localStorage.setItem('currentDialoguePage', page);
+    setCurrentDialoguePage(page);
+  }
 
   const data = parseCsv();
   return (
@@ -52,14 +62,15 @@ function App() {
         showOptions={showOptions}
         setShowOptions={setShowOptions}
       />
-      <Backlog showBacklog={showBacklog} setShowBacklog={setShowBacklog} currentDialoguePage={currentDialoguePage} setCurrentDialoguePage={setCurrentDialoguePage} data={data} />
+      <Backlog showBacklog={showBacklog} setShowBacklog={setShowBacklog} currentDialoguePage={currentDialoguePage} setCurrentDialoguePage={setDialoguePage} data={data} />
       <Dialogue 
         data={data} 
         textSpeed={textSpeed} 
         customBackgroundColor={customBackgroundColor} 
         useCustomBackgroundColor={useCustomBackgroundColor} 
         currentDialoguePage={currentDialoguePage} 
-        setCurrentDialoguePage={setCurrentDialoguePage}
+        setCurrentDialoguePage={setDialoguePage}
+        menuIsUp={showBacklog() === true || showOptions() === true}
       />
     </div>
   );

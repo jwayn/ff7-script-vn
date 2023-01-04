@@ -8,6 +8,11 @@ export default (props) => {
     createEffect(() => {
         setBacklog(props.data.slice(0, props.currentDialoguePage() + 1));
     })
+
+    function setDialoguePage(page) {
+        props.setCurrentDialoguePage(page);
+        props.setShowBacklog(false);
+    }
     return (
         <Show when={props.showBacklog() === true}>
             <div class={styles.backlogContainer}>
@@ -19,7 +24,7 @@ export default (props) => {
                 <div class={styles.backlogLinesContainer} ref={container}>
                     <For each={backlog()}>
                         {(line, i) =>
-                            <div class={styles.backlogLine}>
+                            <div class={styles.backlogLine} onClick={() => setDialoguePage(i())}>
                                 <div class={styles.backlogLineImage}>
                                     <Show when={getCharacterImage(line.character)}>
                                         <img src={getCharacterImage(line.character)} alt={line.character}/>
