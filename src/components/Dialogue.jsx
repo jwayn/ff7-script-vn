@@ -50,7 +50,7 @@ export default (props) => {
 
     onMount(async () => {
         document.addEventListener("keyup", (e) => {
-            if (!props.menuIsUp && !window.getSelection) {
+            if (!props.menuIsUp) {
                 if (e.key === " ") {
                     endTextAnimationOrGoToNextDialogue();
                 }

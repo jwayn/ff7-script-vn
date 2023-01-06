@@ -1,8 +1,8 @@
 .dialogue {
-  max-width: 1000px;
+  max-width: 62.5rem;
   width: 100%;
-  margin-bottom: 50px;
-  margin-inline: 50px;
+  margin-bottom: 3.125rem;
+  margin-inline: 3.125rem;
   align-self: flex-end;
   position: relative;
   display: flex;
@@ -12,20 +12,20 @@
 .dialogueBox {
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
-    border: 4px solid;
+    border-radius: .5rem;
+    border: .25rem solid;
     border-image: linearGradient(#909090, #484848);
     background: linear-gradient(.5turn, #0000A4, #000028);
     color: white;
     padding: 1rem 2rem;
-    max-width: 1000px;
+    max-width: 62.5rem;
     width: 100%;
-    min-height: 275px;
+    min-height: 17.1875rem;
     cursor: pointer;
 }
 
 .dialogueImage {
-    max-width: 600px;
+    max-width: 37.5rem;
     width: 100%;
     object-fit: contain;
 }
@@ -45,7 +45,7 @@
     margin-bottom: 1.5rem;
     font-size: 2rem;
     text-decoration: underline;
-    text-underline-offset: 16px;
+    text-underline-offset: 1rem;
 }
 
 .dialogueText {

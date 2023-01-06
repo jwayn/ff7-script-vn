@@ -5,9 +5,6 @@ import Options from './components/Options';
 import Backlog from './components/Backlog';
 import { createSignal, onMount } from 'solid-js'
 
-// TODO:
-// Convert all px to rem for better responsiveness on large screens
-
 function App() {
   const [textSpeed, setTextSpeed] = createSignal(localStorage.getItem('textSpeed') || 70);
   const [customBackgroundColor, setCustomBackgroundColor] = createSignal(false);
@@ -21,7 +18,7 @@ function App() {
     document.addEventListener("wheel", (event) => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          if (event.deltaY < 0 && showBacklog() === false) setShowBacklog(true);
+          if (event.deltaY < 0 && showBacklog() === false && showOptions() === false) setShowBacklog(true);
           ticking = false;
         });
 
@@ -62,7 +59,15 @@ function App() {
         showOptions={showOptions}
         setShowOptions={setShowOptions}
       />
-      <Backlog showBacklog={showBacklog} setShowBacklog={setShowBacklog} currentDialoguePage={currentDialoguePage} setCurrentDialoguePage={setDialoguePage} data={data} />
+      <Show when={showBacklog() === true}>
+        <Backlog
+          showBacklog={showBacklog} 
+          setShowBacklog={setShowBacklog} 
+          currentDialoguePage={currentDialoguePage} 
+          setCurrentDialoguePage={setDialoguePage} 
+          data={data} 
+        />
+      </Show>
       <Dialogue 
         data={data} 
         textSpeed={textSpeed} 
