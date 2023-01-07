@@ -33,28 +33,30 @@
 .backlogLine {
     display: flex;
     border-radius: .5rem;
-    border: .25rem solid;
-    border-image: linearGradient(#909090, #484848);
+    border: .25rem solid white;
     background: linear-gradient(.5turn, #0000A4, #000028);
     color: white;
     padding: 1rem;
-    max-width: 38rem;
+    max-width: 48rem;
     width: 100%;
     margin: .5rem 0;
     cursor: url("/assets/images/FF7Cursor.webp") 48 5, auto;
+    font-size: 2rem;
 }
 
 .backlogLineName {
     font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    margin-bottom: 1rem;
 }
 
 .backlogLineText {
     font-weight: 500;
 }
 .backlogLineImage {
-    width: 3.125rem;
-    height: 3.125rem;
-    margin: auto 0;
+    width: 6rem;
+    height: 6rem;
     margin-right: 1rem;
     display: flex;
     flex-direction: column;

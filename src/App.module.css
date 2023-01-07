@@ -5,6 +5,23 @@
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1921px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 2561px) {
+  html {
+    font-size: 28px;
+  }
+}
+
+
 button, input, label {
   cursor: url("/assets/images/FF7Cursor.webp") 48 5, auto;
 }
