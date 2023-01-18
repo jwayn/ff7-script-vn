@@ -19,8 +19,9 @@
     padding: 1rem 2rem;
     max-width: 62.5rem;
     width: 100%;
-    min-height: 17.1875rem;
+    min-height: 19rem;
     cursor: pointer;
+    white-space: pre-line;
 }
 
 .dialogueImage {

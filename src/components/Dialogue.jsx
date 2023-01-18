@@ -3,28 +3,18 @@ import { createSignal, createEffect, Show, onMount } from "solid-js";
 import getCharacterImage from '../util/getCharacterImage';
 
 function updateBackground({ useCustomBackgroundColor, customBackgroundColor, backgroundName}) {
-    const backgrounds = {
-        "BOMBING MISSION": "assets/backgrounds/ch01/midgar.jpg",
-        "REACTOR EXPLOSION": "assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 8 STREETS": "assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR TRAIN": "assets/backgrounds/ch01/midgar.jpg",
-        "MIGAR TRAIN TUNNEL": "assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 7 SLUMS": "assets/backgrounds/ch01/midgar.jpg",
-        "7th HEAVEN": "assets/backgrounds/ch01/midgar.jpg",
-        "NIBELHEIM_TOWER": "assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR TRAIN RED ALARM": "assets/backgrounds/ch01/midgar.jpg",
-        "MIDGAR SECTOR 4 PLATE": "assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 4 REACTOR": "assets/backgrounds/ch01/midgar.jpg",
-        "NIBELHEIM REACTOR OLD": "assets/backgrounds/ch01/midgar.jpg",
-        "SECTOR 4 WALKWAY": "assets/backgrounds/ch01/midgar.jpg",
-    };
     if (useCustomBackgroundColor) {
         document.body.style.backgroundImage = 'none';
         document.body.style.backgroundColor = customBackgroundColor;
     } else {
         document.body.style.backgroundColor = '#FFFFFF';
-        document.body.style.backgroundImage = `url('${backgrounds[backgroundName]}')`;
+        document.body.style.backgroundImage = `url('assets/backgrounds/ch01/${backgroundName}.png')`;
     }
+}
+
+let nextBackground;
+function fetchNextBackground(backgroundName) {
+    nextBackground = new Image().src = `assets/backgrounds/ch01/${backgroundName}.png`;
 }
 
 export default (props) => {
@@ -41,6 +31,7 @@ export default (props) => {
             updateBackground({useCustomBackgroundColor: true, customBackgroundColor: props.customBackgroundColor()});
         } else {
             updateBackground({useCustomBackgroundColor: false, backgroundName: props.data[props.currentDialoguePage()].location});
+            fetchNextBackground(props.data[props.currentDialoguePage() + 1].location);
         }
         setTextPosition(0);
         setTextIsAnimating(true);
