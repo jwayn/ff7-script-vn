@@ -13,19 +13,7 @@ function updateBackground({ useCustomBackgroundColor, customBackgroundColor, bac
 
 function getCharacterImage(characterName) {
     const url = `assets/characters/${characterName}.png`;
-    const img = new Image()
-    img.src = url;
-    if (img.complete) {
-        return url;
-    } else {
-        img.onload = () => {
-         return url;   
-        }
-
-        img.onerror = () => {
-            return false;
-        }
-    }
+    return url;
 };
 
 let nextBackground;

@@ -5,7 +5,7 @@
     z-index: 5;
     background-color: rgba(1, 1, 1, .5);
     backdrop-filter: blur(15px);
-    animation: blurin .3s ease-in;
+    animation: blurin .3s ease-out;
 }
 
 @keyframes blurin {
