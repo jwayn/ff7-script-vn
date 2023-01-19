@@ -590,7 +590,7 @@ CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜そしてクラウド、落っこち�
             location: line[1],
             character: line[2],
             asset: line[3],
-            dialogue: line[4].slice(1, -1).replaceAll('/n', '\n').replaceAll('＜', '').replaceAll('＞', '').replaceAll('「', '').replaceAll('」', ''),
+            dialogue: line[4].slice(1, -1).trim('「').trim('」').replaceAll('/n', '\n').replaceAll('＜', '').replaceAll('＞', ''),
         }
         json.push(dialogue);
     });

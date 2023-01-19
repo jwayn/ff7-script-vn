@@ -22,6 +22,7 @@
     min-height: 19rem;
     cursor: pointer;
     white-space: pre-line;
+    justify-content: space-between;
 }
 
 .dialogueImage {
@@ -59,8 +60,26 @@
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
+    min-width: 2rem;
+    animation: slideright .5s infinite ease-in, fadein .5s 1 linear;
+    /* animation-play-state: running; */
 }
 
-.dialogueImage {
+@keyframes slideright {
+    from {
+        transform: translateX(0rem);
+    }
 
+    to {
+        transform: translateX(.5rem)
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

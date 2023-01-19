@@ -42,8 +42,10 @@ function App() {
   });
 
   function setDialoguePage(page) {
-    window.localStorage.setItem('currentDialoguePage', page);
-    setCurrentDialoguePage(page);
+    if (page >= 0 && page < data.length) {
+      window.localStorage.setItem('currentDialoguePage', page);
+      setCurrentDialoguePage(page);
+    }
   }
 
   const data = parseCsv();

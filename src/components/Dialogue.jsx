@@ -42,8 +42,12 @@ export default (props) => {
     onMount(async () => {
         document.addEventListener("keyup", (e) => {
             if (!props.menuIsUp) {
-                if (e.key === " ") {
+                if ([" ", "Enter"].includes(e.key)) {
                     endTextAnimationOrGoToNextDialogue();
+                } else if (["ArrowRight", "d"].includes(e.key)) {
+                    goToNextDialogue();
+                } else if (["ArrowLeft", "a"].includes(e.key)) {
+                    goToPreviousDialogue();
                 }
             }
         });
@@ -72,8 +76,16 @@ export default (props) => {
             setTextIsAnimating(false);
             setCurrentDialogueText(props.data[props.currentDialoguePage()].dialogue);
         } else {
-            props.setCurrentDialoguePage(Number(props.currentDialoguePage()) + 1);
+            goToNextDialogue()
         }
+    }
+
+    const goToNextDialogue = () => {
+        props.setCurrentDialoguePage(Number(props.currentDialoguePage()) + 1);
+    }
+
+    const goToPreviousDialogue = () => {
+        props.setCurrentDialoguePage(Number(props.currentDialoguePage()) - 1)
     }
 
     const clickNextDialogue = () => {
@@ -90,11 +102,15 @@ export default (props) => {
             </div>
         </Show>
         <div class={styles.dialogueBox} onClick={() => clickNextDialogue()}>
-            <h1>{currentDialogueLine().character}</h1>
-            <span class={styles.dialogueText}>{currentDialogueText()}</span>
+            <div>
+                <h1>{currentDialogueLine().character}</h1>
+                <span class={styles.dialogueText}>{currentDialogueText()}</span>
+            </div>
             <Show when={textIsAnimating() === false}>
                 <nav class={styles.dialogueButtons}>
-                    。。。
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path fillRule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clipRule="evenodd" />
+                    </svg>
                 </nav>
             </Show>
         </div>
