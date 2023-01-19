@@ -1,6 +1,5 @@
 import styles from './Dialogue.module.css';
 import { createSignal, createEffect, Show, onMount } from "solid-js";
-import getCharacterImage from '../util/getCharacterImage';
 
 function updateBackground({ useCustomBackgroundColor, customBackgroundColor, backgroundName}) {
     if (useCustomBackgroundColor) {
@@ -11,6 +10,10 @@ function updateBackground({ useCustomBackgroundColor, customBackgroundColor, bac
         document.body.style.backgroundImage = `url('assets/backgrounds/ch01/${backgroundName}.png')`;
     }
 }
+
+function getCharacterImage(characterName) {
+    return `assets/characters/${characterName}.png`;
+};
 
 let nextBackground;
 function fetchNextBackground(backgroundName) {
@@ -96,9 +99,9 @@ export default (props) => {
 
     return (
       <div class={styles.dialogue}>
-        <Show when={getCharacterImage(currentDialogueLine().character)}>
+        <Show when={currentDialogueLine().asset && currentDialogueLine().asset !== "INFO"}>
             <div class={styles.dialogueImageHolder}>
-                <img class={styles.dialogueImage} src={getCharacterImage(currentDialogueLine().character)} alt={currentDialogueLine().character} />
+                <img class={styles.dialogueImage} src={getCharacterImage(currentDialogueLine().asset)} alt={currentDialogueLine().character} />
             </div>
         </Show>
         <div class={styles.dialogueBox} onClick={() => clickNextDialogue()}>
