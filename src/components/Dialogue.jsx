@@ -47,7 +47,9 @@ export default (props) => {
             updateBackground({useCustomBackgroundColor: true, customBackgroundColor: props.customBackgroundColor()});
         } else {
             updateBackground({useCustomBackgroundColor: false, backgroundName: props.data[props.currentDialoguePage()].location});
-            fetchNextBackground(props.data[props.currentDialoguePage() + 1].location);
+            if (props.data[props.currentDialoguePage() + 1]) {
+                fetchNextBackground(props.data[props.currentDialoguePage() + 1].location);
+            }
         }
         setTextPosition(0);
         setTextIsAnimating(true);
