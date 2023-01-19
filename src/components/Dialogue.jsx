@@ -12,7 +12,20 @@ function updateBackground({ useCustomBackgroundColor, customBackgroundColor, bac
 }
 
 function getCharacterImage(characterName) {
-    return `assets/characters/${characterName}.png`;
+    const url = `assets/characters/${characterName}.png`;
+    const img = new Image()
+    img.src = url;
+    if (img.complete) {
+        return url;
+    } else {
+        img.onload = () => {
+         return url;   
+        }
+
+        img.onerror = () => {
+            return false;
+        }
+    }
 };
 
 let nextBackground;
@@ -99,7 +112,7 @@ export default (props) => {
 
     return (
       <div class={styles.dialogue}>
-        <Show when={currentDialogueLine().asset && currentDialogueLine().asset !== "INFO"}>
+        <Show when={getCharacterImage(currentDialogueLine().asset)}>
             <div class={styles.dialogueImageHolder}>
                 <img class={styles.dialogueImage} src={getCharacterImage(currentDialogueLine().asset)} alt={currentDialogueLine().character} />
             </div>

@@ -1,6 +1,5 @@
 import styles from './Backlog.module.css';
 import { createEffect, createSignal, For, onMount } from "solid-js";
-import getCharacterImage from '../util/getCharacterImage';
 
 export default (props) => {
     let container;
@@ -13,6 +12,23 @@ export default (props) => {
         props.setCurrentDialoguePage(page);
         props.setShowBacklog(false);
     }
+
+    function getCharacterImage(characterName) {
+        const url = `assets/characters/${characterName}.png`;
+        const img = new Image()
+        img.src = url;
+        if (img.complete) {
+            return url;
+        } else {
+            img.onload = () => {
+             return url;   
+            }
+
+            img.onerror = () => {
+                return false;
+            }
+        }
+    };
 
     onMount(() => {
         container.lastElementChild.scrollIntoView();
@@ -30,8 +46,8 @@ export default (props) => {
                     {(line, i) =>
                         <div class={styles.backlogLine} onClick={() => setDialoguePage(i())}>
                             <div class={styles.backlogLineImage}>
-                                <Show when={getCharacterImage(line.character)}>
-                                    <img src={getCharacterImage(line.character)} alt={line.character}/>
+                                <Show when={getCharacterImage(line.asset)}>
+                                    <img src={getCharacterImage(line.asset)} alt={line.character}/>
                                 </Show>
                             </div>
                             <div class={styles.backlogLineContent}>
