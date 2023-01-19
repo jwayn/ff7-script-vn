@@ -1,5 +1,6 @@
 import { createSignal, createEffect, Show, useTransition, onMount, onCleanup } from "solid-js";
 import styles from './Options.module.css';
+import Modal from './Modal';
 
 export default (props) => {
     const phrase = "選択した速度でテキストを表示した例です。快適な速度ですか？";
@@ -8,6 +9,7 @@ export default (props) => {
     const [exampleText, setExampleText] = createSignal(phrase);
     const [textPosition, setTextPosition] = createSignal(0);
     const [soundEffectsOn, setSoundEffectsOn] = createSignal(true);
+    const [resetModalVisible, setResetModalVisible] = createSignal(false);
     const cursorSound = new Audio("assets/audio/sound-effects/cursor.mp3");
     const saveSound = new Audio("assets/audio/sound-effects/save.mp3");
 
@@ -91,6 +93,21 @@ export default (props) => {
         playSaveSound();
         props.setShowOptions(false);
     }
+
+    function showResetModal() {
+        props.setModalIsPresent(true);
+        setResetModalVisible(true);
+    }
+
+    function hideResetModal() {
+        props.setModalIsPresent(false);
+        setResetModalVisible(false);
+    }
+
+    function resetStoryProgress() {
+        hideResetModal();
+        props.setCurrentDialoguePage(0);
+    }
     
     return (
         <div class={styles.optionsContainer} classList={{[styles.full]: props.showOptions() == true}}>
@@ -171,8 +188,19 @@ export default (props) => {
                         </Show>
                     </div>
 
+                    <button class={styles.ffbox} onClick={() => showResetModal()}>Reset Progress?</button>
                     <button classList={{[styles.ffbox]: true, [styles.saveButton]: true}} onClick={() => saveSettings()}>Save</button>
                 </div>
+            </Show>
+            <Show when={resetModalVisible() == true}>
+                <Modal
+                    title="Warning"
+                    content="Are you sure you want to reset your story progress? This will take you back to the very beginning."
+                    primaryButtonText="Yes"
+                    primaryButtonAction={resetStoryProgress}
+                    secondaryButtonText="No"
+                    secondaryButtonAction={hideResetModal}
+                />
             </Show>
         </div>
     )

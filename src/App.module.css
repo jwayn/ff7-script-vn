@@ -26,6 +26,10 @@ button, input, label {
   cursor: url("/assets/images/FF7Cursor.webp") 48 5, auto;
 }
 
+button {
+  font-size: 1rem;
+}
+
 .App {
   display: flex;
   justify-content: center;

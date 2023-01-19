@@ -12,6 +12,7 @@ function App() {
   const [currentDialoguePage, setCurrentDialoguePage] = createSignal(0);
   const [showBacklog, setShowBacklog] = createSignal(false);
   const [showOptions, setShowOptions] = createSignal(false);
+  const [modalIsPresent, setModalIsPresent] = createSignal(false);
 
   let ticking = false;
   onMount(async () => {
@@ -28,7 +29,7 @@ function App() {
 
     document.addEventListener("keyup", (e) => {
         if (e.key === "Escape") {
-          if(showBacklog() !== true) {
+          if(showBacklog() !== true && modalIsPresent() !== true) {
             setShowOptions(!showOptions());
           } else {
             setShowBacklog(false);
@@ -60,6 +61,8 @@ function App() {
         setUseCustomBackgroundColor={setUseCustomBackgroundColor}
         showOptions={showOptions}
         setShowOptions={setShowOptions}
+        setModalIsPresent={setModalIsPresent}
+        setCurrentDialoguePage={setDialoguePage}
       />
       <Show when={showBacklog() === true}>
         <Backlog

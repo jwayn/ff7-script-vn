@@ -1,0 +1,79 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: rgba(1, 1, 1, .5);
+    backdrop-filter: blur(15px);
+    animation: fadein .3s ease-in;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ffmodal {
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    border: .25rem solid;
+    border-image: linearGradient(#909090, #484848);
+    background: linear-gradient(.5turn, #0000A4, #000028);
+    color: white;
+    padding: .5rem 1rem;
+    max-width: 50rem;
+    width: 100%;
+    animation: fadedropin .3s ease-out;
+    min-height: 16rem;
+    justify-content: space-between;
+}
+
+@keyframes fadedropin {
+    from {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: .25rem solid;
+    border-image: linearGradient(#909090, #484848);
+    background: linear-gradient(.5turn, #0000A4, #000028);
+    color: white;
+}
+
+.buttons button:last-child {
+    margin-left: .5rem;
+}
+
+.primary {
+    
+}
+
+.heading {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-top: .25rem
+}
