@@ -7,18 +7,21 @@ function updateBackground({ useCustomBackgroundColor, customBackgroundColor, bac
         document.body.style.backgroundColor = customBackgroundColor;
     } else {
         document.body.style.backgroundColor = '#FFFFFF';
-        document.body.style.backgroundImage = `url('assets/backgrounds/ch01/${backgroundName}.png')`;
+        document.body.style.backgroundImage = `url('assets/images/${encodeURIComponent(backgroundName).replaceAll("'", "%27")}.png')`;
     }
 }
 
 function getCharacterImage(characterName) {
-    const url = `assets/characters/${characterName}.png`;
-    return url;
+    if (characterName) {
+        const url = `assets/images/${encodeURIComponent(characterName)}.png`.replaceAll("'", "%27");
+        return url;
+    }
+    return;
 };
 
 let nextBackground;
 function fetchNextBackground(backgroundName) {
-    nextBackground = new Image().src = `assets/backgrounds/ch01/${backgroundName}.png`;
+    nextBackground = new Image().src = `assets/images/${(backgroundName)}.png`.replaceAll("'", "%27");
 }
 
 export default (props) => {

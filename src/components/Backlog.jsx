@@ -14,7 +14,7 @@ export default (props) => {
     }
 
     function getCharacterImage(characterName) {
-        const url = `assets/characters/${characterName}.png`;
+        const url = `assets/images/${characterName}.png`;
         return url;
     };
 
