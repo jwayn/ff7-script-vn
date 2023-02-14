@@ -26,7 +26,10 @@
 }
 
 .dialogueImage {
-    max-width: 37.5rem;
+    /*  This max width might not be serving a purpose,
+        But may need to be reenabled if it causes issues
+    */
+    /* max-width: 37.5rem; */
     width: 100%;
     object-fit: contain;
 }
