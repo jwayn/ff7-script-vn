@@ -6,8 +6,12 @@ function updateBackground({ useCustomBackgroundColor, customBackgroundColor, bac
         document.body.style.backgroundImage = 'none';
         document.body.style.backgroundColor = customBackgroundColor;
     } else {
-        document.body.style.backgroundColor = '#FFFFFF';
-        document.body.style.backgroundImage = `url('assets/images/${encodeURIComponent(backgroundName).replaceAll("'", "%27")}.png')`;
+        document.body.style.backgroundColor = '#000000';
+        const bgImage = new Image();
+        bgImage.onload = () => {
+            document.body.style.backgroundImage = `url('assets/images/${encodeURIComponent(backgroundName).replaceAll("'", "%27")}.png')`;
+        }
+        bgImage.src = `assets/images/${encodeURIComponent(backgroundName).replaceAll("'", "%27")}.png`
     }
 }
 
@@ -18,11 +22,6 @@ function getCharacterImage(characterName) {
     }
     return;
 };
-
-let nextBackground;
-function fetchNextBackground(backgroundName) {
-    nextBackground = new Image().src = `assets/images/${(backgroundName)}.png`.replaceAll("'", "%27");
-}
 
 export default (props) => {
     const [currentDialogueLine, setCurrentDialogueLine] = createSignal(0);
@@ -38,9 +37,6 @@ export default (props) => {
             updateBackground({useCustomBackgroundColor: true, customBackgroundColor: props.customBackgroundColor()});
         } else {
             updateBackground({useCustomBackgroundColor: false, backgroundName: props.data[props.currentDialoguePage()].location});
-            if (props.data[props.currentDialoguePage() + 1]) {
-                fetchNextBackground(props.data[props.currentDialoguePage() + 1].location);
-            }
         }
         setTextPosition(0);
         setTextIsAnimating(true);

@@ -2,20 +2,20 @@ export default () => {
 
     const toParse = `CH01,MIDGAR TRAIN STATION,バレット,BARRET,「行くぞ、新入り！ オレに続け！」
     CH01,MIDGAR TRAIN STATION,INFO,INFO,＜戦闘：元ソルジャーＡ&Ｂ＞ /n ＜元ソルジャーを撃破＞/n  ＜戦闘終了＞
-    CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「さすが、ソルジャー！ でもよ、反神羅（しんら）グループ【アパランチ】にソルジャーが参加するなんてスゲェよな！」
+    CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「さすが、ソルジャー！でもよ、反神羅（しんら）グループ【アパランチ】にソルジャーが参加するなんてスゲェよな！」
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「その話って本当だったの？ ソルジャーって言ったら 私たちの敵でしょ？」
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「どうして、そのソルジャーが私たちアバランチに協力するわけ？」
     CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「早とちりするな、ジェシー。元、ソルジャーなんだってさ」
     CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「今はもう神羅（しんら）をやめちまって 俺たちの仲間ってわけさ」
     CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「まだ名前聞いてなかったよな。教えてくれ」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜クラウドの名前入力画面＞
+    CH01,MIDGAR REACTOR AREA,INFO,CLOUD,＜クラウドの名前入力画面＞
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「……クラウドだ」
     CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,「クラウドか、おれは……」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「あんたたちの名前なんて興味ないね。どうせこの仕事が終わったらお別れだ」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「なにやってんだオマエたち！ かたまって行動するなって言ってんだろ！」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「ターゲットは壱番魔晄炉（まこうろ）。魔晄炉前のブリッジに集合だぞ」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「元ソルジャー……。チッ、信用できねえな」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜バレットの名前入力画面＞
+    CH01,MIDGAR REACTOR AREA,INFO,BARRET,＜バレットの名前入力画面＞
     CH01,MIDGAR NO 1 REACTOR,INFO,INFO, ＜１番魔胱炉＞
     CH01,MIDGAR NO 1 REACTOR,バレット,BARRET,「……おい。おまえ魔晄炉（まこうろ）は初めてじゃないんだろ？」
     CH01,MIDGAR NO 1 REACTOR,クラウド,CLOUD,「まあな。ソルジャー…… 神羅（しんら）カンパニーの人間だったからな」
@@ -34,31 +34,31 @@ export default () => {
     CH01,ELEVATOR,クラウド,CLOUD,「悪いけど興味がないな」
     CH01,ELEVATOR,バレット,BARRET,「星が死んじまうんだぞ。えっ、クラウドさんよ！」
     CH01,ELEVATOR,クラウド,CLOUD,「俺が考えてるのは、さっさと仕事を終わらせたいってことだけだ。警備兵やガードロボットが来ないうちにな」
-    CH01,ELEVATOR,INFO,INFO,＜エレベータを降りる＞
+    CH01,ELEVATOR,INFO,CLOUD,＜エレベータを降りる＞
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「はしごの前では【決定ボタン】を押して。そうすればはしごにつかまるわ。後は【方向キー】の上下で、のぼりおりするの」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「ここもブッ壊しちまえば ただのガラクタだぜ」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「クラウドさんよ この爆弾をセットしてくれ」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「あんたがやったほうが いいんじゃないのか？」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「オレ？　オレは見張らせてもらう。おまえさんがおかしなマネをしないようにな」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「……好きにしてくれ」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜すると、クラウドの脳裏から謎の声が…＞
+    CH01,MIDGAR REACTOR AREA,INFO,CLOUD'S EGO,＜すると、クラウドの脳裏から謎の声が…＞
     CH01,MIDGAR REACTOR AREA,謎の声,MYSTERY VOICE,『目をさませ！』
     CH01,MIDGAR REACTOR AREA,謎の声,MYSTERY VOICE,『ここはただの発電所じゃない！！』
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「…………うした？」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「え？」
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「どうしたクラウドさんよ？ 早くしてくれ！」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「……ああ、すまない」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜爆弾をセットすると、警報が鳴る＞
+    CH01,MIDGAR REACTOR AREA,INFO,CLOUD,＜爆弾をセットすると、警報が鳴る＞
     CH01,MIDGAR REACTOR AREA,バレット,BARRET,「本格的にやってくるぜ」
     CH01,MIDGAR REACTOR AREA,INFO,INFO,＜戦闘：ガードスコーピオン＞
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「バレット、気をつけろ」
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「しっぽをあげている間に攻撃すると レーザーで反撃してくるぞ」
     CH01,MIDGAR REACTOR AREA,INFO,INFO,＜ガードスコーピオンを撃破＞ /n ＜戦闘終了＞
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「さあ、脱出だ」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜“爆破10分前”のカウントダウンが開始される＞
+    CH01,MIDGAR REACTOR AREA,INFO,CLOUD,＜“爆破10分前”のカウントダウンが開始される＞
     CH01,MIDGAR REACTOR AREA,クラウド,CLOUD,「だいじょうぶか？」
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「うかつ！！　足がはさまって……」
-    CH01,MIDGAR REACTOR AREA,INFO,INFO,＜クラウド、ジェシーの足にはさまっている鉄をどける＞
+    CH01,MIDGAR REACTOR AREA,INFO,JESSIE,＜クラウド、ジェシーの足にはさまっている鉄をどける＞
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「サンキュー！」
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「コード解除」
     CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,「さ、あせらないで」
@@ -68,39 +68,39 @@ export default () => {
     CH01,MIDGAR REACTOR SUBWAY PIPE,ウェッジ,WEDGE,「そうっすね」
     CH01,MIDGAR REACTOR SUBWAY PIPE,バレット,BARRET,「…………」
     CH01,MIDGAR REACTOR SUBWAY PIPE,ジェシー,JESSIE,「出来た！ 下がって」
-    CH01,MIDGAR REACTOR SUBWAY PIPE,INFO,INFO,＜爆弾で穴を開ける＞
+    CH01,MIDGAR REACTOR SUBWAY PIPE,INFO,JESSIE,＜爆弾で穴を開ける＞
     CH01,MIDGAR SECTOR 8 STREET EXIT,バレット,BARRET,「さあ、引き上げるぞ」
     CH01,MIDGAR SECTOR 8 STREET EXIT,バレット,BARRET,「ランデブー地点は８番街ステーション！ 各自単独行動、列車に乗りこむんだ！」
     CH01,MIDGAR SECTOR 8 STREET EXIT,クラウド,CLOUD,「お、おい！」
     CH01,MIDGAR SECTOR 8 STREET EXIT,バレット,BARRET,「金の話なら 無事にアジトに帰ってからだ」
-    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH FLOWER GIRL,「ねえ」
-    CH01,MIDGAR SECTOR 8 STREET,花売り,FLOWER GIRL AERITH,「何があったの？」
-    CH01,MIDGAR SECTOR 8 STREET,INFO,INFO,＜選択肢：「逃げた方がいい」or「気にするな……それより」/n →「気にするな……それより」を選択＞
+    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH,「ねえ」
+    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH,「何があったの？」
+    CH01,MIDGAR SECTOR 8 STREET,INFO,CLOUD,＜選択肢：「逃げた方がいい」or「気にするな……それより」/n →「気にするな……それより」を選択＞
     CH01,MIDGAR SECTOR 8 STREET,クラウド,CLOUD,「……」
-    CH01,MIDGAR SECTOR 8 STREET,INFO,INFO,＜選択肢：「花なんて、めずらしいな」or「いや、なんでもないんだ」→「花なんて、めずらしいな」を選択＞
-    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH FLOWER GIRL,「あっ、これね。気に入ってくれた？ １ギルなんだけど、どう？」
-    CH01,MIDGAR SECTOR 8 STREET,INFO,INFO,＜選択肢：「もらおう」or「やめとくよ」/n →「もらおう」を選択＞
-    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH FLOWER GIRL,「わあ、ありがとう！」
-    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH FLOWER GIRL,「はい！」
+    CH01,MIDGAR SECTOR 8 STREET,INFO,CLOUD,＜選択肢：「花なんて、めずらしいな」or「いや、なんでもないんだ」→「花なんて、めずらしいな」を選択＞
+    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH,「あっ、これね。気に入ってくれた？ １ギルなんだけど、どう？」
+    CH01,MIDGAR SECTOR 8 STREET,INFO,CLOUD,＜選択肢：「もらおう」or「やめとくよ」/n →「もらおう」を選択＞
+    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH,「わあ、ありがとう！」
+    CH01,MIDGAR SECTOR 8 STREET,花売り,AERITH,「はい！」
     CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜８番街＞
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS,「おい！　そこの男！！」
     CH01,MIDGAR SECTOR 8 STREETS,クラウド,CLOUD,「神羅兵か……」
-    CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜選択肢：「やってやる！」or「めんどくさいから逃げる」 /n →「やってやる！」を選択＞
+    CH01,MIDGAR SECTOR 8 STREETS,INFO,CLOUD,＜選択肢：「やってやる！」or「めんどくさいから逃げる」 /n →「やってやる！」を選択＞
     CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜戦闘：警備兵Ａ&Ｂ＞ /n ＜警備兵を撃破＞ /n ＜戦闘終了＞
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS 2,「なにごとだ！」
     CH01,MIDGAR SECTOR 8 STREETS,クラウド,CLOUD,「チッ！」
-    CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜選択肢：「やってやる！」or「めんどくさいから逃げる」 /n →「やってやる！」を選択＞
+    CH01,MIDGAR SECTOR 8 STREETS,INFO,CLOUD,＜選択肢：「やってやる！」or「めんどくさいから逃げる」 /n →「やってやる！」を選択＞
     CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜戦闘：警備兵（３人）＞ /n ＜警備兵を撃破＞ /n ＜戦闘終了＞
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS 3,「いたぞ！！」
     CH01,MIDGAR SECTOR 8 STREETS,クラウド,CLOUD,「チッ！」
-    CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜選択肢：「やってやる！」or「めんどくさいから逃げる」→「やってやる！」を選択＞
+    CH01,MIDGAR SECTOR 8 STREETS,INFO,CLOUD,＜選択肢：「やってやる！」or「めんどくさいから逃げる」→「やってやる！」を選択＞
     CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜戦闘：警備兵Ａ&Ｂ&Ｃ＞ /n ＜警備兵を撃破＞ /n ＜戦闘終了＞
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS 4,「こっちだ！！」
     CH01,MIDGAR SECTOR 8 STREETS,クラウド,CLOUD,「チッ！」
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS 4,「ここまでだな」
     CH01,MIDGAR SECTOR 8 STREETS,クラウド,CLOUD,「残念だが、おまえらの相手をしてるほどヒマじゃないんでな」
     CH01,MIDGAR SECTOR 8 STREETS,兵士,SOLDIER 1ST CLASS 4,「たわごとを…… よし捕らえろ！！」
-    CH01,MIDGAR SECTOR 8 STREETS,INFO,INFO,＜クラウド、下の列車に飛び移る＞
+    CH01,MIDGAR SECTOR 8 STREETS,INFO,CLOUD,＜クラウド、下の列車に飛び移る＞
     CH01,MIDGAR TRAIN,INFO,INFO,＜ミッドガル発最終列車＞
     CH01,MIDGAR TRAIN,ウェッジ,WEDGE,「クラウドさん こなかったっすね」
     CH01,MIDGAR TRAIN,ビッグス,BIGGS,「クラウド…… やられちまったのかな」
@@ -115,7 +115,7 @@ export default () => {
     CH01,MIDGAR TRAIN,ウェッジ,WEDGE,「あ、バレットさん 俺たちの給料……」
     CH01,MIDGAR TRAIN,ウェッジ,WEDGE,「や、なんでもないっす…」
     CH01,MIDGAR TRAIN,アバランチの面々,AVALANCHE,「ふっ～～……」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜そこへ、クラウドが飛び込んで来る＞
+    CH01,MIDGAR TRAIN,INFO,CLOUD,＜そこへ、クラウドが飛び込んで来る＞
     CH01,MIDGAR TRAIN,ビッグス,BIGGS,「クラウド！！」
     CH01,MIDGAR TRAIN,ウェッジ,WEDGE,「クラウドさんっ！」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「クラウド……」
@@ -163,14 +163,14 @@ export default () => {
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「各通過ポイントの中にはID検知エリアが設置されてるの」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「乗客すべての身分やなにから全部！ 神羅ビルのホストコンピュータと連動してチェックされちゃうわけよ」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「ひそひそ…… （私たちはどう見たって不審人物だからニセのIDで通過してるの）」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜ID検知エリア、突入＞
+    CH01,MIDGAR TRAIN,INFO,JESSIE,＜ID検知エリア、突入＞
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「噂をすれば、ね」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「この光がID検知エリア通過のサインなの」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「ひそひそ…… （暗くなるからチカンが多いのよ。ID検知エリアは……）」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「ま、それはさておき、もうすぐ地上に帰れるってわけ。なんだか、ホッとするね」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「そうだ、クラウド」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「今度、私の手作り作品を プレゼントしちゃおうかな」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜選択肢：「えんりょしとくよ」or「楽しみにしてるよ」→「楽しみにしてるよ」を選択＞
+    CH01,MIDGAR TRAIN,INFO,CLOUD,＜選択肢：「えんりょしとくよ」or「楽しみにしてるよ」→「楽しみにしてるよ」を選択＞
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「うん、じゃ、腕によりをかけて ドッカ～ンと制作するわ」
     CH01,MIDGAR TRAIN,ウェッジ,WEDGE,「目がチカチカしたっす。俺、暗いのだめっす。苦手っす」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「もうすぐ駅に着くね。クラウドといっぱい話せて燃えたわ。私、導火線に火がついたかもよ」
@@ -200,7 +200,7 @@ export default () => {
     CH01,MIDGAR SECTOR 7 SLUMS,INFO,INFO,＜７番街スラム＞
     CH01,MIDGAR SECTOR 7 SLUMS,バレット,BARRET,「へへ……」
     CH01,MIDGAR SECTOR 7 SLUMS,バレット,BARRET,「幼なじみにはやく会いてえか？」
-    CH01,MIDGAR SECTOR 7 SLUMS,INFO,INFO,＜選択肢：「幼なじみ？」or「そこ、どいてくれ」 /n →「幼なじみ？」を選択＞
+    CH01,MIDGAR SECTOR 7 SLUMS,INFO,CLOUD,＜選択肢：「幼なじみ？」or「そこ、どいてくれ」 /n →「幼なじみ？」を選択＞
     CH01,MIDGAR SECTOR 7 SLUMS,バレット,BARRET,「へッ！！ とぼけちゃってよ」
     CH01,MIDGAR SECTOR 7 SLUMS,バレット,BARRET,「いいのかねえ…」
     CH01,MIDGAR SECTOR 7 SLUMS,バレット,BARRET,「よし！ 先に入ってろ」
@@ -208,21 +208,21 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「ほら、マリン！ クラウドに おかえりなさいは？」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「おかえりなさい、クラウド。作戦はうまくいったみたいね」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「バレットとはケンカしなかった？」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢 ：「やっちゃった」or「ガマンした」 /n →「ガマンした」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢 ：「やっちゃった」or「ガマンした」 /n →「ガマンした」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「ふ～ん。クラウドもおとなになったのね。子供のころ、すぐケンカだったのに」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜ティファの名前入力画面＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,TIFA,＜ティファの名前入力画面＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「あら？ お花なんてめずらしいわね」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「スラムじゃ、めったにさかないのよ」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「でも……」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「プレゼントに、お花なんて クラウド、そうなんだ～」
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「そんなんじゃないさ」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「ティファ、あげる」or「マリン、あげる」 /n →「ティファ、あげる」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「ティファ、あげる」or「マリン、あげる」 /n →「ティファ、あげる」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「ありがとう、クラウド。ん～、いいかおり！」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「お店を花でいっぱいにしちゃおうかな」
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「あ、クラウドさん！」
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「ティファちゃんの料理って おいしいっすねえ。パクパク……」
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「でも、聞いてくれます？」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「なにを」or「お前の話なんて興味ないね」 /n →「なにを」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「なにを」or「お前の話なんて興味ないね」 /n →「なにを」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「ティファちゃんって いつも俺に、料理の味見させるっすよ」
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「おかげでほら、俺、こんなまるっこくなっちゃって」
     CH01,MIDGAR 7TH HEAVEN,ウェッジ,WEDGE,「うれしいやら、悲しいやら。おいしい料理とお酒が評判で お店ははんじょうしてるんですけどね」
@@ -231,7 +231,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,ビッグス,BIGGS,「ああ～！！ 仕事の後の一杯はこたえらんねぇなぁ」
     CH01,MIDGAR 7TH HEAVEN,ビッグス,BIGGS,「ヒック！！」
     CH01,MIDGAR 7TH HEAVEN,ビッグス,BIGGS,「クラウドさんも、おひとつどうですか？」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「いらないな」or「そうだな、もらおうか」 /n →「そうだな、もらおうか」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「いらないな」or「そうだな、もらおうか」 /n →「そうだな、もらおうか」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ビッグス,BIGGS,「おっ！！ いい心がけじゃねぇか！！」
     CH01,MIDGAR 7TH HEAVEN,ビッグス,BIGGS,「元ソルジャーでもここじゃおめえも新人だ。新人にとっちゃ先輩の言うことは 絶対だからな！」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「クラウド、ごめんね。マリン、てれちゃってるみたい」
@@ -244,9 +244,9 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「どうぞ、すわって」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「ねえ……」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「何かのむ？」
-    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,INFO,＜選択肢：「いまはそんな気分じゃないな」or「キツイの、くれないか？」 /n →「キツイの、くれないか」を選択＞
+    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,CLOUD,＜選択肢：「いまはそんな気分じゃないな」or「キツイの、くれないか？」 /n →「キツイの、くれないか」を選択＞
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「まってて。いまつくるから」
-    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,INFO,＜ティファ、すぐにつくり、クラウドにわたす＞
+    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,TIFA,＜ティファ、すぐにつくり、クラウドにわたす＞
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「なんだか、ほっとしちゃった。クラウドが無事もどってきて」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,クラウド,CLOUD,「急にどうした？ あのていどの仕事、なんでもないさ」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「そうね……」
@@ -260,7 +260,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ジェシー,JESSIE,「見てよ、このニュース……。こんなに爆発してる」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ジェシー,JESSIE,「やっぱり、私の爆弾のせい？ でも、このコンピュータの指示通り 作っただけなのに」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ジェシー,JESSIE,「やだ！ どっかで計算まちがったかしら」
-    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,INFO,＜テレビモニターから＞
+    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,PRESIDENT SHINRA TV,＜テレビモニターから＞
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA TV,「……壱番魔晄炉破壊事件に関して アバランチと名乗る組織から 犯行声明が出されています。
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA TV,「声明によるとアバランチは 今後も同様のテロを続けることを 予告しております。
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA TV,「しかし、ミッドガルの市民のみなさん 安心して下さい」
@@ -279,7 +279,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,クラウド,CLOUD,「俺は上で待っている。報酬の話がしたい」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,バレット,BARRET,「チッ！！ ………………ほ、報酬かよ…」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,マリン,MARLENE,「とうちゃ～ん かっこいい！」
-    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,INFO,＜ティファ、駆けつける＞
+    CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,INFO,TIFA,＜ティファ、駆けつける＞
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,ティファ,TIFA,「待って、クラウド！」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,バレット,BARRET,「ティファ！ そんなヤツ放っておけ！」
     CH01,MIDGAR 7TH HEAVEN CONFERENCE ROOM,バレット,BARRET,「どうやら神羅に 未練タラタラらしいからな！」
@@ -295,18 +295,18 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「あ～あ！ 本当に行っちゃうんだ！」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「かわいい幼なじみのたのみも きかずに行っちゃうんだ！」
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「ん……？」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「よくいうぜ！」or「……わるいな」 /n →「……わるいな」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「よくいうぜ！」or「……わるいな」 /n →「……わるいな」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「……約束も忘れちゃったんだ」
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「約束？」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「やっぱり忘れてる」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「思い出して……クラウド。あれは７年前よ……」
-    CH01,NIBELHEIM WATER TOWER,ティファ,TIFA,「ほら、村の給水塔」
-    CH01,NIBELHEIM WATER TOWER,ティファ,TIFA,「覚えてる？」
-    CH01,NIBELHEIM WATER TOWER,クラウド,CLOUD,「ああ……あの時か」
-    CH01,NIBELHEIM WATER TOWER,クラウド,CLOUD,「ティファ、なかなか来なくて ちょっと寒かったな」
+    CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「ほら、村の給水塔」
+    CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「覚えてる？」
+    CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「ああ……あの時か」
+    CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「ティファ、なかなか来なくて ちょっと寒かったな」
     CH01,NIBELHEIM WATER TOWER,INFO,INFO,＜回想＞
     CH01,NIBELHEIM WATER TOWER,ティファ,TIFA YOUNG,「お・ま・た・せ」
-    CH01,NIBELHEIM WATER TOWER,INFO,INFO,＜ティファ、クラウドの横に座る＞
+    CH01,NIBELHEIM WATER TOWER,INFO,TIFA YOUNG,＜ティファ、クラウドの横に座る＞
     CH01,NIBELHEIM WATER TOWER,ティファ,TIFA YOUNG,「な～に？ 話があるって」
     CH01,NIBELHEIM WATER TOWER,クラウド,CLOUD YOUNG,「俺……春になったら村を出て ミッドガルに行くよ」
     CH01,NIBELHEIM WATER TOWER,ティファ,TIFA YOUNG,「……男の子たちって み～んな村を出てっちゃうのね」
@@ -332,10 +332,10 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「俺は英雄でも有名でもない。約束は……守れない」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「でも子供のころの夢を実現したでしょ？ ちゃんとソルジャーになったんだもの」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「だから、ねっ！ 今度こそ約束を……」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜そこへバレットが来る＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,BARRET,＜そこへバレットが来る＞
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「おいちょっと待て！ ソルジャーさんよ」
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「約束は約束だからな！ ほら、金だ！！」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜バレットのへそくり1500ギルを受け取る＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,BARRET,＜バレットのへそくり1500ギルを受け取る＞
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「こんな、しけた報酬 じょうだんじゃないな」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「え？それじゃ！！」
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「次のミッションはあるのか？ 倍額の3000でうけてやってもいい」
@@ -348,7 +348,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜翌朝＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「おはよ！　クラウド！」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「よく、眠れた？」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「バレットのイビキがうるさくて…」or「ティファがそばにいたから…」 /n →「ティファがそばにいたから…」を選択＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「バレットのイビキがうるさくて…」or「ティファがそばにいたから…」 /n →「ティファがそばにいたから…」を選択＞
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「それはどういう意味かしら？」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「今回は私も行くね！」
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「標的は【五番魔晄炉】だ。まず、駅に行く」
@@ -358,7 +358,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「じつはな…… オレはマテリアの使い方をよくしらねえ！」
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「ひろったマテリアはおまえにくれてやる。だから、教えろ！」
     CH01,MIDGAR 7TH HEAVEN,クラウド,CLOUD,「さて……」
-    CH01,MIDGAR 7TH HEAVEN,INFO,INFO,＜選択肢：「面倒だが説明しよう」or「面倒くさい……」 /n →「面倒だが説明しよう」を選択＞ /n ＜ここでメニュー画面が開かれ、チュートリアル形式でマテリアの使い方などが説明される＞
+    CH01,MIDGAR 7TH HEAVEN,INFO,CLOUD,＜選択肢：「面倒だが説明しよう」or「面倒くさい……」 /n →「面倒だが説明しよう」を選択＞ /n ＜ここでメニュー画面が開かれ、チュートリアル形式でマテリアの使い方などが説明される＞
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「ケッ！　なにが…… 『それほど、むずかしくはないだろう』だ！」
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「ぜんぜんわかんねえ……」
     CH01,MIDGAR 7TH HEAVEN,バレット,BARRET,「まあ、いいだろう。マテリアはおまえが管理しとけ！」
@@ -366,7 +366,7 @@ export default () => {
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「あげたいものがあるからお店によって ……だって。わすれないでね！」
     CH01,MIDGAR 7TH HEAVEN,ティファ,TIFA,「マリン、お店たのむね！」
     CH01,MIDGAR 7TH HEAVEN,マリン,MARLENE,「うん！！ お仕事がんばってね」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜クラウド一行、列車に乗り込む＞
+    CH01,MIDGAR TRAIN,INFO,CLOUD,＜クラウド一行、列車に乗り込む＞
     CH01,MIDGAR TRAIN,バレット,BARRET,「おう！」
     CH01,MIDGAR TRAIN,バレット,BARRET,「こいつぁ、貸し切り列車じゃねえぞ！！ 散れ散れ！！」
     CH01,MIDGAR TRAIN,神羅課長,SHINRA MIDDLE MANAGER,「また危ない人たちといっしょか。私もつくづく運がないな」
@@ -406,7 +406,7 @@ export default () => {
     CH01,MIDGAR TRAIN,神羅課長,SHINRA MIDDLE MANAGER,「わ、私にはかまわないでくれたまえ。（ヒッヒッ…… 会社のみんなにじまんしちゃおう…）」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「あら、もう何度も見たって顔してるのね」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「ま、いいわ。もっとそばにきて」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜そこへ、いきなりID検知エリア突入の警報がなる＞
+    CH01,MIDGAR TRAIN,INFO,TIFA,＜そこへ、いきなりID検知エリア突入の警報がなる＞
     CH01,MIDGAR TRAIN,ティファ,TIFA,「おかしいわね。ID検知エリアはもっと先なのに」
     CH01,MIDGAR TRAIN,警報アナウンス,ANNOUNCEMENT ALARM,「Ａ式非常警戒体制を発動」
     CH01,MIDGAR TRAIN,警報アナウンス,ANNOUNCEMENT ALARM,「列車内に未確認のIDを検知」
@@ -417,7 +417,7 @@ export default () => {
     CH01,MIDGAR TRAIN,警報アナウンス,ANNOUNCEMENT ALARM,「各車両緊急チェックに入ります」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「どういうこと？」
     CH01,MIDGAR TRAIN,バレット,BARRET,「どうなってんだ！！」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜そこへ、慌ててジェシーが来る＞
+    CH01,MIDGAR TRAIN,INFO,JESSIE,＜そこへ、慌ててジェシーが来る＞
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「まっずいことになっちゃったわ」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「説明はあと。はやく！　こっちの車両に！」
     CH01,MIDGAR TRAIN,バレット,BARRET,「チッ！ しくじりやがったな…」
@@ -459,7 +459,7 @@ export default () => {
     CH01,MIDGAR TRAIN,バレット,BARRET,「いくぜ！！ こっからダイブだ！！」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「私、ジェシーよ。どう、クラウド？」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「神羅の制服、似合ってるかな」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜選択肢：「そうだな……」or「いまはそれどころじゃない」 /n →「そうだな……」を選択＞
+    CH01,MIDGAR TRAIN,INFO,CLOUD,＜選択肢：「そうだな……」or「いまはそれどころじゃない」 /n →「そうだな……」を選択＞
     CH01,MIDGAR TRAIN,クラウド,CLOUD,「……すてきだよ、男勝りで」
     CH01,MIDGAR TRAIN,ジェシー,JESSIE,「エッ！！ うれしいっ ……のかしら？」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「……こわいね」
@@ -470,15 +470,15 @@ export default () => {
     CH01,MIDGAR TRAIN,バレット,BARRET,「……なんとかしてやれ！」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「うん！！ 決めた！」
     CH01,MIDGAR TRAIN,ティファ,TIFA,「よっく、見てて。私、飛ぶから！！」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜ティファ、飛び降りる＞
+    CH01,MIDGAR TRAIN,INFO,TIFA,＜ティファ、飛び降りる＞
     CH01,MIDGAR TRAIN,クラウド,CLOUD,「さきにいくが かまわないな？」
     CH01,MIDGAR TRAIN,バレット,BARRET,「リーダーは最後まで 残るもんだ」
     CH01,MIDGAR TRAIN,バレット,BARRET,「いいから、はやくいけ！」
     CH01,MIDGAR TRAIN,バレット,BARRET,「おう！ けがすんなよ！」
     CH01,MIDGAR TRAIN,バレット,BARRET,「作戦はこっからが 本番だぞ！」
-    CH01,MIDGAR TRAIN,INFO,INFO,＜クラウド、飛び降りる＞
+    CH01,MIDGAR TRAIN,INFO,CLOUD,＜クラウド、飛び降りる＞
     CH01,MIDGAR TRAIN,バレット,BARRET,「じゃな！ あとしまつはたのんだっ！
-    CH01,MIDGAR TRAIN,INFO,INFO,＜バレット、飛び降りる＞
+    CH01,MIDGAR TRAIN,INFO,BARRET,＜バレット、飛び降りる＞
     CH01,MIDGAR TRAIN TUNNEL,INFO,INFO,＜螺旋トンネル＞
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「よし、ここまでは予定通りだ」
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「しかし、五番魔晄炉にたどり着くまでは 油断は禁物だぜ」
@@ -488,12 +488,12 @@ export default () => {
     CH01,MIDGAR TRAIN TUNNEL,クラウド,CLOUD,「ここまで来て警報センサーの世話になるなんてのは、シロウトだけだ」
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「か～っ、せまっちい穴だな。ここからプレートの下にもぐれってのか？ たまんねぇぜ」
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「どうする、クラウドさんよぉ？」
-    CH01,MIDGAR TRAIN TUNNEL,INFO,INFO,＜選択肢：「中をよく見てみる」or「おりる」or「おりない」 /n →「中をよく見てみる」を選択＞
+    CH01,MIDGAR TRAIN TUNNEL,INFO,CLOUD,＜選択肢：「中をよく見てみる」or「おりる」or「おりない」 /n →「中をよく見てみる」を選択＞
     CH01,MIDGAR TRAIN TUNNEL,ティファ,TIFA,「……ダクトの中に 足がかりになりそうなものはないわね」
     CH01,MIDGAR TRAIN TUNNEL,クラウド,CLOUD,「ああ。このダクトをおりたら ここには、もどってこれないぞ」
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「のんびりしてるヒマはないぜ。いつ神羅のやつらにおれたちの行動がばれないとも限らないからな」
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「クラウド、行くしかないぜ」
-    CH01,MIDGAR TRAIN TUNNEL,INFO,INFO,＜選択肢：「おりる」or「おりない」 /n →「おりる」を選択＞
+    CH01,MIDGAR TRAIN TUNNEL,INFO,CLOUD,＜選択肢：「おりる」or「おりない」 /n →「おりる」を選択＞
     CH01,MIDGAR TRAIN TUNNEL,バレット,BARRET,「でもよ、ゾッとしねぇな」
     CH01,MIDGAR SECTOR 4 PLATE,INFO,INFO,＜四番街プレート内部＞
     CH01,MIDGAR SECTOR 4 PLATE,ジェシー,JESSIE,「ごめんなさい」
@@ -506,15 +506,15 @@ export default () => {
     CH01,MIDGAR SECTOR 4 REACTOR,ビッグス,BIGGS,「おれたちは、これで引き上げる。アジトで落ち合おうぜ」
     CH01,MIDGAR SECTOR 4 REACTOR,ビッグス,BIGGS,「クラウド、五番街魔晄炉の爆破 よろしくたのむぜ！」
     CH01,MIDGAR SECTOR 4 REACTOR,INFO,INFO,＜五番魔晄炉＞
-    CH01,MIDGAR SECTOR 4 REACTOR,INFO,INFO,＜クラウド、頭を押さえ、うずくまる＞
+    CH01,MIDGAR SECTOR 4 REACTOR,INFO,CLOUD'S EGO,＜クラウド、頭を押さえ、うずくまる＞
     CH01,NIBELHEIM REACTOR,INFO,INFO,＜回想＞
-    CH01,NIBELHEIM REACTOR,INFO,INFO,＜父親の亡骸を見てうずくまる15歳くらいのティファ＞
+    CH01,NIBELHEIM REACTOR,INFO,TIFA REACTOR,＜父親の亡骸を見てうずくまる15歳くらいのティファ＞
     CH01,NIBELHEIM REACTOR,ティファ_REACTOR,TIFA REACTOR,「パパ……」
     CH01,NIBELHEIM REACTOR,ティファ_REACTOR,TIFA REACTOR,「セフィロスね！」
     CH01,NIBELHEIM REACTOR,ティファ_REACTOR,TIFA REACTOR,「セフィロスがやったのね！」
     CH01,NIBELHEIM REACTOR,ティファ_REACTOR,TIFA REACTOR,「セフィロス……ソルジャー…… 魔晄炉……神羅……ぜんぶ！」
     CH01,NIBELHEIM REACTOR,ティファ_REACTOR,TIFA REACTOR,「ぜんぶ大キライ！」
-    CH01,NIBELHEIM REACTOR,INFO,INFO,＜ティファ、剣を持ち、奥へと進む＞
+    CH01,NIBELHEIM REACTOR,INFO,TIFA REACTOR,＜ティファ、剣を持ち、奥へと進む＞
     CH01,NIBELHEIM REACTOR,INFO,INFO,＜回想終了＞
     CH01,MIDGAR SECTOR 4 REACTOR,バレット,BARRET,「おい、しっかりしてくれよ！」
     CH01,MIDGAR SECTOR 4 REACTOR,ティファ,TIFA,「だいじょうぶ？」
@@ -522,14 +522,14 @@ export default () => {
     CH01,MIDGAR SECTOR 4 REACTOR,ティファ,TIFA,「ん？」
     CH01,MIDGAR SECTOR 4 REACTOR,クラウド,CLOUD,「い……いや…… 気にするな。さあ、先を急ごう！」
     CH01,MIDGAR SECTOR 4 REACTOR,ティファ,TIFA,「３人同時にボタンを押せって ジェシーが言ってたわ」
-    CH01,MIDGAR SECTOR 4 REACTOR,INFO,INFO,＜同時押し失敗＞
+    CH01,MIDGAR SECTOR 4 REACTOR,INFO,TIFA,＜同時押し失敗＞
     CH01,MIDGAR SECTOR 4 REACTOR,ティファ,TIFA,「失敗ね、もう一度」
-    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜成功。 /n → 扉が開く＞
+    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,TIFA,＜成功。 /n → 扉が開く＞
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「こっちだ！」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「神羅兵！？」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「くそっ！ どうなってんだ？」
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「……ワナ、か」
-    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜そこで、プレジデント神羅、登場＞
+    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,PRESIDENT SHINRA,＜そこで、プレジデント神羅、登場＞
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「プ、プレジデント神羅？」
     CH01,MIDGAR SECTOR 4 WALKWAY,ティファ,TIFA,「なぜ、プレジデントが ここにいるの？」
     CH01,MIDGAR SECTOR 4 WALKWAY,プレジデント神羅,PRESIDENT SHINRA,「ほほう。君たちがアレかね。……なんて言ったかな？」
@@ -558,7 +558,7 @@ export default () => {
     CH01,MIDGAR SECTOR 4 WALKWAY,プレジデント神羅,PRESIDENT SHINRA,「君たちとの戦闘データは 今後の開発の貴重なサンプルとして利用させてもらうよ」
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「……機動兵？」
     CH01,MIDGAR SECTOR 4 WALKWAY,プレジデント神羅,PRESIDENT SHINRA,「では、失礼」
-    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜プレジデント神羅、やってきたヘリコプターに乗り込んで、さっそうと去る＞
+    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,PRESIDENT SHINRA,＜プレジデント神羅、やってきたヘリコプターに乗り込んで、さっそうと去る＞
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「待て、プレジデント！」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「おい、クラウド！ とりあえずコイツをなんとかするぞ！」
     CH01,MIDGAR SECTOR 4 WALKWAY,ティファ,TIFA,「助けて、クラウド！」
@@ -573,67 +573,67 @@ export default () => {
     CH01,MIDGAR SECTOR 4 WALKWAY,ティファ,TIFA,「クラウド！ なんとかして生きて！　死んじゃダメ！ 話したいことたくさんあるの！」
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「わかってる、ティファ」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「おい、なんとかなりそうか？」
-    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜選択肢：（つよがる）or（ダメかもしれない……） /n →（つよがる）を選択＞
+    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,CLOUD,＜選択肢：（つよがる）or（ダメかもしれない……） /n →（つよがる）を選択＞
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「…………」
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「自分の心配でもしてろ！ 俺はいいからティファを！」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「……そうか。いろいろ悪かったな」
     CH01,MIDGAR SECTOR 4 WALKWAY,クラウド,CLOUD,「これで終わりみたいな言いかたは やめてくれ！」
     CH01,MIDGAR SECTOR 4 WALKWAY,バレット,BARRET,「じゃ、あとでな」
-    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,INFO,＜そしてクラウド、落っこちる＞
-    CH02,DARKNESS,謎の声,MYSTERY VOICE,『……大丈夫か？』
-    CH02,DARKNESS,謎の声,MYSTERY VOICE,『……聞こえるか？』
-    CH02,DARKNESS,クラウド,CLOUD,「…………ああ」
-    CH02,DARKNESS,謎の声,MYSTERY VOICE,『あの時は…… ヒザすりむいただけですんだけど……』
+    CH01,MIDGAR SECTOR 4 WALKWAY,INFO,CLOUD,＜そしてクラウド、落っこちる＞
+    CH02,DARKNESS,謎の声,MYSTERY VOICE,『……大丈夫か？』,779,,,
+    CH02,DARKNESS,謎の声,MYSTERY VOICE,『……聞こえるか？』,698,,,
+    CH02,DARKNESS,クラウド,CLOUD,「…………ああ」,593,,,
+    CH02,DARKNESS,謎の声,MYSTERY VOICE,『あの時は…… ヒザすりむいただけですんだけど……』,2070,,,
     CH02,DARKNESS,クラウド,CLOUD,「……あの時？」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『今度はどうかな？ 起きられるか？』
     CH02,DARKNESS,クラウド,CLOUD,「……あの時？ ……今度は？」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『……気にするな。今は身体のことだけ考えるんだ』
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『……身体、動かせるか？』
     CH02,DARKNESS,クラウド,CLOUD,「……やってみる」
-    CH02,DARKNESS,花売り,AERITH FLOWER GIRL,「あっ！　動いた！」
+    CH02,DARKNESS,花売り,AERITH,「あっ！　動いた！」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『……どうだ？』
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『ゆっくりな。少しずつ少しずつ……』
-    CH02,DARKNESS,花売り,AERITH FLOWER GIRL,「もしもし？」
+    CH02,DARKNESS,花売り,AERITH,「もしもし？」
     CH02,DARKNESS,クラウド,CLOUD,「……わかってるさ」
     CH02,DARKNESS,クラウド,CLOUD,「なあ……あんた、誰だ？」
-    CH02,DARKNESS,花売り,AERITH FLOWER GIRL,「もしも～し！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜目が覚めると、そこは教会（五番街）の中であった＞
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「だいじょうぶ？」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「ここ、スラムの教会。５番街よ」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「いきなり、落ちてくるんだもん。おどろいちゃった」
+    CH02,DARKNESS,花売り,AERITH,「もしも～し！」
+    CH02,AERITH'S CHURCH,INFO,CLOUD,＜目が覚めると、そこは教会（五番街）の中であった＞,"＜'When I woke up, I was in a church [on Fifth Avenue].",,,
+    CH02,AERITH'S CHURCH,花売り,AERITH,「だいじょうぶ？」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「ここ、スラムの教会。５番街よ」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「いきなり、落ちてくるんだもん。おどろいちゃった」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「……落ちてきた」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「屋根と、花畑、クッションになったのかな。運、いいね」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「屋根と、花畑、クッションになったのかな。運、いいね」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「花畑……あんたの花畑？」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜クラウド、起き上がる＞
+    CH02,AERITH'S CHURCH,INFO,CLOUD,＜クラウド、起き上がる＞,"＜Cloud, get up.",,,
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「それは悪かったな」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「気にしないで。お花、けっこう強いし ここ、特別な場所だから」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「ミッドガルって 草や花、あまり育たないでしょ？ でも、ここだけ花、さくの」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「好きなんだ、ここ」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「……また、会えたね」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「……おぼえてないの？」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜選択肢：（会ったことある）or（たしか、初対面だ）→（会ったことある）を選択＞
+    CH02,AERITH'S CHURCH,花売り,AERITH,「気にしないで。お花、けっこう強いし ここ、特別な場所だから」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「ミッドガルって 草や花、あまり育たないでしょ？ でも、ここだけ花、さくの」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「好きなんだ、ここ」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「……また、会えたね」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「……おぼえてないの？」
+    CH02,AERITH'S CHURCH,INFO,CLOUD,＜選択肢：（会ったことある）or（たしか、初対面だ）→（会ったことある）を選択＞,"<Option: (We have met) or (I think, we have never met) -> Select (We have met) >.",,,
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「ああ、覚えてるさ」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜選択肢：「花を売ってたな」or「スラムの酔っぱらい」→「花を売ってたな」を選択＞
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「あっ！　うれしいな～！」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「あのときは、お花、買ってくれて ありがと」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「ね、マテリア、持ってるんだね」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「わたしも持ってるんだ」
+    CH02,AERITH'S CHURCH,INFO,CLOUD,＜選択肢：「花を売ってたな」or「スラムの酔っぱらい」→「花を売ってたな」を選択＞,<Options: 'You sold flowers' or 'Drunks in the slums' -> Select 'You sold flowers'.,,,
+    CH02,AERITH'S CHURCH,花売り,AERITH,「あっ！　うれしいな～！」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「あのときは、お花、買ってくれて ありがと」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「ね、マテリア、持ってるんだね」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「わたしも持ってるんだ」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「今はマテリアはめずらしくもなんともない」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「わたしのは特別。だって、何の役にも立たないの」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「わたしのは特別。だって、何の役にも立たないの」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「……役に立たない？ 使い方を知らないだけだろ？」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「そんなこと、ないけど…… でも、役に立たなくていいの」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「身につけると安心できるし お母さんが残してくれた……」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「ね、いろいろ、お話したいんだけど どうかな？」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「せっかく、こうして また、会えたんだし……ね？」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜選択肢：「ああ、かまわない」or「話すことなどない」→「ああ、かまわない」を選択＞
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「じゃ、待ってて。お花の手入れ、すぐ終わるから」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜エアリス、しばらく花の手入れに没頭＞
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「も～すこし待ってて」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「あ！」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「そういえば、まだだった」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「おたがい、名前、知らないね」
-    CH02,AERITH'S CHURCH,花売り,AERITH FLOWER GIRL,「わたしは……」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜エアリスの名前入力画面＞
+    CH02,AERITH'S CHURCH,花売り,AERITH,「そんなこと、ないけど…… でも、役に立たなくていいの」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「身につけると安心できるし お母さんが残してくれた……」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「ね、いろいろ、お話したいんだけど どうかな？」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「せっかく、こうして また、会えたんだし……ね？」
+    CH02,AERITH'S CHURCH,INFO,CLOUD,＜選択肢：「ああ、かまわない」or「話すことなどない」→「ああ、かまわない」を選択＞,"<Options: 'Oh, I don't mind' or 'I have nothing to say' -> Select 'Oh, I don't mind' >.",,,
+    CH02,AERITH'S CHURCH,花売り,AERITH,「じゃ、待ってて。お花の手入れ、すぐ終わるから」
+    CH02,AERITH'S CHURCH,INFO,AERITH,＜エアリス、しばらく花の手入れに没頭＞,"＜Aeris, immersed in flower care for a while.",,,
+    CH02,AERITH'S CHURCH,花売り,AERITH,「も～すこし待ってて」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「あ！」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「そういえば、まだだった」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「おたがい、名前、知らないね」
+    CH02,AERITH'S CHURCH,花売り,AERITH,「わたしは……」
+    CH02,AERITH'S CHURCH,INFO,AERITH,＜エアリスの名前入力画面＞,<Aeris name input screen>.,,,
     CH02,AERITH'S CHURCH,エアリス,AERITH,「わたし、花売りのエアリス。よろしくね」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「俺はクラウドだ」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「仕事は…… 仕事は『なんでも屋』だ」
@@ -641,7 +641,7 @@ export default () => {
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「なんでもやるのさ」
     CH02,AERITH'S CHURCH,クラウド,CLOUD,「何がおかしい！ どうして笑う！」
     CH02,AERITH'S CHURCH,エアリス,AERITH,「ごめんなさい……でも、ね」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜そこへ、レノが現れる＞
+    CH02,AERITH'S CHURCH,INFO,RENO,＜そこへ、レノが現れる＞,＜Then Leno appears.,,,
     CH02,AERITH'S CHURCH,エアリス,AERITH,「タイミング、悪いなぁ」
     CH02,AERITH'S CHURCH,エアリス,AERITH,「クラウド！ かまっちゃダメ！」
     CH02,AERITH'S CHURCH,レノ,RENO,「オレにかまうな、だと」
@@ -667,57 +667,57 @@ export default () => {
     CH02,AERITH'S CHURCH,レノ,RENO,「ま、いいかぁ。お仕事お仕事、と」
     CH02,AERITH'S CHURCH,レノ,RENO,「あっ！」
     CH02,AERITH'S CHURCH,レノ,RENO,「お花、ふまないでね…だと」
-    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP ,「レノさん、ふんだ！」
-    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP ,「花、ぐしゃぐしゃ！」
-    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP ,「怒られる～！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜教会奥＞
-    CH02,AERITH'S CHURCH,レノ,RENO,「いたぞ、あそこだ！」
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「クラウド、あれ！」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「わかっている。どうやら見逃すつもりはないようだな」
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「どうしよう？」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「つかまるわけにはいかないんだろ？ それなら、答えはひとつさ」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜クラウド、通路の切れ端からジャンプ。→向こう側へ着地＞
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「さあ、エアリス。こっちだ」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「だいじょうぶだ。俺が受け止めてやる」
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「わかったわ。しっかり受け止めてね」
-    CH02,AERITH'S CHURCH,レノ,RENO,「古代種が逃げるぞ！ 撃て、撃て！　あ、撃つな！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜兵士はもうすでに銃を撃ってしまう＞
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「きゃあ！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜エアリス、下へ落っこちる＞
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「エアリス！」
-    CH02,AERITH'S CHURCH,レノ,RENO,「やっちまったかな、と。抵抗するからだぞ、と」
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「クラウド、助けて！」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「くそっ！」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「あれは……？」
-    CH02,AERITH'S CHURCH,クラウド,CLOUD,「エアリス！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜選択肢：「しばらく待っていろ！」or「戦え」or「逃げるんだ」→「しばらく待っていろ」を選択（この選択肢がタルを落とすごとに３回出てくる）＞
-    CH02,AERITH'S CHURCH,INFO,INFO,＜ここからクラウド「しばらく待っていろ」を３回とも選択し、上のタルを落として兵士にぶつけようとする。しかし、３回とも失敗（汗）＞
-    CH02,AERITH'S CHURCH,エアリス,AERITH,「もう、クラウド なにやってるのよ！」
-    CH02,AERITH'S CHURCH,INFO,INFO,＜失敗すると、一回ずつエアリス自ら兵士との戦闘になる＞
-    CH02,ON THE CHURCH,INFO,INFO,＜教会屋根裏＞
-    CH02,ON THE CHURCH,クラウド,CLOUD,「エアリス、こっちだ」
-    CH02,ON THE CHURCH,エアリス,AERITH,「フフフ…… まださがしてるね」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「初めてじゃないな？ やつらが襲ってきたのは？」
-    CH02,ON THE CHURCH,エアリス,AERITH,「……まあ、ね」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「タークスだよ、あいつらは」
-    CH02,ON THE CHURCH,エアリス,AERITH,「ふ～ん……」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「タークスは神羅の組織。ソルジャーの人材をみつけだし スカウトするのが役目だ」
-    CH02,ON THE CHURCH,エアリス,AERITH,「こんな乱暴なやりかたで？ まるで人さらいみたい」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「それにウラじゃ 汚いことをやっている」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「スパイ、殺し屋…… いろいろだ」
-    CH02,ON THE CHURCH,エアリス,AERITH,「そんな顔してるね」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「でも、どうして あんたがねらわれる？ 何かわけがあるんだろ？」
-    CH02,ON THE CHURCH,エアリス,AERITH,「う～ん……べつに。あ、わたしソルジャーの素質があるのかも！」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「そうかもな。なりたいのか？」
-    CH02,ON THE CHURCH,エアリス,AERITH,「どうかな～。でも、あんなヤツらにつかまるのはイヤ！」
-    CH02,ON THE CHURCH,クラウド,CLOUD,「それじゃ、行くぞ！」
+    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP,「レノさん、ふんだ！」
+    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP,「花、ぐしゃぐしゃ！」
+    CH02,AERITH'S CHURCH,３人の兵士たち,SOLDIER 1ST CLASS GROUP,「怒られる～！」
+    CH02,AERITH'S CHURCH BACK,INFO,INFO,＜教会奥＞,<In the back of the church.,,,
+    CH02,AERITH'S CHURCH BACK,レノ,RENO,「いたぞ、あそこだ！」
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「クラウド、あれ！」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「わかっている。どうやら見逃すつもりはないようだな」
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「どうしよう？」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「つかまるわけにはいかないんだろ？ それなら、答えはひとつさ」
+    CH02,AERITH'S CHURCH BACK,INFO,INFO,＜クラウド、通路の切れ端からジャンプ。→向こう側へ着地＞,＜Cloud jumps from the end of the passage. →He lands on the other side.,,,
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「さあ、エアリス。こっちだ」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「だいじょうぶだ。俺が受け止めてやる」
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「わかったわ。しっかり受け止めてね」
+    CH02,AERITH'S CHURCH BACK,レノ,RENO,「古代種が逃げるぞ！ 撃て、撃て！　あ、撃つな！」
+    CH02,AERITH'S CHURCH BACK,INFO,INFO,＜兵士はもうすでに銃を撃ってしまう＞,<Soldiers would already be firing their guns.,,,
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「きゃあ！」
+    CH02,AERITH'S CHURCH BACK,INFO,INFO,＜エアリス、下へ落っこちる＞
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「エアリス！」
+    CH02,AERITH'S CHURCH BACK,レノ,RENO,「やっちまったかな、と。抵抗するからだぞ、と」
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「クラウド、助けて！」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「くそっ！」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「あれは……？」
+    CH02,AERITH'S CHURCH BACK,クラウド,CLOUD,「エアリス！」
+    CH02,AERITH'S CHURCH BACK,INFO,CLOUD,＜選択肢：「しばらく待っていろ！」or「戦え」or「逃げるんだ」→「しばらく待っていろ」を選択（この選択肢がタルを落とすごとに３回出てくる）＞,"<Options: ""Wait a while!"" OR ""Fight"" OR ""Run away"" -> Select ""Wait a while"" (this option appears three times for each dropped tar) >.",,,
+    CH02,AERITH'S CHURCH BACK,INFO,CLOUD,＜ここからクラウド「しばらく待っていろ」を３回とも選択し、上のタルを落として兵士にぶつけようとする。しかし、３回とも失敗（汗）＞,"<From here, choose Cloud ""Wait for a while"" all three times, drop the top talons and try to hit the soldier. However, all three times he fails (sweat)>.",,,
+    CH02,AERITH'S CHURCH BACK,エアリス,AERITH,「もう、クラウド なにやってるのよ！」
+    CH02,AERITH'S CHURCH BACK,INFO,AERITH,＜失敗すると、一回ずつエアリス自ら兵士との戦闘になる＞,<Each failure results in a battle with Aeris herself against the soldiers.,,,
+    CH02,AERITH'S CHURCH ATTIC,INFO,INFO,＜教会屋根裏＞,<Church attic.,,,
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「エアリス、こっちだ」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「フフフ…… まださがしてるね」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「初めてじゃないな？ やつらが襲ってきたのは？」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「……まあ、ね」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「タークスだよ、あいつらは」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「ふ～ん……」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「タークスは神羅の組織。ソルジャーの人材をみつけだし スカウトするのが役目だ」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「こんな乱暴なやりかたで？ まるで人さらいみたい」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「それにウラじゃ 汚いことをやっている」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「スパイ、殺し屋…… いろいろだ」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「そんな顔してるね」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「でも、どうして あんたがねらわれる？ 何かわけがあるんだろ？」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「う～ん……べつに。あ、わたしソルジャーの素質があるのかも！」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「そうかもな。なりたいのか？」
+    CH02,AERITH'S CHURCH ATTIC,エアリス,AERITH,「どうかな～。でも、あんなヤツらにつかまるのはイヤ！」
+    CH02,AERITH'S CHURCH ATTIC,クラウド,CLOUD,「それじゃ、行くぞ！」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「待って…… ちょっと待ってってば！」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「ハア…… ハア……」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「ひとりで……さきに…… 行っちゃうんだもん……」
     CH02,ACROSS THE WASTE,クラウド,CLOUD,「おかしいな……」
     CH02,ACROSS THE WASTE,クラウド,CLOUD,「ソルジャーの素質があるんじゃなかったか？」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「もう！　いじわる！」
-    CH02,ACROSS THE WASTE,INFO,INFO,＜二人、微笑する＞
+    CH02,ACROSS THE WASTE,INFO,AERITH,＜二人、微笑する＞,<The two of them smile>.,,,
     CH02,ACROSS THE WASTE,エアリス,AERITH,「ねえ……クラウド。あなた、もしかして…… ソルジャー？」
     CH02,ACROSS THE WASTE,クラウド,CLOUD,「…………」
     CH02,ACROSS THE WASTE,クラウド,CLOUD,「……元ソルジャーだ。どうしてわかった？」
@@ -728,7 +728,7 @@ export default () => {
     CH02,ACROSS THE WASTE,クラウド,CLOUD,「ちょっと……？」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「そ、ちょっと！」
     CH02,ACROSS THE WASTE,エアリス,AERITH,「さ、行きましょ！ ボディーガードさん！」
-    CH02,SECTOR 5 SLUMS,INFO,INFO,＜五番街スラム＞
+    CH02,SECTOR 5 SLUMS,INFO,INFO,＜五番街スラム＞,<Fifth Avenue Slum>.,,,
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「フ～！　やっとおりられた！ さて、と……」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「こっちよ、わたしの家は。あの人たちが来ないうちに急ぎましょ」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「ここの人、病気みたいなの」
@@ -739,9 +739,9 @@ export default () => {
     CH02,SECTOR 5 SLUMS,クラウド,CLOUD,「悪いが俺は医者じゃない」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「そう……そうよね……」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「あら？　この人、イレズミしてる。数字の２、かな」
-    CH02,AERITH'S HOUSE,INFO,INFO,＜エアリスの家＞
+    CH02,AERITH'S HOUSE,INFO,INFO,＜エアリスの家＞,<Aerith's house>.,,,
     CH02,AERITH'S HOUSE,エアリス,AERITH,「ただいま、お母さん」
-    CH02,AERITH'S HOUSE,INFO,INFO,＜エルミナ、むかえる＞
+    CH02,AERITH'S HOUSE,INFO,ELMYRA,＜エルミナ、むかえる＞,"<Elmina, mukumu>.",,,
     CH02,AERITH'S HOUSE,エアリス,AERITH,「この人、クラウド。わたしのボディーガードよ」
     CH02,AERITH'S HOUSE,エルミナ,ELMYRA,「ボディーガードって…… おまえ、また狙われたのかい？」
     CH02,AERITH'S HOUSE,エルミナ,ELMYRA,「体は！？　ケガはないのかい！？」
@@ -753,7 +753,7 @@ export default () => {
     CH02,AERITH'S HOUSE,クラウド,CLOUD,「ああ」
     CH02,AERITH'S HOUSE,エアリス,AERITH,「彼女？」
     CH02,AERITH'S HOUSE,クラウド,CLOUD,「彼女？
-    CH02,AERITH'S HOUSE,INFO,INFO,＜選択肢：「そんなんじゃない！」or「そんなところだ」→「そんなんじゃない！」を選択＞
+    CH02,AERITH'S HOUSE,INFO,CLOUD,＜選択肢：「そんなんじゃない！」or「そんなところだ」→「そんなんじゃない！」を選択＞,"<Option: 'It's not like that!' OR ""That's about it"" -> ""It's not like that!"" Choice >.",,,
     CH02,AERITH'S HOUSE,エアリス,AERITH,「ふふふ」
     CH02,AERITH'S HOUSE,エアリス,AERITH,「そ～んなにムキにならなくても いいと思うけど」
     CH02,AERITH'S HOUSE,エアリス,AERITH,「でも、まあ、いいわ」
@@ -783,10 +783,10 @@ export default () => {
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『こんなキチンとしたベッド ……ひさしぶりだ』
     CH02,DARKNESS,クラウド,CLOUD,「……ああ、そうだな」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『あれ以来、かな』
-    CH02,CLOUD'S HOME,INFO,INFO,＜回想＞
+    CH02,CLOUD'S HOME,INFO,INFO,＜回想＞,<Recollection.,,,
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「本当に立派になってぇ」
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「そんなんじゃ、あれだね。女の子もほっとかないだろ？」
-    CH02,CLOUD'S HOME,クラウド,CLOUD,「……べつに」
+    CH02,CLOUD'S HOME,クラウド,CLOUD,「……べつに」,NOTE: It's a recollection but it's a dream and simply Cloud is the current aged/dressed cloud,,,
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「心配なんだよ」
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「都会にはいろいろ誘惑が多いんだろ？」
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「ちゃんとした彼女がいれば 母さん、すこしは安心できるってもんだ」
@@ -795,31 +795,31 @@ export default () => {
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「ちょっとお姉さんで あんたをグイグイ引っ張っていく」
     CH02,CLOUD'S HOME,クラウドの母親,CLOUD'S  MOTHER,「そんな女の子が ぴったりだと思うんだけどね」
     CH02,CLOUD'S HOME,クラウド,CLOUD,「……興味ないな」
-    CH02,CLOUD'S HOME,INFO,INFO,＜回想終了＞
+    CH02,CLOUD'S HOME,INFO,INFO,＜回想終了＞,<End of recollection>.,,,
     CH02,AERITH'S HOUSE,クラウド,CLOUD,「……いつのまにか 眠ってしまったのか」
     CH02,AERITH'S HOUSE,クラウド,CLOUD,「６番街をこえて７番街へ、か。１人でなんとかなりそうだな」
-    CH02,AERITH'S HOUSE,INFO,INFO,＜クラウド、廊下で音をたててしまい、エアリスに見つかる＞
+    CH02,AERITH'S HOUSE,INFO,CLOUD,＜クラウド、廊下で音をたててしまい、エアリスに見つかる＞,＜Cloud makes a noise in the corridor and Aeris finds him.,,,
     CH02,AERITH'S HOUSE,エアリス,AERITH,「もう！　またタークス、来たのかと思ったじゃない！ おとなしく休んで！」
     CH02,AERITH'S HOUSE,クラウド,CLOUD,「次はみつからないように……」
-    CH02,SECTOR 5 SLUMS,INFO,INFO,＜五番街スラム＞
-    CH02,SECTOR 5 SLUMS,INFO,INFO,＜エアリス、先回りしていたらしく、出口で仁王立ちしている＞
+    CH02,SECTOR 5 SLUMS,INFO,INFO,＜五番街スラム＞,<Fifth Avenue Slum>.,,,
+    CH02,SECTOR 5 SLUMS,INFO,AERITH,＜エアリス、先回りしていたらしく、出口で仁王立ちしている＞,"＜Aeris, who seems to have been ahead of us, is standing on the exit.",,,
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「お早い出発、ね」
     CH02,SECTOR 5 SLUMS,クラウド,CLOUD,「危険だとわかっているのに あんたにたよるわけにはいかないさ」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「言いたいことはそれだけ？」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「ティファさんのいる【セブンスヘブン】は この先のスラム【６番街】を通らないといけないの」
     CH02,SECTOR 5 SLUMS,エアリス,AERITH,「案内してあげる。さ、行きましょ！」
-    CH02,KIDS PARK,INFO,INFO,＜六番街公園＞
+    CH02,KIDS PARK,INFO,INFO,＜六番街公園＞,<Rokubangai Park>.,,,
     CH02,KIDS PARK,エアリス,AERITH,「この奥に７番街へのゲートがあるの」
     CH02,KIDS PARK,クラウド,CLOUD,「わかった。じゃあ、ここで別れようか。ひとりで帰れるか？」
     CH02,KIDS PARK,エアリス,AERITH,「いや～ん、帰れない～！！ って言ったらどうするの？」
-    CH02,KIDS PARK,INFO,INFO,＜選択肢：「家までおくる」or「７番街までいっしょに」→「家までおくる」を選択＞
+    CH02,KIDS PARK,INFO,CLOUD,＜選択肢：「家までおくる」or「７番街までいっしょに」→「家までおくる」を選択＞,＜Option: 'Take me home' or 'Come with me to 7th Avenue' >> Select 'Take me home'.,,,
     CH02,KIDS PARK,エアリス,AERITH,「それってなんだかおかしくない？」
     CH02,KIDS PARK,エアリス,AERITH,「ちょっと休もっか」
-    CH02,KIDS PARK,INFO,INFO,＜エアリス、すべり台を見上げる＞
+    CH02,KIDS PARK,INFO,AERITH,＜エアリス、すべり台を見上げる＞,"＜Aeris, looking up the slide.",,,
     CH02,KIDS PARK,エアリス,AERITH,「なつかしい、まだあったんだ」
-    CH02,KIDS PARK,INFO,INFO,＜するとエアリス、すべり台の天辺に上がる＞
+    CH02,KIDS PARK,INFO,AERITH,＜するとエアリス、すべり台の天辺に上がる＞,＜Then Aeris goes up to the top of the slide.,,,
     CH02,KIDS PARK,エアリス,AERITH,「クラウド、こっち！」
-    CH02,KIDS PARK,INFO,INFO,＜クラウド、エアリスの隣に座る＞
+    CH02,KIDS PARK,INFO,CLOUD,＜クラウド、エアリスの隣に座る＞,＜クラウド、エアリスの隣に座る＞,,,
     CH02,KIDS PARK,エアリス,AERITH,「あなた、クラスは？」
     CH02,KIDS PARK,クラウド,CLOUD,「クラス？」
     CH02,KIDS PARK,エアリス,AERITH,「ソルジャーのクラス」
@@ -832,36 +832,36 @@ export default () => {
     CH02,KIDS PARK,エアリス,AERITH,「そんなんじゃないの。ちょっと、いいなって思ってた」
     CH02,KIDS PARK,クラウド,CLOUD,「もしかしたら知ってるかもしれないな。そいつの名前は？」
     CH02,KIDS PARK,エアリス,AERITH,「もう、いいの」
-    CH02,KIDS PARK,INFO,INFO,＜そこへ、ゲートが開いてチョコボ車が通る。その後部には……＞
+    CH02,KIDS PARK,INFO,INFO,＜そこへ、ゲートが開いてチョコボ車が通る。その後部には……＞,<Then the gate opens and a chocobo vehicle passes through. At the rear of it is a ......>,,,
     CH02,KIDS PARK,クラウド,CLOUD,「ん？　あの後ろ……」）
     CH02,KIDS PARK,クラウド,CLOUD,「ティファ！？」
     CH02,KIDS PARK,エアリス,AERITH,「あれに乗っていた人がティファさん？ どこいくのかしら？ それに、様子が変だったわね……」
-    CH02,KIDS PARK,INFO,INFO,＜エアリス、ぴょんぴょん飛び跳ねて、一人でチョコボ車が向かった先へ向かう＞
+    CH02,KIDS PARK,INFO,AERITH,＜エアリス、ぴょんぴょん飛び跳ねて、一人でチョコボ車が向かった先へ向かう＞,"＜Aeris, jumping up and down and heading off on her own towards where the chocobo car was headed.",,,
     CH02,KIDS PARK,クラウド,CLOUD,「まて！」
     CH02,KIDS PARK,クラウド,CLOUD,「俺ひとりでいい！ あんたは帰れ！」
-    CH02,WALL MARKET,INFO,INFO,＜ウォールマーケット＞
+    CH02,WALL MARKET,INFO,INFO,＜ウォールマーケット＞,<Wall Market.,,,
     CH02,WALL MARKET,エアリス,AERITH,「ここ、いろんな意味でこわいとこよ。とくに女の子はね。早くティファさん、見つけなくちゃ」
-    CH02,WALL MARKET,INFO,INFO,＜蜜蜂の館前＞
-    CH02,WALL MARKET,ジョニー,JOHNNY,「ああ……。入るべきか……　入らざるべきか？」
-    CH02,WALL MARKET,ジョニー,JOHNNY,「ああ……俺ってこういうとき なんか文学的になっちゃうんだよな。まいるぜ！！」
-    CH02,WALL MARKET,ジョニー,JOHNNY,「お！！　あんたは？」
-    CH02,WALL MARKET,ジョニー,JOHNNY,「エェ！！　あんたも？」
-    CH02,WALL MARKET,INFO,INFO,＜選択肢：「ああ、俺もだ」or「おまえといっしょにするな」→「おまえといっしょにするな」を選択＞
-    CH02,WALL MARKET,ジョニー,JOHNNY,「エッ……俺だってよ。よく考えたすえの結論だ。最後のミッドガルの思い出によ…」
-    CH02,WALL MARKET,ジョニー,JOHNNY,「でもよ…… あそこの男が恐くて」
-    CH02,WALL MARKET,兵士,SOLDIER 1ST CLASS,「くっ～～ どうしてもダメ…… ここから先に勧めないです」
-    CH02,WALL MARKET,兵士,SOLDIER 1ST CLASS,「ボクのレベルと給料じゃたりんです。身分がちがいすぎるです」
-    CH02,WALL MARKET,ギザギザ頭の男,SPIKY HAIR GUY,「あんだよ！！　てめー！！ みせもんじゃねえぞ！！ オレは、いまいそがしいんだよ！！」
-    CH02,WALL MARKET,ギザギザ頭の男,SPIKY HAIR GUY,「ビンビンに感じてんだよ！！ 戦いの予感ってやつをよ！！」
-    CH02,WALL MARKET,オーナー,OWNER,「いらっしゃい！！ もてない君でも、ここ蜜蜂の館でなら 運命の彼女に出会えるはず！！」
-    CH02,WALL MARKET,オーナー,OWNER,「あなたも彼女さがしですか？」
-    CH02,WALL MARKET,INFO,INFO,＜選択肢：「ティファという子を知らないか？」or「俺はこんな場所には興味ない」→「ティファという子を知らないか？」を選択＞
-    CH02,WALL MARKET,オーナー,OWNER,「おっ、あなた、聞き耳はやいですねえ。ティファちゃんは ムチムチの新人さんだよ」
-    CH02,WALL MARKET,オーナー,OWNER,「でも、残念です。ティファちゃんはいま面接中」
-    CH02,WALL MARKET,オーナー,OWNER,「蜜蜂の館のならわしでね。新人の子はドン・コルネオの屋敷につれてかれるんだ」
-    CH02,WALL MARKET,オーナー,OWNER,「ドン・コルネオは有名な独身貴族。そろそろ身をかためるってんで おヨメさんさがしに熱心でねえ」
-    CH02,WALL MARKET,蜜蜂店員,HONEYBEE EMPLOYEE,「蜜蜂の館は会員制になっております。残念ですが、おひきとりください」
-    CH02,CORNEO HOUSE OUTSIDE,INFO,INFO,＜コルネオの館＞
+    CH02,OUTSIDE HONEYBEE INN,INFO,INFO,＜蜜蜂の館前＞,<Before the bee house>.,,,
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「ああ……。入るべきか……　入らざるべきか？」
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「ああ……俺ってこういうとき なんか文学的になっちゃうんだよな。まいるぜ！！」
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「お！！　あんたは？」
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「エェ！！　あんたも？」
+    CH02,OUTSIDE HONEYBEE INN,INFO,CLOUD,＜選択肢：「ああ、俺もだ」or「おまえといっしょにするな」→「おまえといっしょにするな」を選択＞,"＜Options: 'Yeah, me too' or 'Don't fuck with you' - select 'Don't fuck with you'.",,,
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「エッ……俺だってよ。よく考えたすえの結論だ。最後のミッドガルの思い出によ…」
+    CH02,OUTSIDE HONEYBEE INN,ジョニー,JOHNNY,「でもよ…… あそこの男が恐くて」
+    CH02,OUTSIDE HONEYBEE INN,兵士,SOLDIER 1ST CLASS,「くっ～～ どうしてもダメ…… ここから先に勧めないです」
+    CH02,OUTSIDE HONEYBEE INN,兵士,SOLDIER 1ST CLASS,「ボクのレベルと給料じゃたりんです。身分がちがいすぎるです」
+    CH02,OUTSIDE HONEYBEE INN,ギザギザ頭の男,SPIKY HAIR GUY,「あんだよ！！　てめー！！ みせもんじゃねえぞ！！ オレは、いまいそがしいんだよ！！」
+    CH02,OUTSIDE HONEYBEE INN,ギザギザ頭の男,SPIKY HAIR GUY,「ビンビンに感じてんだよ！！ 戦いの予感ってやつをよ！！」
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「いらっしゃい！！ もてない君でも、ここ蜜蜂の館でなら 運命の彼女に出会えるはず！！」
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「あなたも彼女さがしですか？」
+    CH02,OUTSIDE HONEYBEE INN,INFO,INFO,＜選択肢：「ティファという子を知らないか？」or「俺はこんな場所には興味ない」→「ティファという子を知らないか？」を選択＞,"<Option: 'Do you know a girl called Tifa?' OR ""I'm not interested in this place"" -> ""Do you know a girl called Tifa?"" Choice: ""Do you know a girl called Tifa?",,,
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「おっ、あなた、聞き耳はやいですねえ。ティファちゃんは ムチムチの新人さんだよ」
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「でも、残念です。ティファちゃんはいま面接中」
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「蜜蜂の館のならわしでね。新人の子はドン・コルネオの屋敷につれてかれるんだ」
+    CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「ドン・コルネオは有名な独身貴族。そろそろ身をかためるってんで おヨメさんさがしに熱心でねえ」
+    CH02,OUTSIDE HONEYBEE INN,蜜蜂店員,HONEYBEE EMPLOYEE,「蜜蜂の館は会員制になっております。残念ですが、おひきとりください」
+    CH02,CORNEO HOUSE OUTSIDE,INFO,INFO,＜コルネオの館＞,<Corneo House>.,,,
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「ああっ、よく見たら きれいな姉ちゃんも いっしょ！」
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「ね、どう？　うちのドンと楽しいひとときをすごしてみない？」
     CH02,CORNEO HOUSE OUTSIDE,エアリス,AERITH,「ね、ここがドンの屋敷みたい。わたし、行ってくるね」
@@ -881,7 +881,7 @@ export default () => {
     CH02,CORNEO HOUSE OUTSIDE,エアリス,AERITH,「ティファさんが 心配なんでしょ？ さ、早く早く！」
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「お友だちも、か…… そりゃいいな」
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「その方がドンもよろこぶし もしかしたら……ウヒヒ」
-    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞
+    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞,＜Clothes shop.,,,
     CH02,CLOTHES SHOP,エアリス,AERITH,「すいませ～ん！ ドレス１着、くださいな」
     CH02,CLOTHES SHOP,洋服屋の息子,CLOTHES SHOP GIRL,「う～ん、ちょっと時間が かかるかもしれませんが かまいませんか？」
     CH02,CLOTHES SHOP,エアリス,AERITH,「何かあったんですか？」
@@ -895,7 +895,7 @@ export default () => {
     CH02,CLOTHES SHOP,エアリス,AERITH,「だから～！　どうにかしないと ドレス、手にはいらない、でしょ？」
     CH02,CLOTHES SHOP,洋服屋の息子,CLOTHES SHOP GIRL,「本当っすか！ おねがいしますよ、あのバカ親父をどうにかしてくださいよ。もう、困り果ててたんですよ………」
     CH02,CLOTHES SHOP,エアリス,AERITH,「はいはい、どうにかします。クラウド、行きましょ！」
-    CH02,IZAKAYA,INFO,INFO,＜居酒屋＞
+    CH02,IZAKAYA,INFO,INFO,＜居酒屋＞,< Izakaya.,,,
     CH02,IZAKAYA,エアリス,AERITH,「あの～、服屋の親父さん、ですよね？」
     CH02,IZAKAYA,洋服屋の親父,CLOTHES SHOP FATHER,「確かに服屋だが あなたの親父ではないぞ」
     CH02,IZAKAYA,エアリス,AERITH,「そんなこと、言ってない……」
@@ -912,13 +912,13 @@ export default () => {
     CH02,IZAKAYA,エアリス,AERITH,「じゃあ、作ってくれる？」
     CH02,IZAKAYA,洋服屋の親父,CLOTHES SHOP FATHER,「ああ、よかろう。それで、どんなドレスがいいんじゃ？」
     CH02,IZAKAYA,エアリス,AERITH,「はだ触りは」
-    CH02,IZAKAYA,INFO,INFO,＜選択肢：「さらっとしたもの」or「さわっとしたもの」→「さわっとしたもの」を選択＞
+    CH02,IZAKAYA,INFO,CLOUD,＜選択肢：「さらっとしたもの」or「さわっとしたもの」→「さわっとしたもの」を選択＞,<Options: select 'light' or 'crisp' → select 'crisp' >.,,,
     CH02,IZAKAYA,エアリス,AERITH,「ひかり具合は」
-    CH02,IZAKAYA,INFO,INFO,＜選択肢：「きらきらしたの」or「つやつやしたの」→「つやつやしたの」を選択＞
+    CH02,IZAKAYA,INFO,CLOUD,＜選択肢：「きらきらしたの」or「つやつやしたの」→「つやつやしたの」を選択＞,<Options: 'sparkling' or 'glossy' → select 'glossy' >.,,,
     CH02,IZAKAYA,洋服屋の親父,CLOTHES SHOP FATHER,「ふんふん、ようわかったわい。知り合いにその手のことが趣味な奴がおるので、ちょっと聞いてくるわい」
-    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞
+    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞,＜Clothes shop.,,,
     CH02,CLOTHES SHOP,洋服屋の息子,CLOTHES SHOP GIRL,「よあ、来たな。できとるよ。さっそく着てみなさい」
-    CH02,CLOTHES SHOP,INFO,INFO,＜クラウド、『シルクのドレス』を受け取る。→さっそく試着室へ＞
+    CH02,CLOTHES SHOP,INFO,CLOUD,＜クラウド、『シルクのドレス』を受け取る。→さっそく試着室へ＞,"<Cloud, receive 'silk dress'. →Go to the fitting room immediately.",,,
     CH02,CLOTHES SHOP,クラウド,CLOUD,「これ……どうやって着るんだ？」
     CH02,CLOTHES SHOP,クラウド,CLOUD,「わ！　なにするんだ！」
     CH02,CLOTHES SHOP,エアリス,AERITH,「やっぱり、ちょっと変。かつら、必要だね」
@@ -926,7 +926,7 @@ export default () => {
     CH02,CLOTHES SHOP,洋服屋の親父,CLOTHES SHOP FATHER,「『男男男』とかいう看板を出しとるジムがあるじゃろ？ そこに、あんたと同じ趣味の人間がいるんじゃ。彼に相談してみるとよいじゃろう」
     CH02,CLOTHES SHOP,クラウド,CLOUD,「……同じ趣味？ エアリス、親父さんにどんな説明をしたんだ？」
     CH02,CLOTHES SHOP,エアリス,AERITH,「いいじゃない、なんでも。ドレス、きれいだしね！」
-    CH02,WM GYM,INFO,INFO,＜男男男の館＞
+    CH02,WM GYM,INFO,INFO,＜男男男の館＞,<House of men and boys>.,,,
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「あなたね？ かわいくなりたいのは」
     CH02,WM GYM,クラウド,CLOUD,「かわいく？」
     CH02,WM GYM,エアリス,AERITH,「そうなの」
@@ -946,56 +946,56 @@ export default () => {
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「かまえから□ボタンでしゃがむ しゃがみから×ボタンで立つ 立ちから○ボタンでかまえへ」
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「□ボタン、×ボタン、○ボタン と、順番に押すのよ」
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「わかった？」
-    CH02,WM GYM,INFO,INFO,＜選択肢：「わからない」 or「わかった」→「わかった」を選択＞
+    CH02,WM GYM,INFO,CLOUD,＜選択肢：「わからない」 or「わかった」→「わかった」を選択＞,<Options: 'I don't know' or 'I understand' → Select 'I understand' >.,,,
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「30秒でこなした回数が こいつよりも上だったら このかつらをあげるわ」
     CH02,WM GYM,マッチョ男,GYM MACHO MAN,「絶対に 負けないっすよ」
     CH02,WM GYM,マッチョ男,GYM MACHO MAN,「兄貴のかつらは わしらのもんじゃー！」
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「やかましいわね、こいつ」
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「ぶっつけ本番ってのも かわいそうだから、練習する？」
-    CH02,WM GYM,INFO,INFO,＜選択肢：「軽く練習でもする」 or「練習など必要ない」→「練習など必要ない」を選択＞
-    CH02,WM GYM,INFO,INFO,＜勝負開始＞
+    CH02,WM GYM,INFO,CLOUD,＜選択肢：「軽く練習でもする」 or「練習など必要ない」→「練習など必要ない」を選択＞,＜Option: 'I will practice lightly' or 'I don't need to practice' → Select 'I don't need to practice'.,,,
+    CH02,WM GYM,INFO,CLOUD,＜勝負開始＞,<Start of game>,,,
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「こいつが、16回で あなたが21回ね
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「あんた、すごいわねぇ。約束通り、これをあげるよ」
-    CH02,WM GYM,INFO,INFO,＜クラウド、『プロンドのかつら』を受け取る＞
+    CH02,WM GYM,INFO,CLOUD,＜クラウド、『プロンドのかつら』を受け取る＞,<Cloud receives 'Prond's wig',,,
     CH02,WM GYM,マッチョ男,GYM MACHO MAN,「兄貴っー くやしいっすよー むちゃくちゃくやしいっすよー！」
-    CH02,WM GYM,INFO,INFO,＜兄貴、マッチョ男をはり倒す＞
+    CH02,WM GYM,INFO,GYM ELDER BROTHER,＜兄貴、マッチョ男をはり倒す＞,"＜'Brother, I'm going to crucify the macho man.",,,
     CH02,WM GYM,兄貴,GYM ELDER BROTHER,「やかましー！ 負けたあげく、めそめそするんじゃねえ！」
     CH02,WM GYM,マッチョ男,GYM MACHO MAN,「うう、兄貴の鉄ケンは 骨のズイまでしびれやすぜ…」
-    CH02,WM FOOD PLACE,INFO,INFO,＜食堂＞
+    CH02,WM FOOD PLACE,INFO,INFO,＜食堂＞,<Canteen.,,,
     CH02,WM FOOD PLACE,コック,CHEF,「いらっしゃい！ どうぞ、お好きなところへ」
     CH02,WM FOOD PLACE,コック,CHEF,「どうぞ、ここへおすわりください」
-    CH02,WM FOOD PLACE,INFO,INFO,＜選択肢：「すわる」 or「すわらない」→「すわる」を選択＞
+    CH02,WM FOOD PLACE,INFO,CLOUD,＜選択肢：「すわる」 or「すわらない」→「すわる」を選択＞,<Option: 'Sit' or 'Don't sit' → Select 'Sit' >.,,,
     CH02,WM FOOD PLACE,コック,CHEF,「はい、何にしましょう？」
     CH02,WM FOOD PLACE,クラウド,CLOUD,「そうだな………」
-    CH02,WM FOOD PLACE,INFO,INFO,＜選択肢：「焼肉定食」 or「さしみ定食」or「今日のおすすめ」→「焼肉定食」を選択＞
+    CH02,WM FOOD PLACE,INFO,CLOUD,＜選択肢：「焼肉定食」 or「さしみ定食」or「今日のおすすめ」→「焼肉定食」を選択＞,<Options: 'Yakiniku set meal' or 'Sashimi set meal' or 'Today's recommendation' >> Select 'Yakiniku set meal'.,,,
     CH02,WM FOOD PLACE,コック,CHEF,「焼肉定食でーす」
     CH02,WM FOOD PLACE,厨房のコック,CHEF KITCHEN,「あいよー」
     CH02,WM FOOD PLACE,コック,CHEF,「当店は、料金前払いになっております。お代は、70ギルになります」
     CH02,WM FOOD PLACE,コック,CHEF,「ありがとうございます。少々おまちください」
-    CH02,WM FOOD PLACE,INFO,INFO,＜料理が出来あがる＞
+    CH02,WM FOOD PLACE,INFO,CLOUD,＜料理が出来あがる＞,<The food is ready.,,,
     CH02,WM FOOD PLACE,コック,CHEF,「おまたせしました。どうぞ、ごゆっくり」
-    CH02,WM FOOD PLACE,INFO,INFO,＜選択肢：「………………」 or「まあまあだな」→or「口にあわなかった」→「まあまあだな」を選択＞
+    CH02,WM FOOD PLACE,INFO,CLOUD,＜選択肢：「………………」 or「まあまあだな」→or「口にあわなかった」→「まあまあだな」を選択＞,<Options: select '..................' or 'so-so' -> or 'it wasn't palatable' -> 'so-so' >.,,,
     CH02,WM FOOD PLACE,コック,CHEF,「ありがとうございました。薬屋商品クーポンをどうぞ。薬屋で、商品ひとつ交換できます」
     CH02,WM FOOD PLACE,コック,CHEF,「クーポンがなくなりましたので、このサービスは終了させていただきます。次なるサービスにご期待ください」
-    CH02,WM FOOD PLACE,INFO,INFO,＜クラウド、『薬屋商品クーポン』を受け取る＞
-    CH02,MEDICINE SHOP,INFO,INFO,＜薬屋＞
+    CH02,WM FOOD PLACE,INFO,CLOUD,＜クラウド、『薬屋商品クーポン』を受け取る＞,"<Cloud, receive 'apothecary product coupons'.",,,
+    CH02,MEDICINE SHOP,INFO,INFO,＜薬屋＞,Medicine Shop,,,
     CH02,MEDICINE SHOP,薬屋の店員,SHOP MEDICINE,「うわっ！」
     CH02,MEDICINE SHOP,薬屋の店員,SHOP MEDICINE,「いるならいるって 言ってくださいよ」
     CH02,MEDICINE SHOP,薬屋の店員,SHOP MEDICINE,「おや、クーポンをお持ちですね。それでは、商品を１つだけ選んでください」
-    CH02,MEDICINE SHOP,INFO,INFO,＜選択肢：「消毒薬」 or「消臭薬」or「消化薬」→「消化薬」を選択＞
+    CH02,MEDICINE SHOP,INFO,CLOUD,＜選択肢：「消毒薬」 or「消臭薬」or「消化薬」→「消化薬」を選択＞,<Options: 'disinfectant' or 'deodorant' or 'digestive' → select 'digestive' >.,,,
     CH02,MEDICINE SHOP,薬屋の店員,SHOP MEDICINE,「はいどうぞ」
-    CH02,MEDICINE SHOP,INFO,INFO,＜クラウド、『消化薬』を受け取る＞
-    CH02,IZAKAYA NEAR TOILET,INFO,INFO,＜居酒屋のトイレ前＞
-    CH02,IZAKAYA NEAR TOILET,便秘の男,CONSTIPATED WOMAN,「う………あんたなに開けてんだよ…… 見てんじゃねえよ………………」
-    CH02,IZAKAYA NEAR TOILET,便秘の男,CONSTIPATED WOMAN,「なんだよ………う………」
-    CH02,IZAKAYA NEAR TOILET,INFO,INFO,＜選択肢：「薬をわたす」 or「薬をわたさない」→「薬をわたす」を選択＞
-    CH02,IZAKAYA NEAR TOILET,便秘の男,CONSTIPATED WOMAN,「え？ 本当にくれるのかい？ ありがたくもらうよ」
-    CH02,IZAKAYA NEAR TOILET,便秘の男,CONSTIPATED WOMAN,「ふー、すっきりしたよ。お礼に、これあげるよ」
-    CH02,IZAKAYA NEAR TOILET,INFO,INFO,＜クラウド、『セクシーコロン』を受け取る＞
-    CH02,MATERIA SHOP,INFO,INFO,＜マテリアショップ＞
+    CH02,MEDICINE SHOP,INFO,CLOUD,＜クラウド、『消化薬』を受け取る＞,＜'Cloud receives 'digestive pills''.,,,
+    CH02,IZAKAYA NEAR TOILET,INFO,INFO,＜居酒屋のトイレ前＞,<In front of the izakaya toilets>.,,,
+    CH02,IZAKAYA NEAR TOILET,便秘の女,CONSTIPATED WOMAN,「う………あんたなに開けてんだよ…… 見てんじゃねえよ………………」
+    CH02,IZAKAYA NEAR TOILET,便秘の女,CONSTIPATED WOMAN,「なんだよ………う………」
+    CH02,IZAKAYA NEAR TOILET,INFO,CLOUD,＜選択肢：「薬をわたす」 or「薬をわたさない」→「薬をわたす」を選択＞,＜Option: 'Give medicine' or 'Don't give medicine' >> Select 'Give medicine'.,,,
+    CH02,IZAKAYA NEAR TOILET,便秘の女,CONSTIPATED WOMAN,「え？ 本当にくれるのかい？ ありがたくもらうよ」
+    CH02,IZAKAYA NEAR TOILET,便秘の女,CONSTIPATED WOMAN,「ふー、すっきりしたよ。お礼に、これあげるよ」
+    CH02,IZAKAYA NEAR TOILET,INFO,CLOUD,＜クラウド、『セクシーコロン』を受け取る＞,<Cloud receives 'sexy cologne'.,,,
+    CH02,MATERIA SHOP,INFO,INFO,＜マテリアショップ＞,<Materia Shop>.,,,
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「なあ、お兄さん。お兄さんを男と見こんで 相談があるんだけど 聞いてくれないかな？」
     CH02,MATERIA SHOP,クラウド,CLOUD,「……」
-    CH02,MATERIA SHOP,INFO,INFO,＜選択肢：「言ってみろ」 or「興味ないな」→「言ってみろ」を選択＞
+    CH02,MATERIA SHOP,INFO,CLOUD,＜選択肢：「言ってみろ」 or「興味ないな」→「言ってみろ」を選択＞,<Options: 'Tell me' or 'I'm not interested' -> Select 'Tell me'.,,,
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「本当か！　そりゃありがたい」
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「………で、悪いんだけど そっちのおじょうさん ちょっとだけ向こうを向いててくれないかな」
     CH02,MATERIA SHOP,エアリス,AERITH,「え～、どうして～？」
@@ -1006,15 +1006,15 @@ export default () => {
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「俺はあの自動販売機でなにを売っているのか 気になってしょうがないんだよ。ちょっと女性には頼めない物らしいんだよ」
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「え？ 自分で買いに行けって？ うーん、実は宿屋の奴とケンカしててね 行きにくいんだよね。なあ、頼むよ」
     CH02,MATERIA SHOP,クラウド,CLOUD,「……」
-    CH02,MATERIA SHOP,INFO,INFO,＜選択肢：「引き受けよう」 or「興味ないね」→「引き受けよう」を選択＞
+    CH02,MATERIA SHOP,INFO,CLOUD,＜選択肢：「引き受けよう」 or「興味ないね」→「引き受けよう」を選択＞,＜Options: 'I'll take it on' or 'I'm not interested' → 'I'll take it on'.,,,
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「そうか、ありがたい。頼んだよ」
     CH02,MATERIA SHOP,エアリス,AERITH,「もういいの？」
-    CH02,WALL MARKET INN,INFO,INFO,＜宿屋＞
+    CH02,WALL MARKET INN,INFO,INFO,＜宿屋＞,<Inn.,,,
     CH02,WALL MARKET INN,宿屋の店員,INNKEEPER,「いらっしゃいませ。一泊、10ギルです」
-    CH02,WALL MARKET INN,INFO,INFO,＜選択肢：「泊まる」 or「泊まらない」→「泊まる」を選択＞
-    CH02,WALL MARKET INN,INFO,INFO,＜クラウド、こっそり夜中に＞
+    CH02,WALL MARKET INN,INFO,CLOUD,＜選択肢：「泊まる」 or「泊まらない」→「泊まる」を選択＞,<Options: 'stay' or 'don't stay' → Select 'stay' >.,,,
+    CH02,WALL MARKET INN,INFO,CLOUD,＜クラウド、こっそり夜中に＞,"<Cloud, sneaking out in the middle of the night>.",,,
     CH02,WALL MARKET INN,クラウド,CLOUD,「これのことか」
-    CH02,WALL MARKET INN,INFO,INFO,＜選択肢：「買わない」 or「200ギルの物」or「100ギルの物」or「50ギルの物」→「200ギルの物」を選択＞
+    CH02,WALL MARKET INN,INFO,CLOUD,＜選択肢：「買わない」 or「200ギルの物」or「100ギルの物」or「50ギルの物」→「200ギルの物」を選択＞,<Options: 'I won't buy it' OR '200-gil item' OR '100-gil item' OR '50-gil item' -> Select '200-gil item' >.,,,
     CH02,WALL MARKET INN,宿屋の店員,INNKEEPER,「ありがとうございました。またいらしてください」
     CH02,MATERIA SHOP,INFO,INFO,＜マテリアショップ＞
     CH02,MATERIA SHOP,クラウド,CLOUD,「持ってきたぞ」
@@ -1023,19 +1023,19 @@ export default () => {
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「で、なんだった」
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「気合充墳ドリンクゴールドセットか あいつめ、きっちり商売してやがるぜ。まけてられんな、こりゃ」
     CH02,MATERIA SHOP,マテリア店員,SHOP MATERIA,「お兄さん、ありがとうよ。やる気になってきたぜ。気持ちていどだけどよ、もらってくれよ」
-    CH02,MATERIA SHOP,INFO,INFO,＜クラウド、『ダイヤのティアラ』を受け取る＞
+    CH02,MATERIA SHOP,INFO,CLOUD,＜クラウド、『ダイヤのティアラ』を受け取る＞,＜'Cloud receives the 'diamond tiara''.,,,
     CH02,WALL MARKET,優柔不断な男,INDECISIVE MAN,「やっぱり、ふんぎりがつかねえや。ええい、これあげるよ。これがなきゃ、入れないからな」
-    CH02,WALL MARKET,INFO,INFO,＜クラウド、『蜜蜂の館会員カード』を受け取る＞
-    CH02,OUTSIDE HONEYBEE INN,INFO,INFO,＜蜜蜂の館前＞
+    CH02,WALL MARKET,INFO,CLOUD,＜クラウド、『蜜蜂の館会員カード』を受け取る＞,"<Cloud, receive a 'bee house membership card'.",,,
+    CH02,OUTSIDE HONEYBEE INN,INFO,INFO,＜蜜蜂の館前＞,<Before the bee house>.,,,
     CH02,OUTSIDE HONEYBEE INN,蜜蜂店員,HONEYBEE EMPLOYEE,「おっ！右手にかがやく『会員カード』 どうぞ、お通りください」
     CH02,OUTSIDE HONEYBEE INN,クラウド,CLOUD,「ここに女装に必要ななにかがある。俺にはわかるんだ」
     CH02,OUTSIDE HONEYBEE INN,エアリス,AERITH,「……………ふ～～～～ん。そうやって、ごまかしますか」
     CH02,OUTSIDE HONEYBEE INN,クラウド,CLOUD,「いくぜ！！」
-    CH02,INSIDE HONEYBEE INN,INFO,INFO,＜クラウド、蜜蜂の館の中に入る＞
+    CH02,INSIDE HONEYBEE INN,INFO,CLOUD,＜クラウド、蜜蜂の館の中に入る＞,"<Cloud, entering the House of the Bees>.",,,
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「ポッ……★ お客さん★」
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「はやくっはやくっ★」
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「お部屋を選んでね★ （変なお客……。ま、いつものこと★）」
-    CH02,INSIDE HONEYBEE INN,INFO,INFO,＜クラウド、女の子の控え室へ行く＞
+    CH02,INSIDE HONEYBEE INN,INFO,CLOUD,＜クラウド、女の子の控え室へ行く＞,"＜Cloud, go to the girls' waiting room.",,,
     CH02,INSIDE HONEYBEE INN,女性Ａ,HONEYBEE SIL A,「フンフンフン……★ なかなかほそくなんないのよね。フンフンフンフン……」
     CH02,INSIDE HONEYBEE INN,女性Ａ,HONEYBEE SIL A,「あら、いやだ！！ お客さん、こんなとこまで 入ってこないでね★」
     CH02,INSIDE HONEYBEE INN,女性Ａ,HONEYBEE SIL A,「（いやだわ…… エッチなお客さん…）」
@@ -1043,28 +1043,28 @@ export default () => {
     CH02,INSIDE HONEYBEE INN,女性Ｂ,HONEYBEE SIL B,「だめーっ！」
     CH02,INSIDE HONEYBEE INN,女性Ｃ,HONEYBEE SIL C,「ぬりぬりぬりぬり……」
     CH02,INSIDE HONEYBEE INN,女性Ｃ,HONEYBEE SIL C,「（やだ……ときどきいるのよね。こういうデリカシーのない男…。無視無視）」
-    CH02,INSIDE HONEYBEE INN,INFO,INFO,＜クラウド、ようやく部屋を選ぶ＞
+    CH02,INSIDE HONEYBEE INN,INFO,CLOUD,＜クラウド、ようやく部屋を選ぶ＞,"<Cloud, finally pick a room>.",,,
     CH02,INSIDE HONEYBEE INN,クラウド,CLOUD,「空いているようだな」
-    CH02,INSIDE HONEYBEE INN,INFO,INFO,＜選択肢：「この部屋にするか」or「ふみとどまる」→「この部屋にするか」を選択＞
+    CH02,INSIDE HONEYBEE INN,INFO,CLOUD,＜選択肢：「この部屋にするか」or「ふみとどまる」→「この部屋にするか」を選択＞,<Option: 'Do you want this room?' or 'Fumi-shutdown' -> Select 'Do you want this room?,,,
     CH02,INSIDE HONEYBEE INN,クラウド,CLOUD,「この部屋に決めたよ」
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「は～い★ 決めたら、後はお部屋に入るだけよ★」
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「もう気持ちは変わらない？」
-    CH02,INSIDE HONEYBEE INN,INFO,INFO,＜選択肢：「何度も言わせないでくれ」or「まだ決めかねているんだ」→「何度も言わせないでくれ」を選択＞
+    CH02,INSIDE HONEYBEE INN,INFO,CLOUD,＜選択肢：「何度も言わせないでくれ」or「まだ決めかねているんだ」→「何度も言わせないでくれ」を選択＞,<Options: 'Don't make me keep repeating it' or 'I'm still trying to decide' -> Select 'Don't make me keep repeating it' >.,,,
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「怒っちゃや～★ （いやだ…… きっと乱暴なお客ね…）」
     CH02,INSIDE HONEYBEE INN,受付嬢,HONEYBEE GIRL,「は～い★ どうぞ★」
-    CH02,INSIDE HONEYBEE MEN ROOM,INFO,INFO,＜クラウド、部屋に入るが、異様な雰囲気に包まれる＞
-    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD'S EGO,＜頭をかかえて苦しんでいるもう一人のクラウド＞
+    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD,＜クラウド、部屋に入るが、異様な雰囲気に包まれる＞,"＜'Cloud, I enter the room, but I'm surrounded by a strange atmosphere.",,,
+    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD'S EGO,＜頭をかかえて苦しんでいるもう一人のクラウド＞,<Another cloud suffering from a headache>.,,,
     CH02,INSIDE HONEYBEE MEN ROOM,クラウド,CLOUD,「ん……？ あんたなのか……？」
     CH02,INSIDE HONEYBEE MEN ROOM,クラウド,CLOUD,「こんなところでなにしてる？」
     CH02,INSIDE HONEYBEE MEN ROOM,謎の声,MYSTERY VOICE,『そっちこそ、こんなとこで 遊んでていいのかい？』
     CH02,INSIDE HONEYBEE MEN ROOM,謎の声,MYSTERY VOICE,『いつでも頭かかえてれば 問題が解決するとでも思ってる？』
-    CH02,DARKNESS,INFO,INFO,＜もう一人のクラウド、クラウドと接触。→クラウド、倒れる＞
+    CH02,DARKNESS,INFO,CLOUD'S EGO,＜もう一人のクラウド、クラウドと接触。→クラウド、倒れる＞,"<The other Cloud, in contact with Cloud. <Cloud falls.",,,
     CH02,DARKNESS,女性Ｄ,HONEYBEE SIL D,「やだ！★ お客さ～ん★」
     CH02,DARKNESS,女性Ｄ,HONEYBEE SIL D,「たいへ～ん！ だれか～だれか、きて～★」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『遠くからながめてるだけじゃ なにも変わらないって気づいたんだろ』
-    CH02,DARKNESS,クラウド,CLOUD,「なにいっている？」
+    CH02,DARKNESS,クラウド,CLOUD'S EGO,「なにいっている？」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『動きはじめたみたいだよ』
-    CH02,DARKNESS,クラウド,CLOUD,「なにが？」
+    CH02,DARKNESS,クラウド,CLOUD'S EGO,「なにが？」
     CH02,DARKNESS,謎の声,MYSTERY VOICE,『ほら、目を覚まして！』
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「モミモミモミ… モミモミモミモミ……」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「タントントン…… タントントントン……」
@@ -1072,27 +1072,27 @@ export default () => {
     CH02,INSIDE HONEYBEE MEN ROOM,クラウド,CLOUD,「うっ…… いてっ！！」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「目を覚まして！！」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「目を覚まして！！」
-    CH02,INSIDE HONEYBEE MEN ROOM,INFO,INFO,＜クラウド、目を覚ます＞
+    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD,＜クラウド、目を覚ます＞,"<Cloud, wake up>.",,,
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「ふぅ～★ よかったぁ★」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「ぼうずっ！！ 倒れちゃったんだって？」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「だめだ、だめだ」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「緊張しちゃいかんなあ」
-    CH02,INSIDE HONEYBEE MEN ROOM,INFO,INFO,＜選択肢：「ああ……？」or「うう……？」→「ああ……？」を選択＞
+    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD,＜選択肢：「ああ……？」or「うう……？」→「ああ……？」を選択＞,"<Options: ""ah ......?"" OR ""uu......?"" → ""ah ......?"" Select >.",,,
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「んっ……？ まっ、青春は長くてみじかし」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「次、がんばんなさい」
     CH02,INSIDE HONEYBEE MEN ROOM,ムッキー,MUKKI,「もう時間だっ★ じゃね★」
-    CH02,INSIDE HONEYBEE MEN ROOM,女性Ｄ,HONEYBEE SIL D,「ごめんなさいね……★ いろいろと大人の事情ってもんがあるのよ★」
-    CH02,INSIDE HONEYBEE MEN ROOM,女性Ｄ,HONEYBEE SIL D,「これ、おわびのしるし★ 大切にあつかってね」
-    CH02,INSIDE HONEYBEE MEN ROOM,INFO,INFO,＜クラウド、『ランジェリー』を受け取る＞
+    CH02,INSIDE HONEYBEE MEN ROOM,女性,HONEYBEE GIRL,「ごめんなさいね……★ いろいろと大人の事情ってもんがあるのよ★」
+    CH02,INSIDE HONEYBEE MEN ROOM,女性,HONEYBEE GIRL,「これ、おわびのしるし★ 大切にあつかってね」
+    CH02,INSIDE HONEYBEE MEN ROOM,INFO,CLOUD,＜クラウド、『ランジェリー』を受け取る＞,<Cloud receives 'Lingerie'.,,,
     CH02,INSIDE HONEYBEE MEN ROOM,クラウド,CLOUD,「こんなヌノキレを、俺が！？ まったく、どうかしてるな」
-    CH02,OUTSIDE HONEYBEE INN,INFO,INFO,＜クラウド、蜜蜂の館を出る＞
+    CH02,OUTSIDE HONEYBEE INN,INFO,CLOUD,＜クラウド、蜜蜂の館を出る＞,"＜'Cloud, leaving the House of the Bees'.",,,
     CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「あっ、お客さん！！ もうすぐ閉店なんで……」
     CH02,OUTSIDE HONEYBEE INN,オーナー,OWNER,「忘れ物などなさらぬよう 気をつけてくださいよ」
     CH02,OUTSIDE HONEYBEE INN,エアリス,AERITH,「キャッ！！ クラウド！！」
-    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞
+    CH02,CLOTHES SHOP,INFO,INFO,＜洋服屋＞,＜Clothes shop.,,,
     CH02,CLOTHES SHOP,エアリス,AERITH,「着替えるの？」
-    CH02,CLOTHES SHOP,INFO,INFO,＜選択肢：「かくごを決めた」or「今は着替えない」→「かくごを決めた」を選択＞
-    CH02,CLOTHES SHOP,INFO,INFO,＜クラウド、着替える＞
+    CH02,CLOTHES SHOP,INFO,CLOUD,＜選択肢：「かくごを決めた」or「今は着替えない」→「かくごを決めた」を選択＞,<Option: 'I have decided on a cover' or 'I will not change my clothes now' → Select 'I have decided on a cover' >.,,,
+    CH02,CLOTHES SHOP,INFO,CLOUD DRESS,＜クラウド、着替える＞,"<Cloud, change clothes>",,,
     CH02,CLOTHES SHOP,洋服屋の親父,CLOTHES SHOP FATHER,「ほう、これはなかなかどうして。新しい商売になるかもしれんぞ」
     CH02,CLOTHES SHOP,洋服屋の息子,CLOTHES SHOP GIRL,「そうだね。やってみようか」
     CH02,CLOTHES SHOP,洋服屋の息子,CLOTHES SHOP GIRL,「あんたたち。おもしろいものを見せてもらったよ。親父もやる気出してくれたし そのドレスの代金はサービスしとくよ」
@@ -1108,18 +1108,18 @@ export default () => {
     CH02,CLOTHES SHOP,洋服屋の息子＆洋服屋の親父,CLOTHES SHOP FATHER GIRL,「え？」
     CH02,CLOTHES SHOP,エアリス,AERITH,「ちょっと、着替えてくるね」
     CH02,CLOTHES SHOP,エアリス,AERITH,「……のぞいちゃダメよ」
-    CH02,CLOTHES SHOP,INFO,INFO,＜エアリス、着替える＞
+    CH02,CLOTHES SHOP,INFO,AERITH DRESS,＜エアリス、着替える＞,"＜Aeris, get dressed.",,,
     CH02,CLOTHES SHOP,エアリス,AERITH DRESS,「どう？　似合ってる？」
     CH02,CLOTHES SHOP,エアリス,AERITH DRESS,「もう、かわいくないなぁ！」
-    CH02,CORNEO HOUSE OUTSIDE,INFO,INFO,＜コルネオの館＞
+    CH02,CORNEO HOUSE OUTSIDE,INFO,INFO,＜コルネオの館＞,<Corneo House>.,,,
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「おおッ！！ お友だちもこれまたカワイコちゃん！」
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「ささ、中へ中へ！！」
     CH02,CORNEO HOUSE OUTSIDE,案内人,CORNEO GUARD,「２名様、おはいり～！！」
-    CH02,CORNEO HOUSE INSIDE,INFO,INFO,＜クラウドたち、コルネオの館に入る＞
+    CH02,CORNEO HOUSE INSIDE,INFO,CLOUD DRESS,＜クラウドたち、コルネオの館に入る＞,＜Cloud and his team enter the halls of Corneo.,,,
     CH02,CORNEO HOUSE INSIDE,受付,RECEPTIONIST,「お～い、おネエちゃんたち」
     CH02,CORNEO HOUSE INSIDE,受付,RECEPTIONIST,「いまドンにしらせてくるからさ。ここで待っててくんな。ウロウロしないでくれよ」
     CH02,CORNEO HOUSE INSIDE,エアリス,AERITH DRESS,「いまのうち。さがしましょ、ティファさん」
-    CH02,CORNEO DUNGEON,INFO,INFO,＜おしおき部屋＞
+    CH02,CORNEO DUNGEON,INFO,INFO,＜おしおき部屋＞,<Punishment room>.,,,
     CH02,CORNEO DUNGEON,エアリス,AERITH DRESS,「……ティファ、さん」
     CH02,CORNEO DUNGEON,エアリス,AERITH DRESS,「はじめまして。わたし、エアリス」
     CH02,CORNEO DUNGEON,エアリス,AERITH DRESS,「あなたのこと クラウドから 聞いてるわ」
@@ -1135,7 +1135,7 @@ export default () => {
     CH02,CORNEO DUNGEON,エアリス,AERITH DRESS,「ね、クラウド？」
     CH02,CORNEO DUNGEON,ティファ,TIFA DRESS,「クラウド？」
     CH02,CORNEO DUNGEON,ティファ,TIFA DRESS,「？？？？」
-    CH02,CORNEO DUNGEON,INFO,INFO,＜ティファ、飛び跳ねる＞
+    CH02,CORNEO DUNGEON,INFO,TIFA DRESS,＜ティファ、飛び跳ねる＞,"＜Tiffany, jump up and down.",,,
     CH02,CORNEO DUNGEON,ティファ,TIFA DRESS,「クラウド！？」
     CH02,CORNEO DUNGEON,ティファ,TIFA DRESS,「その格好はどうしたの！？ ここでなにしてるの！？」
     CH02,CORNEO DUNGEON,ティファ,TIFA DRESS,「あ、それより あれからどうしたの！？ 身体はだいじょうぶ！？」
@@ -1196,34 +1196,34 @@ export default () => {
     CH02,CORNEO ROOM,コルネオ,DON CORNEO,「後はオマエたちにやる！」
     CH02,CORNEO ROOM,コッチ&コルネオの部下,DON CORNEO LACKEY,「ヘイ！！ いただきやっす！」
     CH02,CORNEO ROOM,コルネオ,DON CORNEO,「さ～て、行こうかの～！」
-    CH02,DON'S BEDROOM,INFO,INFO,＜寝室＞
+    CH02,DON'S BEDROOM,INFO,INFO,＜寝室＞,<Bedroom.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ～、やっと２人きり……」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「さあコネコちゃん…… 俺のムネへカモ～ン！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ～！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「テレなくても だいじょうぶ。２人きりだよ……」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ～、何度見てもカワイイの～」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「お……お前も、俺のこと好きか？」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「もちろんですわ」or「え～と……」→「もちろんですわ」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「もちろんですわ」or「え～と……」→「もちろんですわ」を選択＞,<Options: 'Of course I do' or 'Um... ......' -> Select 'Of course I do' >.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ、うれしいこと言ってくれるのォ！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほんなら、ナ、ナニがしたい？」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「あなたのス・キ・な・コ・ト」or「べつに……」→「べつに……」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「あなたのス・キ・な・コ・ト」or「べつに……」→「べつに……」を選択＞,<Choices: 'Your wonderful co...' or 'separately ......' → Select 'separately ......' >.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ、俺がキライなの？」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「まさか、ほ、他にスキな男でも？」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「あなただけよ」or「バレットっていうの……」→「あなただけよ」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「あなただけよ」or「バレットっていうの……」→「あなただけよ」を選択＞,＜Choice: 'It's only you' or 'My name is Barrett. ......' >> Select 'It's only you'.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ、うれしいこと言ってくれるのォ！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほんなら、ナ、ナニがしたい？」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「あなたのス・キ・な・コ・ト」or「べつに……」→「あなたのス・キ・な・コ・ト」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「あなたのス・キ・な・コ・ト」or「べつに……」→「あなたのス・キ・な・コ・ト」を選択＞,＜Options: 'Your favourite thing' or 'separately ......' → Select 'Your favourite thing'.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひほひ～！！　た、たまらん！ じゃあ、おねがい……」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「チューして、チュー！！」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「ええ……」or「それはダメ……」→「それはダメ……」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「ええ……」or「それはダメ……」→「それはダメ……」を選択＞,<Choices: 'Yes ......' or 'That's no good ......' -> Select 'That's no good ......' >.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「なんで？ なんでなんで？」
     CH02,DON'S BEDROOM,クラウド,CLOUD DRESS,「だって……」
     CH02,DON'S BEDROOM,クラウド,CLOUD DRESS,「あんたのその口は情報をもらすのに 使ってもらうからさ！！」
-    CH02,DON'S BEDROOM,INFO,INFO,＜クラウド、服装や髪型などを元に戻す＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜クラウド、服装や髪型などを元に戻す＞,"<Cloud, undoing clothes, hair, etc.>.",,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「お、オトコ！？ ほひ～、だましな！！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「だれか！　だれか！！」
     CH02,DON'S BEDROOM,ティファ,TIFA,「おあいにくさま。あなたの子分はだれもこられないみたいよ」
-    CH02,DON'S BEDROOM,INFO,INFO,＜ティファ、エアリスが来る＞
+    CH02,DON'S BEDROOM,INFO,AERITH DRESS,＜ティファ、エアリスが来る＞,＜Tifa and Aerith are coming.,,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「お前たちさっきの！？ な、なにがどーなってるの？」
     CH02,DON'S BEDROOM,ティファ,TIFA,「悪いけど 質問するのは私たちのほうよ」
     CH02,DON'S BEDROOM,ティファ,TIFA,「手下に何をさぐらせてたの？ 言いなさい！　言わないと……」
@@ -1256,10 +1256,10 @@ export default () => {
     CH02,DON'S BEDROOM,クラウド,CLOUD,「だまれ！」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「すぐ終わるから聞いてくれ」
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「俺たちみたいな悪党が、こうやってべらべらとホントのことを しゃべるのはどんなときだと思う？」
-    CH02,DON'S BEDROOM,INFO,INFO,＜選択肢：「１ 死をかくごしたとき」or「２ 勝利を確信しているとき」or「３ なにがなんだかわからないとき」→「３ なにがなんだかわからないとき」を選択＞
+    CH02,DON'S BEDROOM,INFO,CLOUD DRESS,＜選択肢：「１ 死をかくごしたとき」or「２ 勝利を確信しているとき」or「３ なにがなんだかわからないとき」→「３ なにがなんだかわからないとき」を選択＞,"＜Choice: ""1 When you have staved off death"" or ""2 When you are sure of victory"" or ""3 When you don't know what is going on"" → Select ""3 When you don't know what is going on"" >.",,,
     CH02,DON'S BEDROOM,コルネオ,DON CORNEO,「ほひ～！　おっし～！」
-    CH02,DON'S BEDROOM,INFO,INFO,＜コルネオ、近くのボタンを押す。→クラウドたちの床に穴が空き、落っこちる＞
-    CH02,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞
+    CH02,DON'S BEDROOM,INFO,DON CORNEO,＜コルネオ、近くのボタンを押す。→クラウドたちの床に穴が空き、落っこちる＞,"<Corneo, press a nearby button. <There is a hole in the floor of the cloud and the others, and they fall through.",,,
+    CH02,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞,"<President's office, 70th floor, Shinra Building>.",,,
     CH02,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「準備のほうは？」
     CH02,PRESIDENT'S OFFICE,ハイデッカー,HEIDEGGER,「ガハハ！！　順調順調！ 実行部隊はタークスです」
     CH02,PRESIDENT'S OFFICE,リーブ,REEVES,「プレジデント！ 本当にやるのですか？ たかが数人の組織をつぶすのに……」
@@ -1271,31 +1271,31 @@ export default () => {
     CH02,PRESIDENT'S OFFICE,ハイデッカー,HEIDEGGER,「市長！？」
     CH02,PRESIDENT'S OFFICE,ハイデッカー,HEIDEGGER,「このビルの中でボソボソとメシをくってるあいつか！？ あいつを、まだ市長と呼ぶのか？」
     CH02,PRESIDENT'S OFFICE,ハイデッカー,HEIDEGGER,「それでは失礼します！」
-    CH02,PRESIDENT'S OFFICE,INFO,INFO,＜ハイデッカー、去る＞
+    CH02,PRESIDENT'S OFFICE,INFO,HEIDEGGER,＜ハイデッカー、去る＞,"<Heidecker, leaving>.",,,
     CH02,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「君はつかれているんだよ。休暇をとって旅行でも行ってなさい」
-    CH02,PRESIDENT'S OFFICE,INFO,INFO,＜リーブ、しぶしぶ去る＞
+    CH02,PRESIDENT'S OFFICE,INFO,REEVES,＜リーブ、しぶしぶ去る＞,<Leave reluctantly leaves>.,,,
     CH02,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「７番街を破壊する。アバランチの仕業として報道する。神羅カンパニーによる救助活動。フフフ……かんぺきだ」
-    CH02,UNDERGROUND SEWER,INFO,INFO,＜地下下水道＞
+    CH02,UNDERGROUND SEWER,INFO,INFO,＜地下下水道＞,<Underground sewers>.,,,
     CH02,UNDERGROUND SEWER,クラウド,CLOUD,「だいじょうぶか？」
     CH02,UNDERGROUND SEWER,エアリス,AERITH,「うん」
     CH02,UNDERGROUND SEWER,クラウド,CLOUD,「だいじょうぶか？」
     CH02,UNDERGROUND SEWER,ティファ,TIFA,「もう！ サイテーね、これ」
     CH02,UNDERGROUND SEWER,エアリス,AERITH,「ま、最悪の事態からは のがれられた……」
-    CH02,UNDERGROUND SEWER,INFO,INFO,＜モンスターのおたけびが聞こえる＞
+    CH02,UNDERGROUND SEWER,INFO,INFO,＜モンスターのおたけびが聞こえる＞,＜I can hear the monster's roar.,,,
     CH02,UNDERGROUND SEWER,エアリス,AERITH,「……でもないみたい｣
-    CH02,UNDERGROUND SEWER,INFO,INFO,＜戦闘：アプス＞ /n ＜アプスを撃破＞ /n ＜戦闘終了＞
+    CH02,UNDERGROUND SEWER,INFO,INFO,＜戦闘：アプス＞ /n ＜アプスを撃破＞ /n ＜戦闘終了＞,<Combat: Apus>.,,,
     CH02,UNDERGROUND SEWER,ティファ,TIFA,「もうダメだわ…… マリン……バレット……スラムの人たち」
     CH02,UNDERGROUND SEWER,エアリス,AERITH,「あきらめない、あきらめない。柱、壊すなんて そんなに簡単じゃない、でしょ？」
     CH02,UNDERGROUND SEWER,ティファ,TIFA,「…………そうね……そうよね！ まだ時間はあるわよね」
-    CH02,TRAIN GRAVEYARD,INFO,INFO,＜列車墓場＞
+    CH02,TRAIN GRAVEYARD,INFO,INFO,＜列車墓場＞,<Train graveyard> c,,,
     CH02,TRAIN GRAVEYARD,クラウド,CLOUD,「エアリス。すっかり巻きこんでしまって……」
     CH02,TRAIN GRAVEYARD,エアリス,AERITH,「ここから帰れ！ な～んて言わないでね」
     CH02,TRAIN GRAVEYARD,ティファ,TIFA,「え～と……明かりのついている車両を抜けて行けば出られそうね」
-    CH02,SECTOR 7 SLUM PILLAR,INFO,INFO,＜列車墓場を抜け、７番街スラムの柱に到着＞
+    CH02,SECTOR 7 SLUM PILLAR,INFO,CLOUD,＜列車墓場を抜け、７番街スラムの柱に到着＞,"<Passing through the train graveyard, arriving at the 7th Avenue slum pillar>.",,,
     CH02,SECTOR 7 SLUM PILLAR,ティファ,TIFA,「まにあった！ 柱が立ってる！」
     CH02,SECTOR 7 SLUM PILLAR,クラウド,CLOUD,「まて！ 上から……聞こえないか？」
     CH02,SECTOR 7 SLUM PILLAR,エアリス,AERITH,「……銃声？」
-    CH02,SECTOR 7 SLUM PILLAR,INFO,INFO,＜上からウェッジが落ちてくる＞
+    CH02,SECTOR 7 SLUM PILLAR,INFO,WEDGE,＜上からウェッジが落ちてくる＞,＜Wedges fall from above.,,,
     CH02,SECTOR 7 SLUM PILLAR,クラウド,CLOUD,「だいじょうぶか？ ……ウェッジ！！」
     CH02,SECTOR 7 SLUM PILLAR,ウェッジ,WEDGE,「……クラウドさん…。俺の名前…覚えてくれたっすね」
     CH02,SECTOR 7 SLUM PILLAR,ウェッジ,WEDGE,「バレットさんが…上で戦ってるっす。手をかしてやって……」
@@ -1308,27 +1308,27 @@ export default () => {
     CH02,SECTOR 7 SLUM PILLAR,エアリス,AERITH,「わかった。安全な場所へ、ね」
     CH02,SECTOR 7 SLUM PILLAR,ティファ,TIFA,「ここは危険です！ みんな早く柱からはなれて！」
     CH02,SECTOR 7 SLUM PILLAR,ティファ,TIFA,「７番街からはなれて！」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜プレート支柱 ：螺旋階段＞
+    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜プレート支柱 ：螺旋階段＞,<Plate prop: spiral staircase>.,,,
     CH02,SECTOR 7 STAIRCASE,ジェシー,JESSIE,「あ……クラウド…… 最後に……話せて良かった……」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜選択肢：「最後だなんて……」or「そうか……」→「最後だなんて……」を選択＞
+    CH02,SECTOR 7 STAIRCASE,INFO,CLOUD,＜選択肢：「最後だなんて……」or「そうか……」→「最後だなんて……」を選択＞,<Options: 'I can't believe it's the last ......' or 'I see ......' -> Select 'I can't believe it's the last ......' >.,,,
     CH02,SECTOR 7 STAIRCASE,ジェシー,JESSIE,「もう、いい……いいの……」
     CH02,SECTOR 7 STAIRCASE,ジェシー,JESSIE,「私たち……私たちの作戦で たくさん……人、死んじゃったし…… きっと……そのむくい……ね」
     CH02,SECTOR 7 STAIRCASE,バレット,BARRET,「ティファ！　クラウド！ 来てくれたか！」
     CH02,SECTOR 7 STAIRCASE,バレット,BARRET,「気をつけろ！　やつら ヘリで襲ってきやがる」
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「本格的にくる敵に 装備を整えておいたほうがいいわ！」
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「さっそく来たわ！」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜ヘリコプターからレノ登場。→柱のメインコンピュータスイッチの前へ＞
+    CH02,SECTOR 7 STAIRCASE,INFO,TIFA,＜ヘリコプターからレノ登場。→柱のメインコンピュータスイッチの前へ＞,<Leno appears from helicopter. <To the main computer switch on the pillar>.,,,
     CH02,SECTOR 7 STAIRCASE,レノ,RENO,「おそかった、と このスイッチを押すと……」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜レノ、スイッチを押す＞
+    CH02,SECTOR 7 STAIRCASE,INFO,RENO,＜レノ、スイッチを押す＞,"<Leno, press the switch>",,,
     CH02,SECTOR 7 STAIRCASE,レノ,RENO,「はい、おしまい！　作業終了」
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「解除しなくちゃ！ クラウド！　バレット！　おねがい！」
     CH02,SECTOR 7 STAIRCASE,レノ,RENO,「そういうわけにはいかないぞ、と タークスのレノさまの邪魔は 誰にもさせないぞっ……と」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜戦闘 ：タークス：レノ＞ /n ＜タークス：レノを撃破＞
+    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜戦闘 ：タークス：レノ＞ /n ＜タークス：レノを撃破＞,<Combat : Turks and Caicos : Reno >.,,,
     CH02,SECTOR 7 STAIRCASE,レノ,RENO,「そろそろ時間だぞ、と」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜タークス：レノ、去る＞ /n ＜戦闘終了＞
+    CH02,SECTOR 7 STAIRCASE,INFO,RENO,＜タークス：レノ、去る＞ /n ＜戦闘終了＞,"<Turks: Reno, leaving>.",,,
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「クラウド！ 止めかたがわからないの。やってみて！」
     CH02,SECTOR 7 STAIRCASE,クラウド,CLOUD,「……ただの時限爆弾じゃない」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜ヘリコプターから＞
+    CH02,SECTOR 7 STAIRCASE,INFO,TSENG,＜ヘリコプターから＞,<From helicopter.,,,
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「そのとおり。それを操作するのは難しい」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「どこかのバカ者が勝手にふれると困るからな」
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「おねがい、とめて！」
@@ -1336,7 +1336,7 @@ export default () => {
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「緊急用プレート解除システムの設定と解除は神羅役員会の決定なしではできないのだ」
     CH02,SECTOR 7 STAIRCASE,バレット,BARRET,「ゴチャゴチャうるせえ！」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「そんなことされると大切なゲストがケガするじゃないか」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜ヘリコプターにエアリスが＞
+    CH02,SECTOR 7 STAIRCASE,INFO,AERITH,＜ヘリコプターにエアリスが＞,＜Aeris on the helicopter.,,,
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「エアリス！！」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「おや、知り合いなのか？」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「最後に会えて良かったな。私に感謝してくれ」
@@ -1345,44 +1345,44 @@ export default () => {
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「われわれタークスにあたえられた命令は『古代種』の生き残りをつかまえろ、ということだけだ」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「ずいぶんと長い時間がかかったが やっとプレジデントに報告できる」
     CH02,SECTOR 7 STAIRCASE,エアリス,AERITH,「ティファ、だいじょうぶだから！ あの子、だいじょうぶだから！」
-    CH02,SECTOR 7 STAIRCASE,INFO,INFO,＜ツォン、エアリスをぶつ＞
+    CH02,SECTOR 7 STAIRCASE,INFO,TSENG,＜ツォン、エアリスをぶつ＞,"＜Tsong, hit Aerith.",,,
     CH02,SECTOR 7 STAIRCASE,ティファ,TIFA,「エアリス！」
     CH02,SECTOR 7 STAIRCASE,エアリス,AERITH,「だからはやく逃げて！」
     CH02,SECTOR 7 STAIRCASE,ツォン,TSENG,「クックックッ！ そろそろ始まるぞ。逃げきれるかな？」
-    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜柱が上から崩れる＞
-    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜ヘリコプターが飛び去る＞
+    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜柱が上から崩れる＞,<Pillar collapses from above>.,,,
+    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜ヘリコプターが飛び去る＞,＜Helicopter flies away.,,,
     CH02,SECTOR 7 PLATE COLLAPSE,ティファ,TIFA,「上のプレートが落ちてきたら ひとたまりもないわ。いそがなくちゃ！」
     CH02,SECTOR 7 PLATE COLLAPSE,バレット,BARRET,「おい、このワイヤーを使って 脱出できるぜ！」
-    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜ティファ、クラウド、バレットにつかまって、ワイヤーで飛び降りる＞
-    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜その瞬間、プレートが落ちてきて、７番街が無情にも瓦礫に埋まる＞
-    CH03,DESTROYED PARK,INFO,INFO,＜六番街公園＞
-    CH03,DESTROYED PARK,バレット,BARRET,「マリン！ マリン！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「マリーーン！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「ビッグス！」
-    CH03,DESTROYED PARK,バレット,BARRET,「ウェッジ！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「ジェシー！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょう！」
-    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょう！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょうーー！！！！」
-    CH03,DESTROYED PARK,バレット,BARRET,「なんだ、こんなもの！」
-    CH03,DESTROYED PARK,バレット,BARRET,「うぉぉーー！！」
-    CH03,DESTROYED PARK,INFO,INFO,＜バレット、瓦礫を持ち上げようとする＞
-    CH03,DESTROYED PARK,クラウド,CLOUD,「おい、バレット！」
-    CH03,DESTROYED PARK,ティファ,TIFA,「バレット！」
-    CH03,DESTROYED PARK,バレット,BARRET,「うぉぉーー！！」
-    CH03,DESTROYED PARK,クラウド,CLOUD,「おい！」
-    CH03,DESTROYED PARK,ティファ,TIFA,「バレット、もうやめて…… おねがい、バレット」
-    CH03,DESTROYED PARK,バレット,BARRET,「うわぁぁぁーー！！！」
-    CH03,DESTROYED PARK,INFO,INFO,＜バレット、辺りに銃を撃ちまくる＞
-    CH03,DESTROYED PARK,バレット,BARRET,「クッ！ ちくしょう……」
-    CH03,DESTROYED PARK,バレット,BARRET,「マリン……」
-    CH03,DESTROYED PARK,ティファ,TIFA,「……… ねぇ、バレット……」
-    CH03,DESTROYED PARK,ティファ,TIFA,「マリンは、マリンはだいじょうぶだと思うの」
-    CH03,DESTROYED PARK,バレット,BARRET,「……え？」
-    CH03,DESTROYED PARK,ティファ,TIFA,「エアリスが言ってたわ。『あの子、だいじょうぶだから』って、マリンのことよ、きっと」
-    CH03,DESTROYED PARK,バレット,BARRET,「ほ、本当か！！」
-    CH03,DESTROYED PARK,ティファ,TIFA,「でも……」
-    CH03,DESTROYED PARK,バレット,BARRET,「ビッグス…… ウェッジ…… ジェシー……」
+    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜ティファ、クラウド、バレットにつかまって、ワイヤーで飛び降りる＞,"<Tifa, Cloud, hold on to Barrett and jump down on the wire>.",,,
+    CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,＜その瞬間、プレートが落ちてきて、７番街が無情にも瓦礫に埋まる＞,"<At that moment, a plate falls and 7th Avenue is unceremoniously buried in rubble>.",,,
+    CH03,DESTROYED PARK,INFO,INFO,＜六番街公園＞,<Rokubangai Park>.,,,バレット
+    CH03,DESTROYED PARK,バレット,BARRET,「マリン！ マリン！！」SYS
+    CH03,DESTROYED PARK,バレット,BARRET,「マリーーン！！」クラウド
+    CH03,DESTROYED PARK,バレット,BARRET,「ビッグス！」ティファ
+    CH03,DESTROYED PARK,バレット,BARRET,「ウェッジ！！」セフィロス
+    CH03,DESTROYED PARK,バレット,BARRET,「ジェシー！！」エルミナ
+    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょう！」エアリス
+    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょう！！」ツォン
+    CH03,DESTROYED PARK,バレット,BARRET,「こんちくしょうーー！！！！」武器屋の親父
+    CH03,DESTROYED PARK,バレット,BARRET,「なんだ、こんなもの！」子供Ａ
+    CH03,DESTROYED PARK,バレット,BARRET,「うぉぉーー！！」子供Ｃ
+    CH03,DESTROYED PARK,INFO,BARRET,＜バレット、瓦礫を持ち上げようとする＞,<Barrett attempts to lift debris>.,,,子供Ｂ
+    CH03,DESTROYED PARK,クラウド,CLOUD,「おい、バレット！」警備兵
+    CH03,DESTROYED PARK,ティファ,TIFA,「バレット！」重役社員
+    CH03,DESTROYED PARK,バレット,BARRET,「うぉぉーー！！」ドミノ
+    CH03,DESTROYED PARK,クラウド,CLOUD,「おい！」OL神羅
+    CH03,DESTROYED PARK,ティファ,TIFA,「バレット、もうやめて…… おねがい、バレット」サラリーマン神羅
+    CH03,DESTROYED PARK,バレット,BARRET,「うわぁぁぁーー！！！」リーブ
+    CH03,DESTROYED PARK,INFO,BARRET,＜バレット、辺りに銃を撃ちまくる＞,"<Barrett, shooting around the area>.",,,プレジデント神羅
+    CH03,DESTROYED PARK,バレット,BARRET,「クッ！ ちくしょう……」パルマー
+    CH03,DESTROYED PARK,バレット,BARRET,「マリン……」ハイデッカー
+    CH03,DESTROYED PARK,ティファ,TIFA,「……… ねぇ、バレット……」宝条
+    CH03,DESTROYED PARK,ティファ,TIFA,「マリンは、マリンはだいじょうぶだと思うの」スカーレット
+    CH03,DESTROYED PARK,バレット,BARRET,「……え？」研究員
+    CH03,DESTROYED PARK,ティファ,TIFA,「エアリスが言ってたわ。『あの子、だいじょうぶだから』って、マリンのことよ、きっと」レッド13
+    CH03,DESTROYED PARK,バレット,BARRET,「ほ、本当か！！」ルード
+    CH03,DESTROYED PARK,ティファ,TIFA,「でも……」ルーファウス
+    CH03,DESTROYED PARK,バレット,BARRET,「ビッグス…… ウェッジ…… ジェシー……」0
     CH03,DESTROYED PARK,クラウド,CLOUD,「……あの３人は柱の中にいた」
     CH03,DESTROYED PARK,バレット,BARRET,「わかってる……」
     CH03,DESTROYED PARK,バレット,BARRET,「でもよ、でもよ！ いっしょに戦ってきた仲間だ！」
@@ -1401,7 +1401,7 @@ export default () => {
     CH03,DESTROYED PARK,ティファ,TIFA,「ちがう…… わからないのは 自分の……気持ち」
     CH03,DESTROYED PARK,バレット,BARRET,「おまえはどうなんだ？」
     CH03,DESTROYED PARK,クラウド,CLOUD,「……」
-    CH03,DESTROYED PARK,INFO,INFO,＜クラウド、去る＞
+    CH03,DESTROYED PARK,INFO,CLOUD,＜クラウド、去る＞,"<Cloud, leaving>.",,,
     CH03,DESTROYED PARK,バレット,BARRET,「おい！」
     CH03,DESTROYED PARK,バレット,BARRET,「あいつ、どこへ？」
     CH03,DESTROYED PARK,ティファ,TIFA,「あっ！　エアリスのこと！」
@@ -1409,20 +1409,20 @@ export default () => {
     CH03,DESTROYED PARK,ティファ,TIFA,「……私もよく知らない。でも、マリンのことを エアリスに頼んだの」
     CH03,DESTROYED PARK,バレット,BARRET,「そうだ！　マリン！！」
     CH03,DESTROYED PARK,バレット,BARRET,「ティファ。もう、あともどりはできねえんだ」
-    CH03,SECTOR 6 STREET,INFO,INFO,＜六番街＞
+    CH03,SECTOR 6 STREET,INFO,INFO,＜六番街＞,<Rokuban Street>.,,,
     CH03,SECTOR 6 STREET,バレット,BARRET,「クラウド！」
     CH03,SECTOR 6 STREET,バレット,BARRET,「マリンのところへ連れてってくれ！」
     CH03,SECTOR 6 STREET,ティファ,TIFA,「エアリスを助けにいくのね？」
     CH03,SECTOR 6 STREET,クラウド,CLOUD,「ああ…… でも、その前に確かめたいことがあるんだ」
     CH03,SECTOR 6 STREET,ティファ,TIFA,「なに？」
     CH03,SECTOR 6 STREET,クラウド,CLOUD,「……古代種」
-    CH03,SECTOR 6 STREET,INFO,INFO,＜突如、場面が切り替わる＞
+    CH03,SECTOR 6 STREET,INFO,INFO,＜突如、場面が切り替わる＞,"＜Suddenly, the scene changes.",,,
     CH03,SECTOR 6 STREET,セフィロス,SEPHIROTH,「われこそ古代種の血をひきし者。この星の正統なる後継者！」
     CH03,SECTOR 6 STREET,クラウド,CLOUD,「セフィロス……？」
-    CH03,SECTOR 6 STREET,INFO,INFO,＜クラウド、うずくまる＞
+    CH03,SECTOR 6 STREET,INFO,CLOUD,＜クラウド、うずくまる＞,"<Cloud, cringing>",,,
     CH03,SECTOR 6 STREET,ティファ,TIFA,「だいじょうぶ？」
     CH03,SECTOR 6 STREET,バレット,BARRET,「しっかりしてくれよ！」
-    CH03,AERITH'S HOUSE,INFO,INFO,＜エアリスの家＞
+    CH03,AERITH'S HOUSE,INFO,INFO,＜エアリスの家＞,<Aerith's house>.,,,
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「クラウド……だったね」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「エアリスのこと、だろ？」
     CH03,AERITH'S HOUSE,クラウド,CLOUD,「……すまない。神羅にさらわれた」
@@ -1435,23 +1435,23 @@ export default () => {
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「……本当の母親じゃないんだよ。あれは……そう、15年前…」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「……戦争中でね。わたしの夫は戦地に行ってた。ウータイという遠い国さ」
     CH03,DARKNESS,エルミナ,ELMYRA,「ある日、休暇で帰ってくるって てがみをもらったから わたしは駅までむかえにいったのさ」
-    CH03,MIDGAR TRAIN STATION 2,INFO,INFO,＜回想＞
+    CH03,MIDGAR TRAIN STATION 2,INFO,INFO,＜回想＞,<Recollection.,,,
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「夫は帰ってこなかった」
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「夫の身になにかあったんだろうか？」
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「いや、休暇が取り消しになっただけかもしれない」
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「それからわたしは毎日駅へ行った」
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「ある日……」
-    CH03,MIDGAR TRAIN STATION 2,INFO,INFO,＜エルミナ、倒れている実母のかたわらにいる幼少のエアリスを発見＞
+    CH03,MIDGAR TRAIN STATION 2,INFO,ELMYRA,＜エルミナ、倒れている実母のかたわらにいる幼少のエアリスを発見＞,"<Hermina finds a young Aeris at the side of her mother, who has collapsed.",,,
     CH03,MIDGAR TRAIN STATION 2,エルミナ,ELMYRA,「戦争中はよくある風景だったね」
     CH03,DARKNESS,エルミナ,ELMYRA,「エアリスを安全なところへ。そう言い残して彼女は死んだ」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「わたしの夫は帰らず、子供もいない。わたしもさびしかったんだろうね。エアリスを家に連れて帰ることにしたんだ」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「エアリスはすぐにわたしになついてくれた。よくしゃべる子でねえ。いろいろ話してくれたよ」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「どこかの研究所みたいなところから母親と逃げ出したこと。お母さんは星に帰っただけだから さびしくなんかない……いろいろね」
-    CH03,DARKNESS,INFO,INFO,＜一時、回想終了＞
+    CH03,DARKNESS,INFO,INFO,＜一時、回想終了＞,"<Temporarily, end of recollection>.",,,
     CH03,AERITH'S HOUSE,バレット,BARRET,「星に帰っただって？」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「わたしには意味がわからなかったよ。夜空の星かって聞いたら ちがう、この星だっていわれて……」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「まあ、いろんな意味で不思議な子供だったね」
-    CH03,DARKNESS,INFO,INFO,＜回想＞
+    CH03,DARKNESS,INFO,INFO,＜回想＞,<Recollection.,,,
     CH03,AERITH'S HOUSE,エアリス,AERITH CHILD,「お母さん」
     CH03,AERITH'S HOUSE,エアリス,AERITH CHILD,「泣かないでね」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「エアリスが突然言い出した。何かあったのかって聞いたら……」
@@ -1475,7 +1475,7 @@ export default () => {
     CH03,AERITH'S HOUSE,エアリス,AERITH CHILD,「そんなことないもん！」
     CH03,DARKNESS,エルミナ,ELMYRA,「でも、わたしにはわかっていた。あの子の不思議な能力……」
     CH03,DARKNESS,エルミナ,ELMYRA,「一生けんめい、かくそうとしたていたから わたしは気がつかないふりをしていたけどね」
-    CH03,AERITH'S HOUSE,INFO,INFO,＜回想終了＞
+    CH03,AERITH'S HOUSE,INFO,INFO,＜回想終了＞,<End of recollection>.,,,
     CH03,AERITH'S HOUSE,クラウド,CLOUD,「よく何年も神羅から 逃げつづけることができたな」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「神羅はエアリスの協力が必要だったから 手荒なマネはできなかったんだろうね」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「じゃあ、今回はどうして……」
@@ -1493,10 +1493,10 @@ export default () => {
     CH03,AERITH'S HOUSE,バレット,BARRET,「でも、マリンが心配だ。いつでもそばにいてやりたい」
     CH03,AERITH'S HOUSE,バレット,BARRET,「な？ グルグルまわっちまうんだ」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「……わからないでもないけどね。ま、とにかく２階で眠ってるから 会っておやりよ」
-    CH03,AERITH'S HOUSE,INFO,INFO,＜バレット、一人２階へ行く＞
+    CH03,AERITH'S HOUSE,INFO,BARRET,＜バレット、一人２階へ行く＞,"＜Barrett, go upstairs alone.",,,
     CH03,AERITH'S HOUSE,ティファ,TIFA,「私のせい……。私がエアリスを巻きこんだから」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「あんた、気にするんじゃないよ。エアリスだってそんなふうに思っちゃいないよ」
-    CH03,AERITH'S HOUSE,INFO,INFO,＜クラウド、一人で家を出ようとする＞
+    CH03,AERITH'S HOUSE,INFO,CLOUD,＜クラウド、一人で家を出ようとする＞,"<Cloud, trying to leave the house alone.",,,
     CH03,AERITH'S HOUSE,ティファ,TIFA,「エアリスのところへ行くのね」
     CH03,AERITH'S HOUSE,クラウド,CLOUD,「ああ」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「私も行くから」
@@ -1504,7 +1504,7 @@ export default () => {
     CH03,AERITH'S HOUSE,ティファ,TIFA,「わかってるわ」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「それに今は思いきり身体を動かしたい気分なの」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「じっとしてると……なんか、ダメ」
-    CH03,AERITH'S HOUSE,INFO,INFO,＜そこへ、バレットが戻ってくる＞
+    CH03,AERITH'S HOUSE,INFO,BARRET,＜そこへ、バレットが戻ってくる＞
     CH03,AERITH'S HOUSE,バレット,BARRET,「すまねえが、もうしばらく マリンをあずかってくれねえか？」
     CH03,AERITH'S HOUSE,エルミナ,ELMYRA,「ああ、かまわないよ」
     CH03,AERITH'S HOUSE,バレット,BARRET,「それから、ここは危険だ。どこかへ移ったほうがいい」
@@ -1513,17 +1513,17 @@ export default () => {
     CH03,AERITH'S HOUSE,バレット,BARRET,「もう、上に行く列車は使えねぇ…」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「…………」
     CH03,AERITH'S HOUSE,ティファ,TIFA,「とりあえず、ウォールマーケットに行きましょう。あそこなら何かいい手が見つかるかもしれないわ」
-    CH03,WALL MARKET,INFO,INFO,＜ウォールマーケット：武器屋＞
+    CH03,WALL MARKET,INFO,INFO,＜ウォールマーケット：武器屋＞,＜Then Barrett comes back.,,,
     CH03,WM WEAPON STORE,武器屋の親父,WEAPON STORE FATHER,「あんたも、上のプレートへ行くのか？ このジンクバッテリーが必要になるぞ」
     CH03,WM WEAPON STORE,クラウド,CLOUD,「ひろったものを売りつけるのか？」
     CH03,WM WEAPON STORE,武器屋の親父,WEAPON STORE FATHER,「お、よく知ってるな。修理してあるから、大丈夫さ」
     CH03,WM WEAPON STORE,クラウド,CLOUD,「上のプレートへ登るのに どうしてバッテリーが必要なんだ？」
     CH03,WM WEAPON STORE,武器屋の親父,WEAPON STORE FATHER,「登ってみりゃわかるよ。３つで300ギルだ。買うかい？」
     CH03,WM WEAPON STORE,クラウド,CLOUD,「……」
-    CH03,WM WEAPON STORE,INFO,INFO,＜選択肢：「わかった、買おう」or「信じられないな」→「わかった、買おう」を選択＞
-    CH03,WM WEAPON STORE,INFO,INFO,＜クラウド、『ジンクバッテリー』を手に入れる＞
+    CH03,WM WEAPON STORE,INFO,CLOUD,＜選択肢：「わかった、買おう」or「信じられないな」→「わかった、買おう」を選択＞,"<Options: 'Okay, I'll buy it' or 'I don't believe it' -> Select 'Okay, I'll buy it' >.",,,
+    CH03,WM WEAPON STORE,INFO,CLOUD,＜クラウド、『ジンクバッテリー』を手に入れる＞,"<Cloud, getting a 'zinc battery'.",,,
     CH03,WALL MARKET,子供Ａ,CHILD A,「すんごいの見れんだぜ。　ついてこいよ」
-    CH03,PLATE CROSS SECTION,INFO,INFO,＜プレート断面＞
+    CH03,PLATE CROSS SECTION,INFO,INFO,＜プレート断面＞,<Plate cross section >.,,,
     CH03,PLATE CROSS SECTION,子供Ｃ,CHILD B,「みんなこのワイヤーを登って 上にいっちゃったよ。こわくないのかな……ブルブル」
     CH03,PLATE CROSS SECTION,ティファ,TIFA,「これ、のぼれるの？」
     CH03,PLATE CROSS SECTION,子供Ｃ,CHILD B,「うん。上の世界につながってるんだよ」
@@ -1535,7 +1535,7 @@ export default () => {
     CH03,PLATE CROSS SECTION,ティファ,TIFA,「そうね、エアリスを救うために 残された道は、これだけだもんね」
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「よくわからないたとえだったが バレット、あんたの気持ちはわかった」
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「行くぞ！」
-    CH03,PLATE CROSS SECTION,INFO,INFO,＜クラウド一行、ワイヤークライミングに挑戦＞
+    CH03,PLATE CROSS SECTION,INFO,CLOUD,＜クラウド一行、ワイヤークライミングに挑戦＞,＜The Cloud team tried their hand at wire climbing.,,,
     CH03,PLATE CROSS SECTION,子供Ａ,CHILD A,「うわ～！ すげ～、ヒサン……」
     CH03,PLATE CROSS SECTION,子供Ｂ,CHILD C,「な、こえ～だろ？ とうちゃんは「しんら」ってやつのしわざだっていってたよ」
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「……バッテリーをはめれば」
@@ -1544,7 +1544,7 @@ export default () => {
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「ここにもバッテリーが必要だな」
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「どうやら、あれに飛び移るしかないようだな」
     CH03,PLATE CROSS SECTION,クラウド,CLOUD,「あれが、いちばん近づく前に ジャンプすればよさそうだな。 （○ボタンでジャンプ）」
-    CH03,IN FRONT OF SHINRA,INFO,INFO,＜クラウド一行、神羅ビル前へ辿り着く＞
+    CH03,IN FRONT OF SHINRA,INFO,CLOUD,＜クラウド一行、神羅ビル前へ辿り着く＞,＜Cloud and his party arrive in front of the Shinra Building.,,,
     CH03,IN FRONT OF SHINRA,バレット,BARRET,「おい、このビルにはくわしいんだろ？」
     CH03,IN FRONT OF SHINRA,クラウド,CLOUD,「……知らない。そういえば本社に来るのは初めてだ」
     CH03,IN FRONT OF SHINRA,バレット,BARRET,「前にきいたことあるぜ」
@@ -1557,9 +1557,9 @@ export default () => {
     CH03,IN FRONT OF SHINRA,バレット,BARRET,「そんなコトやってられねえ！ グズグズしてたら エアリスだって」
     CH03,IN FRONT OF SHINRA,ティファ,TIFA,「それはわかるけど！ ここで私たちまでつかまったら……」
     CH03,IN FRONT OF SHINRA,ティファ,TIFA,「ね、クラウド。……どうしたらいいの？」
-    CH03,IN FRONT OF SHINRA,INFO,INFO,＜選択肢：「つっこむぞ！」or「コッソリ行こう」→「コッソリ行こう」を選択＞
+    CH03,IN FRONT OF SHINRA,INFO,CLOUD,＜選択肢：「つっこむぞ！」or「コッソリ行こう」→「コッソリ行こう」を選択＞,"＜Choice: ""Let's get stuck in!"" OR ""Let's go in secretly"" -> Select ""Let's go in secretly"" >.",,,
     CH03,IN FRONT OF SHINRA,ティファ,TIFA,「でしょ？ こんな時こそしんちょうに他のルートを探しましょ！」
-    CH03,SHINRA FIRE ESCAPE,INFO,INFO,＜神羅ビル・非常階段＞
+    CH03,SHINRA FIRE ESCAPE,INFO,INFO,＜神羅ビル・非常階段＞,"<Jinra Building, fire escape.",,,
     CH03,SHINRA FIRE ESCAPE,バレット,BARRET,「おい…… ホンキでこれ、上までのぼるつもりか……？」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「しょうがないでしょ。エアリスを無事に助けるためよ」
     CH03,SHINRA FIRE ESCAPE,バレット,BARRET,「しかし、いくら見つかりにくいったって こいつは……」
@@ -1594,7 +1594,7 @@ export default () => {
     CH03,SHINRA FIRE ESCAPE,バレット,BARRET,「元ソルジャーみたいな と、特別製と…… いっしょにしないでくれ……」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「私だって普通だってば！ 先に行っちゃうわよ！」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「……？」
-    CH03,SHINRA FIRE ESCAPE,INFO,INFO,＜ティファ、スカートを押さえる＞
+    CH03,SHINRA FIRE ESCAPE,INFO,TIFA,＜ティファ、スカートを押さえる＞,"＜Tiffany, hold her skirt.",,,
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「キャッ！！ ヤダ、バレット！ やっぱり先に行って！」
     CH03,SHINRA FIRE ESCAPE,バレット,BARRET,「バ、バカ！ オレはそんなつもりじゃ……」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「いいから！」
@@ -1613,31 +1613,31 @@ export default () => {
     CH03,SHINRA FIRE ESCAPE,バレット,BARRET,「か……階段なんて……もう見るのもゴメンだ……」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「ハア……ハア……さすがにこれは……こたえたわ……ね……」
     CH03,SHINRA FIRE ESCAPE,ティファ,TIFA,「……でも、これからが本番よね。元気出していかなきゃ……！」
-    CH03,SHINRA 59TH FLOOR,INFO,INFO,＜神羅ビル59階＞
+    CH03,SHINRA 59TH FLOOR,INFO,INFO,＜神羅ビル59階＞,"<59th floor, Shinra Building>.",,,
     CH03,SHINRA 59TH FLOOR,警備兵,SOLDIER GUARD,「侵入者を排除しろ！」
-    CH03,SHINRA 59TH FLOOR,INFO,INFO,＜戦闘：強化戦闘員Ａ&Ｂ&Ｃ＞ /n ＜強化戦闘員Ａ&Ｂ&Ｃを撃破＞ /n ＜戦闘終了＞
+    CH03,SHINRA 59TH FLOOR,INFO,INFO,＜戦闘：強化戦闘員Ａ&Ｂ&Ｃ＞ /n ＜強化戦闘員Ａ&Ｂ&Ｃを撃破＞ /n ＜戦闘終了＞,<Combat: enhanced combatants A&B&C>.,,,
     CH03,SHINRA 59TH FLOOR,クラウド,CLOUD,「これは……」
-    CH03,SHINRA 59TH FLOOR,INFO,INFO,＜クラウド、警備兵が落とした『カードキー60』を拾った＞
+    CH03,SHINRA 59TH FLOOR,INFO,CLOUD,＜クラウド、警備兵が落とした『カードキー60』を拾った＞,"＜Cloud, I picked up a 'card key 60' that was dropped by a guard.",,,
     CH03,SHINRA ELEVATOR,INFO,INFO,＜エレベーター＞
     CH03,SHINRA ELEVATOR,バレット,BARRET,「ここからが本番だ。ゆだんするな」
     CH03,SHINRA ELEVATOR,ティファ,TIFA,「エアリス、無事だといいね」
-    CH03,SHINRA 60TH FLOOR CHECKROOM,INFO,INFO,＜神羅ビル60階チェックルーム＞
+    CH03,SHINRA 60TH FLOOR CHECKROOM,INFO,INFO,＜神羅ビル60階チェックルーム＞,"<Checkroom, 60th floor, Shinra Building>.",,,
     CH03,SHINRA 60TH FLOOR CHECKROOM,バレット,BARRET,「みろよ、警備のやつらがウロウロしてやがるぜ」
     CH03,SHINRA 60TH FLOOR CHECKROOM,バレット,BARRET,「クラウド、まずおまえが さきに行ってあいずしてくれ。オレたちがあとにつづく」
-    CH03,SHINRA 60TH FLOOR CHECKROOM,INFO,INFO,＜クラウド、ティファ、バレット、それぞれ物陰に隠れながら、警備兵に見つからず、進む。→見事、一発成功＞
+    CH03,SHINRA 60TH FLOOR CHECKROOM,INFO,CLOUD,＜クラウド、ティファ、バレット、それぞれ物陰に隠れながら、警備兵に見つからず、進む。→見事、一発成功＞,"＜Cloud, Tifa and Barrett, each hiding in the shadows, proceed without being seen by the guards. <You succeeded with a single shot.",,,
     CH03,SHINRA 60TH FLOOR CHECKROOM,バレット,BARRET,「よし！ ガンガンいくぞ！」
     CH03,SHINRA 60TH FLOOR CHECKROOM,ティファ,TIFA,「忘れないで！ 私たちの目的はあくまでもエアリスを助けだすこと」
     CH03,SHINRA 60TH FLOOR CHECKROOM,バレット,BARRET,「わかってるって！」
-    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,INFO,＜神羅ビル61階リフレッシュルーム＞
+    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,INFO,＜神羅ビル61階リフレッシュルーム＞,"<Refreshment room, 61st floor, Shinra Building>.",,,
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「なんだお前は？ こんなところで何をしている？」
-    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,INFO,＜選択肢：「エアリスはどこだ！」or「…………」→「…………」を選択＞
+    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,CLOUD,＜選択肢：「エアリスはどこだ！」or「…………」→「…………」を選択＞,"<Options: 'Where's Aeris!' OR ""............"" -> Select ""............"" >",,,
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「ハハーン……わかったぞ。さてはお前、アレだな？ いまウワサの……」
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「神羅カンパニー修理課！！」
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「いや～、このビルも そろそろあちこちにガタがきててなあ」
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「この階のドア 開きっぱなしなんだ。早く直してくれよな」
     CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,重役社員,EXECUTIVE STAFF,「あ、そうそういちおう他の階も見回ってくれよ。これ、やるから」
-    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,INFO,＜クラウド、『カードキー62』を受け取る＞
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜神羅ビル62階資料室＞
+    CH03,SHINRA 61ST FLOOR REFRESHMENT ROOM,INFO,CLOUD,＜クラウド、『カードキー62』を受け取る＞,＜Cloud receives 'card key 62'.,,,
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜神羅ビル62階資料室＞,"<Resource room, 62nd floor, Shinra Building>.",,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「あ～？ なんだキミたちは？」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「ああ、キミらが例の…… 私？ 私はこの魔晄炉都市ミッドガルの市長、ドミノだ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「とは言っても名前だけ。ホントのところ、ミッドガルのすべては神羅のものだ」
@@ -1648,49 +1648,49 @@ export default () => {
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「おまけに１回で当てたらナイスなおみやげもつけてやるぞ？」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉がわかったのか？ では言ってみたまえ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉は？」
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「魔晄爆発！！」を選択＞
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「魔晄爆発！！」を選択＞,"<Options: 'The Mayor is the best!!!' OR: ""Thera municipality sucks!"" or ""MAKING THE MAKING OF THE MAKING OF THE MAKING OF THE MAKEROID!"" or ""explosion of the mayor!"" or ""MOUNTAIN VOLUME EXPLODE!"" or ""Thera explosion!"" or ""Wait a minute,"" then ""Madame Vault explodes!"" Select...",,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「ぜんぜん違う！ もっとすばらしい言葉だ！ やり直し！」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉がわかったのか？ では言ってみたまえ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉は？」
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「神羅爆発」を選択＞
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「神羅爆発」を選択＞,"<Options: 'The Mayor is the best!!!' OR: ""Thera municipality sucks!"" or ""MAKING THE MAKING OF THE MAKING OF THE MAKING OF THE MAKEROID!"" or ""explosion of the mayor!"" or ""MOUNTAIN VOLUME EXPLODE!"" or ""Thera explosion!"" or ""Wait a minute,"" then select ""The Thera explosion.""",,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「ぜんぜん違う！ もっとすばらしい言葉だ！ やり直し！」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉がわかったのか？ では言ってみたまえ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「合言葉は？」
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「市長最高」を選択＞
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜選択肢：「市長最高！！」or「神羅最低！！」or「魔晄最高！！」or「市長爆発！！」or「魔晄爆発！！」or「神羅爆発！！」or「ちょっと待ってくれ」→「市長最高」を選択＞,"<Options: 'The Mayor is the best!!!' OR: ""Thera municipality sucks!"" or ""MAKING THE MAKING OF THE MAKING OF THE MAKING OF THE MAKEROID!"" or ""explosion of the mayor!"" or ""MOUNTAIN VOLUME EXPLODE!"" or ""Thera explosion!"" or ""Wait a minute"" and then select ""Mayor Supreme.""",,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「市　長　最　高　！！」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「なんとすばらしいひびき！ そのとおり！ ミッドガルの市長は最高！ 誰が何と言おうと最高！」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「……フン、まあいいだろう。ホラ、持っていけ」
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜クラウド、『カードキー65』を受け取る＞
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,CLOUD,＜クラウド、『カードキー65』を受け取る＞,＜Cloud receives 'card key 65'.,,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「なるほど……ま、キミらならこんなものかな」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「それでは、キミたちに あげるのもこんなものだ」
-    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,INFO,＜クラウド、『エーテル』を受け取る＞
+    CH03,SHINRA 62ND FLOOR RESOURCE ROOM,INFO,CLOUD,＜クラウド、『エーテル』を受け取る＞,＜Cloud receives 'ether'.,,,
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「なんでこんなコトするか？」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「きまってるじゃないか。イヤガラセだよ。イヤガラセ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「いいか、神羅はずっと私を苦しめてきたんだぞ」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「だから私はここでキミたちをなやませ 今度はキミたちが上へ行って神羅のやつらを困らせる」
     CH03,SHINRA 62ND FLOOR RESOURCE ROOM,ドミノ,DOMINO,「どうだ、これでおあいこだろ。ヒ、ヒヒ、ヒヒヒ……」
-    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,INFO,＜神羅ビル65階ミニチュアフロア＞
+    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,INFO,＜神羅ビル65階ミニチュアフロア＞,<Miniature floor on the 65th floor of the Shinra Building>.,,,
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「ミッドガル…… 魔晄エネルギーを吸い出し 生きつづける都市の模型か……」
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「この建設中の６番街が完成したとき、神羅の野望も完全なものとなる」
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「その野望のためにエアリスを……？」
-    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,INFO,＜クラウド、宝箱から『ミッドガルパーツ』を手に入れる＞
+    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,CLOUD,＜クラウド、宝箱から『ミッドガルパーツ』を手に入れる＞,"<Cloud, getting 'Midgal Parts' from the treasure chest.",,,
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「ミッドガル…… 魔晄エネルギーを吸い出し 生きつづける都市の模型か……」
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「この建設中の６番街が完成したとき、神羅の野望も完全なものとなる」
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「模型が欠けている……」
-    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,INFO,＜選択肢：「ミッドガルパーツをはめよう」or「ほうっておこう」→「ミッドガルパーツをはめよう」を選択＞
+    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,CLOUD,＜選択肢：「ミッドガルパーツをはめよう」or「ほうっておこう」→「ミッドガルパーツをはめよう」を選択＞,<Option: 'Fit the midgal parts' or 'Leave it alone' → Select 'Fit the midgal parts' >.,,,
     CH03,SHINRA 65TH FLOOR MODEL DISPLAY,クラウド,CLOUD,「……なにかが開いたような音がしたな……」
-    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,INFO,＜これを計５回続けて、欠けた模型を補綴する。→すると最後の宝箱が開いて、『カードキー66』を手に入れる＞
-    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,INFO,INFO,＜神羅ビル66階会議室フロア＞
+    CH03,SHINRA 65TH FLOOR MODEL DISPLAY,INFO,CLOUD,＜これを計５回続けて、欠けた模型を補綴する。→すると最後の宝箱が開いて、『カードキー66』を手に入れる＞,"<Continue this a total of five times to replace the missing model. <Then the last treasure chest will open and you will get ""Card Key 66"".",,,
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,INFO,INFO,＜神羅ビル66階会議室フロア＞,"<Shinra Building, 66th floor, conference room floor>.",,,
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,OL神羅,OL LADY,「はぁ～ もうファイル運びはうんざり……」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,OL神羅,OL LADY,「でもいろんな男の人との出会いがある。それがOLの特権ね！」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,サラリーマン神羅,SHINRA MIDDLE MANAGER,「なんかこう、生きがいってものを感じるよな。世界をこの手で動かしているっていうこの感じ」
-    CH03,SHINRA TOILET,INFO,INFO,＜個室トイレ＞
-    CH03,SHINRA TOILET,INFO,INFO,＜選択肢：「汚いから長そうか？」or「登ってみようか？」or「やっぱり出よう」→「登ってみようか？」を選択＞
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,INFO,INFO,＜クラウド、通気孔へ潜入。→通気孔の奥へ進み、会議室を覗き見る＞
+    CH03,SHINRA TOILET,INFO,INFO,＜個室トイレ＞,<Private toilet.,,,
+    CH03,SHINRA TOILET,INFO,CLOUD,＜選択肢：「汚いから長そうか？」or「登ってみようか？」or「やっぱり出よう」→「登ってみようか？」を選択＞,"<Option: 'Too dirty, too long?' OR ""Shall we climb?"" or ""Let's get out after all"" -> ""Shall we try to climb?"" Choice >.",,,
+    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,INFO,CLOUD,＜クラウド、通気孔へ潜入。→通気孔の奥へ進み、会議室を覗き見る＞,"<Cloud, sneak into the vent. <Going to the back of the vent, peering into the conference room>.",,,
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,バレット,BARRET,「ヒュ～！ そうそうたる顔ぶれだぜ」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,リーブ,REEVES,「７番街の被害報告が出ました」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,リーブ,REEVES,「すでに稼動していた工場部分と現在までの投資額を考えると 我が社の損害は100億ギルはくだらないかと……」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,リーブ,REEVES,「また７番プレートの再建にかかる費用は……」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,リーブ,REEVES,「７番街の被害報告が出ました」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,リーブ,REEVES,「すでに稼動していた工場部分と現在までの投資額を考えると 我が社の損害は100億ギルはくだらないかと……」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,リーブ,REEVES,「また７番プレートの再建にかかる費用は……」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「再建はしない」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,リーブ,REEVES,「は？」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「７番プレートはこのまま放っておく」
@@ -1701,11 +1701,11 @@ export default () => {
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,パルマー,PALMER,「値上げ値上げ！ うひょひょひょひょ！ ぜひ我が宇宙開発部にも予算を！」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「魔晄料金値上げによる差益は リーブくんとスカーレットくんで分配したまえ」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,パルマー,PALMER,「いいないいな！」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,リーブ,REEVES,「プレジデント。これ以上の魔晄料金の値上げは住民の不満をまねき……」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,プレジデント神羅,PRESIDENT SHINRA,「だいじょうぶだ」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,プレジデント神羅,PRESIDENT SHINRA,「おろかな住民たちは不満をどころか ますます神羅カンパニーに信頼をよせることになる」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,ハイデッカー,HEIDEGGER,「ガハハハハ！」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,ハイデッカー,HEIDEGGER,「テロリストどもから７番街の市民を救ったのは 神羅カンパニーですからな！」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,リーブ,REEVES,「プレジデント。これ以上の魔晄料金の値上げは住民の不満をまねき……」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「だいじょうぶだ」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「おろかな住民たちは不満をどころか ますます神羅カンパニーに信頼をよせることになる」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,ハイデッカー,HEIDEGGER,「ガハハハハ！」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,ハイデッカー,HEIDEGGER,「テロリストどもから７番街の市民を救ったのは 神羅カンパニーですからな！」
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,バレット,BARRET,「汚ねえ……」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「おお、宝条くん。あの娘はどうかね」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,宝条,PROF. HOJO,「サンプルとしては母親におとる。母親イファルナとの比較中だが初期段階で相違が18％」
@@ -1714,38 +1714,38 @@ export default () => {
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,宝条,PROF. HOJO,「だから古代種を繁殖させようと思うのだ。しかも、長命で実験に耐えうる強さを持たせることができる」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「約束はどうなる？ 計画に支障はでないのか？」
     CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「……そのつもりだ。母は強く……そして弱みを持つ」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,プレジデント神羅,PRESIDENT SHINRA,「では、会議を終わる」
-    CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,スカーレット,SCARLET,「臭うわね……」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,プレジデント神羅,PRESIDENT SHINRA,「では、会議を終わる」
+    CH03,SHINRA 66TH FLOOR CONFERENCE ROOM,スカーレット,SCARLET,「臭うわね……」
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,クラウド,CLOUD,「いまのはエアリスの話……だよな」
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,バレット,BARRET,「わかんねえ」
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,ティファ,TIFA,「たぶん、ね」
     CH03,SHINRA TOILET VENT - SHINRA MEETING ROOM,クラウド,CLOUD,「あとをつけよう」
-    CH03,DARKNESS,INFO,INFO,＜クラウド一行、宝条のあとをつける＞
+    CH03,DARKNESS,INFO,CLOUD,＜クラウド一行、宝条のあとをつける＞,＜Cloud and his party follow Houjou.,,,
     CH03,DARKNESS,クラウド,CLOUD,「宝条……ってやつか……」
-    CH03,SHINRA LAB,INFO,INFO,＜神羅ビル67階研究室フロア＞
+    CH03,SHINRA LAB,INFO,INFO,＜神羅ビル67階研究室フロア＞,"<Laboratory floor, 67th floor, Shinra Building>.",,,
     CH03,SHINRA LAB,バレット,BARRET,「思い出したぜ」
     CH03,SHINRA LAB,バレット,BARRET,「あの宝条ってやつ。神羅の科学部門の責任者だ。クラウド、知らねえのか？」
     CH03,SHINRA LAB,クラウド,CLOUD,「じっさい見るのは初めてだ。そうか……あいつが……」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜67階サンプル室＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜67階サンプル室＞,"<Sample room, 67th floor>.",,,
     CH03,SHINRA LAB SAMPLE ROOM,研究員,RESEARCHER,「今日の実験サンプルはそいつですか？」
     CH03,SHINRA LAB SAMPLE ROOM,宝条,PROF. HOJO,「そうだ。すぐ実験にとりかかる。上の階をあげてくれ」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜研究員、去る＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,RESEARCHER,＜研究員、去る＞,"<Researcher, leaving>.",,,
     CH03,SHINRA LAB SAMPLE ROOM,宝条,PROF. HOJO,「かわいいサンプルよ……」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜宝条も去り、クラウドたちがサンプルの前に駆け寄る＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,PROF. HOJO,＜宝条も去り、クラウドたちがサンプルの前に駆け寄る＞,"<Hojo leaves, and Cloud and his team rush to the front of the sample.",,,
     CH03,SHINRA LAB SAMPLE ROOM,ティファ,TIFA,「かわいいサンプルよ…か」
     CH03,SHINRA LAB SAMPLE ROOM,ティファ,TIFA,「生物実験に使われるのかな？」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜クラウド、何かを見つけ、その機械に寄る＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,CLOUD,＜クラウド、何かを見つけ、その機械に寄る＞,"<Cloud, find something and drop by that machine>.",,,
     CH03,SHINRA LAB SAMPLE ROOM,クラウド,CLOUD,「ジェノバ……」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜中には首のない“人間”が……＞
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜クラウド、頭をかかえ、倒れ込む＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜中には首のない“人間”が……＞,"<Inside is a headless ""human being"" ......>",,,
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,CLOUD,＜クラウド、頭をかかえ、倒れ込む＞,"＜Cloud, clutching his head, collapses.",,,
     CH03,SHINRA LAB SAMPLE ROOM,クラウド,CLOUD,「ジェノバ…… セフィロスの…… そうか……ここに運んだのか」
     CH03,SHINRA LAB SAMPLE ROOM,ティファ,TIFA,「クラウド、しっかりして！」
     CH03,SHINRA LAB SAMPLE ROOM,クラウド,CLOUD,「見たか？」
     CH03,SHINRA LAB SAMPLE ROOM,バレット,BARRET,「何を？」
     CH03,SHINRA LAB SAMPLE ROOM,クラウド,CLOUD,「動いてる……生きてる？」
-    CH03,SHINRA LAB SAMPLE ROOM,INFO,INFO,＜バレット、除き込む＞
+    CH03,SHINRA LAB SAMPLE ROOM,INFO,BARRET,＜バレット、除き込む＞,"＜Barrett, except…",,,
     CH03,SHINRA LAB SAMPLE ROOM,バレット,BARRET,「何だい、この首なしは？ けっ、バカバカしい。さっさと行こうぜ」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜神羅ビル68階実験室フロア＞
+    CH03,SHINRA LAB FLOOR,INFO,INFO,＜神羅ビル68階実験室フロア＞,"<Laboratory floor, 68th floor, Shinra Building>.",,,
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「エアリス！」
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「エアリス？ ああ、この娘の名前だったな。何か用か？」
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「エアリスを返してもらおう」
@@ -1757,7 +1757,7 @@ export default () => {
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「くっ」
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「そうそう。こういう時こそ論理的思考によって 行動することをおすすめするよ」
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「さあ、サンプルを投入しろ！」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜エアリスの前に、あのサンプルが現れる＞
+    CH03,SHINRA LAB FLOOR,INFO,AERITH,＜エアリスの前に、あのサンプルが現れる＞,＜The sample appears in front of Aeris.,,,
     CH03,SHINRA LAB FLOOR,エアリス,AERITH,「クラウド、助けて！」
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「何をする気だ！」
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「滅びゆく種族に愛の手を…… どちらも絶滅まぢかだ」
@@ -1767,9 +1767,9 @@ export default () => {
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「バレット！ 何とかならないのか？」
     CH03,SHINRA LAB FLOOR,バレット,BARRET,「ええい！！ さがってろ！」
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「やめろ！！」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜バレット、銃で機械を破壊する＞
+    CH03,SHINRA LAB FLOOR,INFO,BARRET,＜バレット、銃で機械を破壊する＞,"<Barrett, guns destroy machines>.",,,
     CH03,SHINRA LAB FLOOR,宝条,PROF. HOJO,「な、なんていうことだ。大事なサンプルが……」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜ガラス管のゲートが開き、そこからサンプルが飛び出し、宝条に襲いかかる＞
+    CH03,SHINRA LAB FLOOR,INFO,PROF. HOJO,＜ガラス管のゲートが開き、そこからサンプルが飛び出し、宝条に襲いかかる＞,"＜The gate of the glass tube opens, samples fly out of it and attack Houjou.",,,
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「今のうちにエアリスを！」
     CH03,SHINRA LAB FLOOR,エアリス,AERITH,「ありがと、クラウド」
     CH03,SHINRA LAB FLOOR,ティファ,TIFA,「どうしたの？　クラウド……」
@@ -1780,12 +1780,12 @@ export default () => {
     CH03,SHINRA LAB FLOOR,レッド13,RED XIII,「あとでいくらでもしゃべってやるよ、おじょうさん」
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「あの化け物は俺たちがかたづける」
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「誰かエアリスを安全な所へ……」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜選択肢：「ティファ、頼んだぞ！」or「バレット、頼む！」→「バレット、頼む！」を選択＞
+    CH03,SHINRA LAB FLOOR,INFO,CLOUD,＜選択肢：「ティファ、頼んだぞ！」or「バレット、頼む！」→「バレット、頼む！」を選択＞,"<Option: ""Tifa, please!"" or ""Barrett, please!"" →Barrett, please! <Select>.",,,
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「おまえの名前は？」
     CH03,SHINRA LAB FLOOR,レッド13,RED XIII,「宝条は私をレッド13と名づけた。私にとって無意味な名前だ。好きなように呼んでくれ」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜レッド13の名前入力画面＞
+    CH03,SHINRA LAB FLOOR,INFO,INFO,＜レッド13の名前入力画面＞,<Red 13 name entry screen>.,,,
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「さあ、かかってこい！」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜戦闘：サンプル：H0512（後列）&サンプル：H0512-OPT Ａ&Ｂ&Ｃ＞ /n ＜H0512（後列）&サンプル：H0512-OPT Ａ&Ｂ&Ｃを撃破＞ /n ＜戦闘終了＞
+    CH03,SHINRA LAB FLOOR,INFO,INFO,＜戦闘：サンプル：H0512（後列）&サンプル：H0512-OPT Ａ&Ｂ&Ｃ＞ /n ＜H0512（後列）&サンプル：H0512-OPT Ａ&Ｂ&Ｃを撃破＞ /n ＜戦闘終了＞,<Combat: Sample: H0512 (back row) & Sample: H0512-OPT A&B&C>.,,,
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「エアリス、だいじょうぶか？」
     CH03,SHINRA LAB FLOOR,ティファ,TIFA,「だいじょうぶみたいよ。……いろんな意味でね」
     CH03,SHINRA LAB FLOOR,レッド13,RED XIII,「……私にも選ぶ権利がある。二本足は好みじゃない」
@@ -1796,16 +1796,16 @@ export default () => {
     CH03,SHINRA LAB FLOOR,レッド13,RED XIII,「さっきは失礼したな。宝条を油断させるために演技をしたつもりだったが……」
     CH03,SHINRA LAB FLOOR,バレット,BARRET,「さあ、エアリスを助ければもうこんなビルには用はない！ さっさと出ちまおうぜ」
     CH03,SHINRA LAB FLOOR,クラウド,CLOUD,「５人で行動していたら目立つ。二手に別れよう」
-    CH03,SHINRA LAB FLOOR,INFO,INFO,＜パーティー組替え：クラウド・ティファ・エアリス、バレット・レッド13＞
+    CH03,SHINRA LAB FLOOR,INFO,INFO,＜パーティー組替え：クラウド・ティファ・エアリス、バレット・レッド13＞,"<Party reconfiguration: Cloud, Tifa and Aerith, Barrett, Red 13>.",,,
     CH03,SHINRA LAB FLOOR,バレット,BARRET,「あとでな！　66階エレベーターで合流だ！」
     CH03,SHINRA LAB FLOOR,レッド13,RED XIII,「遅れるなよ。エレベーターの場所はわかっているな？ 66階だぞ」
-    CH03,SHINRA ELEVATOR,INFO,INFO,＜神羅ビル66階・エレベーター＞
+    CH03,SHINRA ELEVATOR,INFO,INFO,＜神羅ビル66階・エレベーター＞,"<66th floor, Shinra Building, elevator>.",,,
     CH03,SHINRA ELEVATOR,クラウド,CLOUD,「お、おい！　何だ？」
     CH03,SHINRA ELEVATOR,ルード,RUDE,「上を押してもらおうか？」
     CH03,SHINRA ELEVATOR,クラウド,CLOUD,「タークス？ ワナ……か」
     CH03,SHINRA ELEVATOR,ツォン,TSENG,「スリリングな気分をあじわえたと思うが……楽しんでもらえたかな？」
     CH03,SHINRA ELEVATOR,クラウド,CLOUD,「くっ！」
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞
+    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞,"<President's office, 70th floor, Shinra Building>.",,,
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「みんなもつかまっちまったのか…… ……………？」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「エアリスはどこだ！」
     CH03,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「あれは貴重な古代種の生き残りだからな」
@@ -1825,13 +1825,13 @@ export default () => {
     CH03,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「さて、会見はこれで終わりだ」
     CH03,PRESIDENT'S OFFICE,ルード,RUDE,「さあ！　さがれ！」
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「待ちやがれ！ テメエには言いたいことが山ほどあるんだ！」
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜バレット、プレジデント神羅に襲いかかるも、ルードに阻まれる。→結局、全員連れて行かれる＞
+    CH03,PRESIDENT'S OFFICE,INFO,BARRET,＜バレット、プレジデント神羅に襲いかかるも、ルードに阻まれる。→結局、全員連れて行かれる＞,"<Barrett attacks President Shinra, but is blocked by Rood. →In the end, they are all taken out.",,,
     CH03,PRESIDENT'S OFFICE,プレジデント神羅,PRESIDENT SHINRA,「何かあるなら…… 秘書をとおしてくれたまえ」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜神羅ビル67階独房に入れられる。クラウド・ティファ、エアリス一人、バレット・レッド13の３部屋に＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜神羅ビル67階独房に入れられる。クラウド・ティファ、エアリス一人、バレット・レッド13の３部屋に＞,"<Taken to solitary confinement on the 67th floor of the Shinra Building. Cloud Tifa, Aerith alone and Barrett Red 13 in three rooms>.",,,
     CH03,SHINRA 67TH FLOOR JAIL,ティファ,TIFA,「ヒソヒソ（逃げられるかな？）」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜選択肢：（俺にまかせておけ）or（ちょっとキビシイな）→（俺にまかせておけ）を選択＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,CLOUD,＜選択肢：（俺にまかせておけ）or（ちょっとキビシイな）→（俺にまかせておけ）を選択＞,<Option: (Leave it to me) OR (It's a bit tight) -> Select (Leave it to me)>.,,,
     CH03,SHINRA 67TH FLOOR JAIL,ティファ,TIFA,「ヒソヒソ（クラウド、たのもしい！）」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜選択肢：「バレットはどうしてるかな」or「レッド13はどうしてるかな」or「エアリスはどうしてるかな」→「エアリスはどうしてるかな」を選択＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,CLOUD,＜選択肢：「バレットはどうしてるかな」or「レッド13はどうしてるかな」or「エアリスはどうしてるかな」→「エアリスはどうしてるかな」を選択＞,<Option: 'I wonder how Barrett is doing' OR 'I wonder how Red 13 is doing' OR 'I wonder how Aerith is doing' -> Select 'I wonder how Aerith is doing',,,
     CH03,SHINRA 67TH FLOOR JAIL,エアリス,AERITH,「クラウド、そこにいるの？」
     CH03,SHINRA 67TH FLOOR JAIL,クラウド,CLOUD,「エアリス！？　無事か？」
     CH03,SHINRA 67TH FLOOR JAIL,エアリス,AERITH,「うん、だいじょぶ」
@@ -1859,29 +1859,29 @@ export default () => {
     CH03,SHINRA 67TH FLOOR JAIL,エアリス,AERITH,「いつかミッドガルから逃げなさい。星と話して、エアリスの約束の地 見つけなさい」
     CH03,SHINRA 67TH FLOOR JAIL,エアリス,AERITH,「……母さんが言ってた」
     CH03,SHINRA 67TH FLOOR JAIL,エアリス,AERITH,「大人になったら聞こえなくなるんだと思ってたけど……」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜選択肢：「バレットはどうしてるかな」or「レッド13はどうしてるかな」or「とりあえず眠っておこう」→「バレットはどうしてるかな」を選択＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,CLOUD,＜選択肢：「バレットはどうしてるかな」or「レッド13はどうしてるかな」or「とりあえず眠っておこう」→「バレットはどうしてるかな」を選択＞,<Options: 'I wonder how Barrett is doing' OR 'I wonder how Red 13 is doing' OR 'Let's just sleep for now' -> Select 'I wonder how Barrett is doing',,,
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「おい」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「エアリスは古代種で 古代種の本当の呼び名はセトラ」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「それで古代種は約束の地って場所を知っていて、神羅はその約束の地が欲しい、と」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「でも、約束の地ってのは 言い伝えに出てくるだけで 本当にあるのかどうかはわからねえ」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「これでいいのか？」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜レッド13、聞く耳持たず＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,RED XIII,＜レッド13、聞く耳持たず＞,"<Red 13, not listening>.",,,
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「約束の地には豊富な魔晄エネルギーがあると 神羅の連中は考えてる」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「ってえことは、神羅はそこに行ったら また魔晄エネルギーをガンガン吸い上げちまうってことだ」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「……そこも土地が枯れちまうな。星が……病んでいくわけだ」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「放っちゃおけねえ！ アバランチ、メンバー募集だ」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「オレ、ティファ、クラウド…… それにエアリスもだな」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「おめえ、どうだ？」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜レッド13、興味なし＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,RED XIII,＜レッド13、興味なし＞,"<Red 13, not interested>.",,,
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「つまんねえやろうだぜ」
-    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜選択肢：「レッド13はどうしてるかな」or「とりあえず眠っておこう」→「レッド13はどうしてるかな」を選択＞
+    CH03,SHINRA 67TH FLOOR JAIL,INFO,INFO,＜選択肢：「レッド13はどうしてるかな」or「とりあえず眠っておこう」→「レッド13はどうしてるかな」を選択＞,<Option: 'I wonder how Red 13 is doing' or 'Let's sleep for now' -> Select 'I wonder how Red 13 is doing'.,,,
     CH03,SHINRA 67TH FLOOR JAIL,レッド13,RED XIII,「……………………じっちゃん」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「じっちゃん！？　へへへへ じっちゃん、ねえ……へへへへ」
     CH03,SHINRA 67TH FLOOR JAIL,レッド13,RED XIII,「なにがおかしい」
     CH03,SHINRA 67TH FLOOR JAIL,バレット,BARRET,「いや、べつに……へへへ」
-    CH03,DARKNESS,INFO,INFO,＜クラウド、とりあえず眠る＞ /n ＜そして……＞
+    CH03,DARKNESS,INFO,CLOUD,＜クラウド、とりあえず眠る＞ /n ＜そして……＞,"＜Cloud, sleep for now.",,,
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,クラウド,CLOUD,「ドアが開いている…… いつの間に？」
-    CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,INFO,INFO,＜クラウド、すぐそこの廊下の端で、警備兵の死体を見つける＞
+    CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,INFO,CLOUD,＜クラウド、すぐそこの廊下の端で、警備兵の死体を見つける＞,"＜Cloud, right there, at the end of the corridor, we find a dead guard.",,,
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,クラウド,CLOUD,「どうしたんだ？」
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,クラウド,CLOUD,「ティファ……起きろ！」
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,ティファ,TIFA,「どうしたの？」
@@ -1898,22 +1898,22 @@ export default () => {
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,レッド13,RED XIII,「私がこの先の様子を見てくる」
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,バレット,BARRET,「こいつの後始末はオレにまかせて おまえらは先に行け。神羅に見つからねえうちによ！」
     CH03,SHINRA 67TH FLOOR CORRIDOR BLOODIED,ティファ,TIFA,「さ、レッド13の後を追いましょう」
-    CH03,SHINRA LAB SAMPLE ROOM BLOODIED,INFO,INFO,＜神羅ビル67階サンプル室＞
-    CH03,SHINRA LAB SAMPLE ROOM BLOODIED,INFO,INFO,＜血まみれの研究員の死体が無造作に置かれている。あの機械の中にいた首なし“人間”もない＞
+    CH03,SHINRA LAB SAMPLE ROOM BLOODIED,INFO,INFO,＜神羅ビル67階サンプル室＞,"<Sample room, 67th floor, Shinra Building>.",,,
+    CH03,SHINRA LAB SAMPLE ROOM BLOODIED,INFO,INFO,＜血まみれの研究員の死体が無造作に置かれている。あの機械の中にいた首なし“人間”もない＞,"＜The bloodied corpse of a researcher is left in a haphazard manner. The headless ""human"" that was inside the machine is also missing.",,,
     CH03,SHINRA LAB SAMPLE ROOM BLOODIED,レッド13,RED XIII,「ジェノバ・サンプル…… 察するに上の階に向かったようだ。奥のサンプル用エレベーターを使ってな」
-    CH03,SHINRA LAB EXPERIMENT FLOOR BLOODIED,INFO,INFO,＜神羅ビル68階実験フロア＞
+    CH03,SHINRA LAB EXPERIMENT FLOOR BLOODIED,INFO,INFO,＜神羅ビル68階実験フロア＞,"<Experimental floor, 68th floor, Shinra Building>.",,,
     CH03,SHINRA LAB EXPERIMENT FLOOR BLOODIED,レッド13,RED XIII,「何か目的に向かっているような…… 上に……？」
-    CH03,SHINRA LAB EXPERIMENT FLOOR BLOODIED,INFO,INFO,＜クラウド一行、血痕を追って上へ＞
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜バレットたちと合流＞
+    CH03,SHINRA LAB EXPERIMENT FLOOR BLOODIED,INFO,INFO,＜クラウド一行、血痕を追って上へ＞,＜Cloud and his party followed the blood trail up.,,,
+    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜神羅ビル70階社長室＞,"<President's office, 70th floor, Shinra Building>.",,,
+    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜バレットたちと合流＞,<Meet up with Barrett and the others.,,,
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「死んでる…… 神羅カンパニーのボスが死んだ……」
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜ティファ、プレジデント神羅の死体に近付く＞
+    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜ティファ、プレジデント神羅の死体に近付く＞,＜Tiffany approaches the dead body of President Shinra.,,,
     CH03,PRESIDENT'S OFFICE,ティファ,TIFA,「この刀は？！」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「セフィロスのものだ！！」
     CH03,PRESIDENT'S OFFICE,ティファ,TIFA,「……セフィロスは生きているのね？」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「……そうみたいだな。この刀を使えるのは セフィロスしかいないはずだ」
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「誰がやったっていいじゃねえか！ これで神羅も終わりだ！」
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜そこへ、隠れていたパルマーが出てくる＞
+    CH03,PRESIDENT'S OFFICE,INFO,BARRET,＜そこへ、隠れていたパルマーが出てくる＞,＜Then Palmer comes out of hiding.,,,
     CH03,PRESIDENT'S OFFICE,パルマー,PALMER,「うひょ！」
     CH03,PRESIDENT'S OFFICE,パルマー,PALMER,「こここここころさないでくれ！」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「何があったんだ？」
@@ -1928,14 +1928,14 @@ export default () => {
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「いいやつじゃねえのか？」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「約束の地を守る？ いいやつ？　ちがう！！」
     CH03,PRESIDENT'S OFFICE,クラウド,CLOUD,「そんな単純な話じゃない！ 俺は知ってるんだ！ セフィロスの目的はちがう！」
-    CH03,PRESIDENT'S OFFICE,INFO,INFO,＜パルマー、逃げ出す。すると、グランドガラス向こうにヘリコプターが現れる＞
+    CH03,PRESIDENT'S OFFICE,INFO,PALMER,＜パルマー、逃げ出す。すると、グランドガラス向こうにヘリコプターが現れる＞,<Palmer runs away. Then a helicopter appears behind the ground glass.,,,
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「ルーファウス！ しまった！　アイツがいたか！」
     CH03,PRESIDENT'S OFFICE,ティファ,TIFA,「誰なの？」
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「副社長ルーファウス。プレジデントの息子だ」
     CH03,PRESIDENT'S OFFICE,ティファ,TIFA,「どんな人なのかしら……」
     CH03,PRESIDENT'S OFFICE,エアリス,AERITH,「血も涙もない、そう聞いたこと、あるけど」
     CH03,PRESIDENT'S OFFICE,バレット,BARRET,「長期出張中だって聞いたぜ……」
-    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜神羅ビル70階ヘリポート＞
+    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜神羅ビル70階ヘリポート＞,<Heliport on the 70th floor of the Shinra Building>.,,,
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「そうか…… やはりセフィロスは生きていたか。……ところで」
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「おまえたちはなんだ？」
     CH03,SHINRA HELIPORT LEVEL 70,クラウド,CLOUD,「元ソルジャー・クラス１ST。クラウドだ」
@@ -1962,30 +1962,30 @@ export default () => {
     CH03,SHINRA HELIPORT LEVEL 70,バレット,BARRET,「なんだそりゃ？」
     CH03,SHINRA HELIPORT LEVEL 70,クラウド,CLOUD,「あとで話す！ いまは俺を信じてくれ！ 俺はこいつを倒してから行く！」
     CH03,SHINRA HELIPORT LEVEL 70,バレット,BARRET,「わかったぜ、クラウド！」
-    CH03,SHINRA 69 FLOOR,INFO,INFO,＜ビル69階秘書室＞
+    CH03,SHINRA 69 FLOOR,INFO,INFO,＜ビル69階秘書室＞,"<Secretariat, 69th floor of the building>.",,,
     CH03,SHINRA 69 FLOOR,エアリス,AERITH,「クラウド、なんか、思いつめてた」
     CH03,SHINRA 69 FLOOR,ティファ,TIFA,「……私、クラウドを待つわ！ みんなはエレベーターで先に！」
     CH03,SHINRA 69 FLOOR,エアリス,AERITH,「さあ、この先きっとガードがきびしくなるわ。装備をととのえておいたほうがいいわね」
-    CH03,SHINRA ELEVATOR,INFO,INFO,＜エレベーター＞
-    CH03,SHINRA ELEVATOR,INFO,INFO,＜戦闘：ハンドレッドガンナー＞ /n ＜ハンドレッドガンナーを撃破。→ヘリガンナー、登場＞ /n ＜そのまま戦闘：ヘリガンナー＞ /n ＜ヘリガンナーを撃破＞ /n ＜戦闘終了＞
-    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜神羅ビル70階ヘリポート＞
+    CH03,SHINRA ELEVATOR,INFO,INFO,＜エレベーター＞,<Elevator.,,,
+    CH03,SHINRA ELEVATOR,INFO,INFO,＜戦闘：ハンドレッドガンナー＞ /n ＜ハンドレッドガンナーを撃破。→ヘリガンナー、登場＞ /n ＜そのまま戦闘：ヘリガンナー＞ /n ＜ヘリガンナーを撃破＞ /n ＜戦闘終了＞,<Combat: Handed gunner>.,,,
+    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜神羅ビル70階ヘリポート＞,<Heliport on the 70th floor of the Shinra Building>.,,,
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「なぜ私と戦うのだ？」
     CH03,SHINRA HELIPORT LEVEL 70,クラウド,CLOUD,「おまえは約束の地を求めて セフィロスを追う」
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「ふむ、その通り」
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「ん？　おまえ、セフィロスが古代種だと知っているのか？」
     CH03,SHINRA HELIPORT LEVEL 70,クラウド,CLOUD,「……いろいろあってな。とにかく、おまえにもセフィロスにも 約束の地はわたせない！」
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「なるほど。友だちにはなれないようだな」
-    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜戦闘：ルーファウス&ダークネイション＞
+    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜戦闘：ルーファウス&ダークネイション＞,<Combat: Rufus & Dark Nation>.,,,
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「クックックッ……」
-    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜ルーファウス&ダークネイションを撃破＞
+    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜ルーファウス&ダークネイションを撃破＞,<Defeat Rufus & Dark Nation>.,,,
     CH03,SHINRA HELIPORT LEVEL 70,ルーファウス,RUFUS,「ク……　今日の相手はここまで…だ…」
-    CH03,SHINRA HELIPORT LEVEL 70,INFO,INFO,＜ルーファウス、ヘリコプターにつかまって、去る＞ /n ＜戦闘終了＞
-    CH03,SHINRA 69 FLOOR,INFO,INFO,＜神羅ビル69階秘書室＞
+    CH03,SHINRA HELIPORT LEVEL 70,INFO,RUFUS,＜ルーファウス、ヘリコプターにつかまって、去る＞ /n ＜戦闘終了＞,"<Rufus, grab the helicopter and leave>.",,,
+    CH03,SHINRA 69 FLOOR,INFO,INFO,＜神羅ビル69階秘書室＞,"<Secretariat, 69th floor, Shinra Building>.",,,
     CH03,SHINRA 69 FLOOR,ティファ,TIFA,「ルーファウスは？」
     CH03,SHINRA 69 FLOOR,クラウド,CLOUD,「とどめはさせなかった。面倒なことになりそうだ」
-    CH03,SHINRA LOBBY,INFO,INFO,＜神羅ビル１階ロビー＞
+    CH03,SHINRA LOBBY,INFO,INFO,＜神羅ビル１階ロビー＞,<Lobby on the ground floor of the Shinra Building>.,,,
     CH03,SHINRA LOBBY,バレット,BARRET,「オレが行くぜ！」
-    CH03,SHINRA LOBBY,INFO,INFO,＜バレット、玄関に走るも引き返す＞
+    CH03,SHINRA LOBBY,INFO,BARRET,＜バレット、玄関に走るも引き返す＞,"<Barrett, running to the front door but turning back>.",,,
     CH03,SHINRA LOBBY,バレット,BARRET,「チッ……！ すっかりかこまれてやがる」
     CH03,SHINRA LOBBY,バレット,BARRET,「オレひとりならともなく このメンツじゃ……」
     CH03,SHINRA LOBBY,エアリス,AERITH,「……やっぱり、あなたたちだけ逃げて」
@@ -2001,16 +2001,16 @@ export default () => {
     CH03,SHINRA LOBBY,レッド13,RED XIII,「なにか？」
     CH03,SHINRA LOBBY,バレット,BARRET,「いや、なんでもねえよ。さて、どうするか……」
     CH03,SHINRA LOBBY,ティファ,TIFA,「バレット！！」
-    CH03,SHINRA LOBBY,INFO,INFO,＜そこへ、ティファ（一人）が来る＞
+    CH03,SHINRA LOBBY,INFO,INFO,＜そこへ、ティファ（一人）が来る＞,＜Then comes Tiffany (alone).,,,
     CH03,SHINRA LOBBY,バレット,BARRET,「ティファ！ クラウドは！？」
     CH03,SHINRA LOBBY,ティファ,TIFA,「みんな、こっち！」
     CH03,SHINRA LOBBY,バレット,BARRET,「ええ！？ どうしたんだよ？ クラウドは？」
     CH03,SHINRA LOBBY,ティファ,TIFA,「話は後！ いいから早く！」
-    CH03,SHINRA GARAGE,INFO,INFO,＜ティファ、バレットたちを誘導して車庫（？）に行く。→置いてある車に乗り、それを見計らったかのようにクラウドがバイクで登場＞
-    CH03,SHINRA GARAGE,INFO,INFO,＜二階に上がり、バイクで窓を突き破り、ハイウェイに降り立つ（車もバイクの後を追う）＞
-    CH03,HIGHWAY BATTLE,INFO,INFO,＜そのまま、神羅の兵士のバイクと、クラウドのバイク、皆が乗った車とのカーチェイス『ハイウェイバトル』＞
-    CH03,HIGHWAY BATTLE,INFO,INFO,＜ハイウェイバトルが終了すると、そのままボスとの戦闘になる＞
-    CH03,HIGHWAY BATTLE,INFO,INFO,＜戦闘：モーターボール＞ /n ＜モーターボールを撃破＞ /n ＜戦闘終了＞
+    CH03,SHINRA GARAGE,INFO,INFO,＜ティファ、バレットたちを誘導して車庫（？）に行く。→置いてある車に乗り、それを見計らったかのようにクラウドがバイクで登場＞,"<Tiffany, lead Barrett and the others to the garage (?). Tiffany leads Barrett and the others to the garage (?). →The car is left behind, and as if on cue, Cloud appears on his motorbike.",,,
+    CH03,SHINRA GARAGE,INFO,INFO,＜二階に上がり、バイクで窓を突き破り、ハイウェイに降り立つ（車もバイクの後を追う）＞,"＜'I go upstairs, push through the window on my motorbike and get off onto the highway (the car follows the motorbike)'.",,,
+    CH03,HIGHWAY BATTLE,INFO,INFO,＜そのまま、神羅の兵士のバイクと、クラウドのバイク、皆が乗った車とのカーチェイス『ハイウェイバトル』＞,"<As it is, a car chase ""Highway Battle"" between the motorbike of a Shinra soldier, Cloud's motorbike and a car with everyone on it.",,,
+    CH03,HIGHWAY BATTLE,INFO,INFO,＜ハイウェイバトルが終了すると、そのままボスとの戦闘になる＞,"<When the highway battle ends, you go straight into battle with the boss.",,,
+    CH03,HIGHWAY BATTLE,INFO,INFO,＜戦闘：モーターボール＞ /n ＜モーターボールを撃破＞ /n ＜戦闘終了＞,<Combat: motorball>.,,,
     CH03,EDGE OF MIDGAR,バレット,BARRET,「さて、どうするよ？」
     CH03,EDGE OF MIDGAR,クラウド,CLOUD,「セフィロスは生きている。俺は……あのときの決着をつけなくてはならない」
     CH03,EDGE OF MIDGAR,バレット,BARRET,「それが星を救うことになるんだな？」
@@ -2022,22 +2022,22 @@ export default () => {
     CH03,EDGE OF MIDGAR,ティファ,TIFA,「さらばミッドガル、ね」
     CH03,LEAVING MIDGAR,レッド13,RED XIII,「私は故郷に帰るつもりだ。それまではいっしょに行ってやる」
     CH03,LEAVING MIDGAR,ティファ,TIFA,「……旅がはじまるのね」
-    CH03,LEAVING MIDGAR,INFO,INFO,＜選択肢：「旅はきらいか？」or「危険だぞ、いいのか？」→「危険だぞ、いいのか？」を選択＞
+    CH03,LEAVING MIDGAR,INFO,CLOUD,＜選択肢：「旅はきらいか？」or「危険だぞ、いいのか？」→「危険だぞ、いいのか？」を選択＞,"＜Options: 'Do you hate travelling?' or ""It's dangerous, are you sure?"" →Dangerous, are you sure?"" Select ""Yes"".",,,
     CH03,LEAVING MIDGAR,ティファ,TIFA,「……う～ん。でもほら、クラウドが約束守ってくれれば だいじょうぶよね、きっと」
     CH03,LEAVING MIDGAR,エアリス,AERITH,「そういえば、わたし ミッドガル出るの、はじめて……」
-    CH03,LEAVING MIDGAR,INFO,INFO,＜選択肢：「そうか……不安か？」or「危険だぞ、いいのか？」→「そうか……不安か？」を選択＞
+    CH03,LEAVING MIDGAR,INFO,CLOUD,＜選択肢：「そうか……不安か？」or「危険だぞ、いいのか？」→「そうか……不安か？」を選択＞,"<Options: ""Well ...... anxious?"" OR: ""It's dangerous, are you sure?"" →Select ""Are you worried about ......?"" >> Select ""Yes"".",,,
     CH03,LEAVING MIDGAR,エアリス,AERITH,「ちょっと、う～ん、かなり、かな。でも、なんでも屋さんが いっしょだし、ね？」
     CH03,LEAVING MIDGAR,バレット,BARRET,「エアリスのおふくろさんには 安全な場所に移るようにって言っておいたからマリンも安全だな」
-    CH03,LEAVING MIDGAR,INFO,INFO,＜選択肢：「そうだな」or「さ～て、どうかな」→「そうだな」を選択＞
+    CH03,LEAVING MIDGAR,INFO,CLOUD,＜選択肢：「そうだな」or「さ～て、どうかな」→「そうだな」を選択＞,"<Options: 'Yes, I suppose' or 'Well, I don't know' -> Select 'Yes, I suppose' >.",,,
     CH03,LEAVING MIDGAR,エアリス,AERITH,「もう、ミッドガルはイヤだって言ってた……ちょうど良かったかな」
     CH03,LEAVING MIDGAR,クラウド,CLOUD,「さて……」
-    CH03,LEAVING MIDGAR,INFO,INFO,＜選択肢：「もう少しここにいよう」or「行こうか！」→「行こうか！」を選択＞
+    CH03,LEAVING MIDGAR,INFO,CLOUD,＜選択肢：「もう少しここにいよう」or「行こうか！」→「行こうか！」を選択＞,"＜Options: 'Let's stay here a little longer' or 'Let's go! →Let's go!"" <Select ""Let's go!",,,
     CH03,LEAVING MIDGAR,バレット,BARRET,「ここから先 団体行動にはリーダーが必要だ。リーダーといえばオレしかいねえ」
     CH03,LEAVING MIDGAR,ティファ,TIFA,「そうかしら……」
     CH03,LEAVING MIDGAR,エアリス,AERITH,「どう考えてもクラウド、よね」
     CH03,LEAVING MIDGAR,バレット,BARRET,「チッ…………わかったよ。ここから北東にカームって町があるんだ。何かあったらそこを集合場所にしよう」
     CH03,LEAVING MIDGAR,バレット,BARRET,「それにしたって野っ原を５人でゾロゾロ歩くなんて危なくてしょうがねえ。おまえ、パーティーを２組に分けてみろ」
-    CH03,LEAVING MIDGAR,INFO,INFO,＜パーティー組替え：クラウド・ティファ・エアリス、バレット・レッド13＞
+    CH03,LEAVING MIDGAR,INFO,INFO,＜パーティー組替え：クラウド・ティファ・エアリス、バレット・レッド13＞,"<Party reconfiguration: Cloud, Tifa and Aerith, Barrett, Red 13>.",,,
     CH03,LEAVING MIDGAR,バレット,BARRET,「……やると思ったぜ」
     CH03,LEAVING MIDGAR,バレット,BARRET,「じゃあ、カームでな！」`
     const json = [];
