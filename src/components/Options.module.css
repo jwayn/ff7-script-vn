@@ -80,6 +80,16 @@
     margin: .5rem 0;
 }
 
+.ffbuttons {
+    display: flex;
+    margin: .5rem 0;
+    width: 100%;
+}
+
+.ffbuttons > button:not(:last-of-type) {
+    margin-inline-end: .5rem;
+}
+
 .ffbox label {
     margin-left: .5rem;
 }

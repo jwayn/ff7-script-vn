@@ -50,6 +50,14 @@ function App() {
   }
 
   const data = parseCsv();
+let chapters = Array.from(new Set(data.map(dialogue => dialogue.chapter)));
+chapters = chapters.map(chapter => {
+  return {
+    chapter,
+    index: data.indexOf(data.find(dialogue => dialogue.chapter === chapter)),
+  }
+});
+
   return (
     <div class={styles.App}>
       <Options 
@@ -63,6 +71,7 @@ function App() {
         setShowOptions={setShowOptions}
         setModalIsPresent={setModalIsPresent}
         setCurrentDialoguePage={setDialoguePage}
+        chapters={chapters}
       />
       <Show when={showBacklog() === true}>
         <Backlog

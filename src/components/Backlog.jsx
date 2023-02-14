@@ -35,7 +35,7 @@ export default (props) => {
                         <div class={styles.backlogLine} onClick={() => setDialoguePage(i())}>
                             <div class={styles.backlogLineImage}>
                                 <Show when={line.asset && line.asset !== "INFO"}>
-                                    <img src={getCharacterImage(line.asset)} alt={line.character}/>
+                                    <img src={getCharacterImage(line.backlogAsset)} alt={line.character}/>
                                 </Show>
                             </div>
                             <div class={styles.backlogLineContent}>

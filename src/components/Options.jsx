@@ -10,6 +10,7 @@ export default (props) => {
     const [textPosition, setTextPosition] = createSignal(0);
     const [soundEffectsOn, setSoundEffectsOn] = createSignal(true);
     const [resetModalVisible, setResetModalVisible] = createSignal(false);
+    const [showChapterSelect, setShowChapterSelect] = createSignal(false);
     const cursorSound = new Audio("assets/audio/sound-effects/cursor.mp3");
     const saveSound = new Audio("assets/audio/sound-effects/save.mp3");
 
@@ -108,6 +109,11 @@ export default (props) => {
         hideResetModal();
         props.setCurrentDialoguePage(0);
     }
+
+    function goToChapter(index) {
+        props.setCurrentDialoguePage(index);
+        props.setShowOptions(false)
+    }
     
     return (
         <div class={styles.optionsContainer} classList={{[styles.full]: props.showOptions() == true}}>
@@ -188,7 +194,18 @@ export default (props) => {
                         </Show>
                     </div>
 
-                    <button class={styles.ffbox} onClick={() => showResetModal()}>Reset Progress?</button>
+                    <div class={styles.ffbuttons}>
+                        <button class={styles.ffbox} onClick={() => showResetModal()}>Reset Progress?</button>
+                        <button class={styles.ffbox} onClick={() => setShowChapterSelect(!showChapterSelect())}>Chapter Select</button>
+                    </div>
+
+                    <Show when={showChapterSelect() == true}>
+                        <div class={styles.ffbox}>
+                            <For each={props.chapters}>{(chapter) =>
+                                <button onClick={() => goToChapter(chapter.index)} class={styles.ffbox}>{chapter.chapter}</button>
+                            }</For>
+                        </div>
+                    </Show>
                     <button classList={{[styles.ffbox]: true, [styles.saveButton]: true}} onClick={() => saveSettings()}>Save</button>
                 </div>
             </Show>
