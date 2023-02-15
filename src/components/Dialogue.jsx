@@ -101,7 +101,7 @@ export default (props) => {
 
     return (
       <div class={styles.dialogue}>
-        <Show when={getCharacterImage(currentDialogueLine().asset) && currentDialogueLine().character !== "INFO"}>
+        <Show when={getCharacterImage(currentDialogueLine().asset)}>
             <div class={styles.dialogueImageHolder}>
                 <img class={styles.dialogueImage} src={getCharacterImage(currentDialogueLine().asset)} alt={currentDialogueLine().character} />
             </div>
