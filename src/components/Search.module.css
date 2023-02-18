@@ -1,0 +1,107 @@
+.search {
+    position: absolute;
+    top: 0;
+    background-color: rgba(1, 1, 1, .125);
+    width: 100vw;
+    backdrop-filter: blur(15px);
+    animation: fadein .125s ease-out;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(-6rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.full {
+    height: 100vh;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    border-radius: .5rem;
+    height: 2.5rem;
+    margin: 2.5rem 0;
+    max-width: 37rem;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0 .5rem;
+}
+
+.searchBoxGroup {
+    width: 100%;
+    max-width: 37rem;
+    position: relative;
+}
+
+.closeSearch {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 2.5rem;
+}
+
+.searchResults {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.highlight {
+    font-weight: 700;
+    color: yellow;
+}
+
+.ffbox {
+    display: flex;
+    max-width: 37.5rem;
+    flex-direction: row;
+    border-radius: .5rem;
+    border: .25rem solid;
+    background: linear-gradient(.5turn, #0000A4, #000028);
+    color: white;
+    padding: .5rem 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.ffbox:last-child {
+    margin-bottom: 6.25rem;
+}
+
+.portrait {
+    max-width: 5rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.dialogueContent {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.name {
+    margin-bottom: .5rem;
+}

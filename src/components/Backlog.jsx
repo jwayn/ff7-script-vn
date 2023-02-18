@@ -3,9 +3,15 @@ import { createEffect, createSignal, For, onMount } from "solid-js";
 
 export default (props) => {
     let container;
-    const [backlog, setBacklog] = createSignal(props.data.slice(0, props.currentDialoguePage() + 1));
+    // please kill me
+    const firstBacklogPage = props.numResults() > 0 
+        ? props.currentDialoguePage() + 1 - props.numResults() > 0 ? 
+            props.currentDialoguePage() + 1 - props.numResults() 
+            : 0
+        : 0;
+    const [backlog, setBacklog] = createSignal(props.data.slice(firstBacklogPage, props.currentDialoguePage() + 1));
     createEffect(() => {
-        setBacklog(props.data.slice(0, props.currentDialoguePage() + 1));
+        setBacklog(props.data.slice(firstBacklogPage, props.currentDialoguePage() + 1));
     })
 
     function setDialoguePage(page) {
