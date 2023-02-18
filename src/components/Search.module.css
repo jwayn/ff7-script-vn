@@ -102,6 +102,7 @@
 .dialogueContent {
     font-size: 1.25rem;
     font-weight: 600;
+    text-align: left;
 }
 .name {
     margin-bottom: .5rem;
