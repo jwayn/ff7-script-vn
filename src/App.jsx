@@ -3,6 +3,7 @@ import Dialogue from './components/Dialogue';
 import parseCsv from './util/parseCsv';
 import Options from './components/Options';
 import Backlog from './components/Backlog';
+import Search from './components/Search';
 import { createSignal, onMount } from 'solid-js'
 
 function App() {
@@ -13,13 +14,28 @@ function App() {
   const [showBacklog, setShowBacklog] = createSignal(false);
   const [showOptions, setShowOptions] = createSignal(false);
   const [modalIsPresent, setModalIsPresent] = createSignal(false);
+  const [showSearch, setShowSearch] = createSignal(false);
+  const [blockNavigation, setBlockNavigation] = createSignal(false);
+  const [numSearchResults, setNumSearchResults] = createSignal(25);
+  const [numBacklogResults, setNumBacklogResults] = createSignal(25);
 
   let ticking = false;
+  let showSearchTimeout;
+  
+  function hideSearch() {
+    clearTimeout(showSearchTimeout);
+    showSearchTimeout = undefined;
+    setShowSearch(false);
+  }
+
   onMount(async () => {
     document.addEventListener("wheel", (event) => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          if (event.deltaY < 0 && showBacklog() === false && showOptions() === false) setShowBacklog(true);
+          if (event.deltaY < 0 && showBacklog() === false && showOptions() === false && showSearch() !== true) {
+            hideSearch();
+            setShowBacklog(true);
+          }
           ticking = false;
         });
 
@@ -27,9 +43,23 @@ function App() {
       }
     });
 
+    document.addEventListener("mousemove", (event) => {
+      if (showSearch() !== true && showOptions() !== true && showBacklog() !== true) {
+        if (event.clientY <= 100 && !showSearchTimeout) {
+          showSearchTimeout = setTimeout(() => {
+            setShowSearch(true);
+          }, 500)
+        } else if (event.clientY > 100 && showSearchTimeout) {
+          hideSearch();
+        }
+      }
+    })
+
     document.addEventListener("keyup", (e) => {
         if (e.key === "Escape") {
-          if(showBacklog() !== true && modalIsPresent() !== true) {
+          if(showSearch() == true && modalIsPresent() !== true) {
+            hideSearch();
+          } else if(showBacklog() !== true && modalIsPresent() !== true) {
             setShowOptions(!showOptions());
           } else {
             setShowBacklog(false);
@@ -60,6 +90,16 @@ chapters = chapters.map(chapter => {
 
   return (
     <div class={styles.App}>
+      <Show when={showSearch() === true}>
+        <Search 
+          hideSearch={hideSearch}
+          setBlockNavigation={setBlockNavigation}
+          setShowSearch={setShowSearch}
+          numResults={numSearchResults}
+          setCurrentDialoguePage={setDialoguePage}
+          data={data} 
+        />
+      </Show>
       <Options 
         setTextSpeed={setTextSpeed} 
         textSpeed={textSpeed} 
@@ -72,13 +112,18 @@ chapters = chapters.map(chapter => {
         setModalIsPresent={setModalIsPresent}
         setCurrentDialoguePage={setDialoguePage}
         chapters={chapters}
+        numBacklogResults={numBacklogResults}
+        setNumBacklogResults={setNumBacklogResults}
+        setNumSearchResults={setNumSearchResults}
+        numSearchResults={numSearchResults}
       />
       <Show when={showBacklog() === true}>
         <Backlog
           showBacklog={showBacklog} 
           setShowBacklog={setShowBacklog} 
           currentDialoguePage={currentDialoguePage} 
-          setCurrentDialoguePage={setDialoguePage} 
+          setCurrentDialoguePage={setDialoguePage}
+          numResults={numBacklogResults}
           data={data} 
         />
       </Show>
@@ -90,6 +135,7 @@ chapters = chapters.map(chapter => {
         currentDialoguePage={currentDialoguePage} 
         setCurrentDialoguePage={setDialoguePage}
         menuIsUp={showBacklog() === true || showOptions() === true}
+        blockNavigation={blockNavigation}
       />
     </div>
   );

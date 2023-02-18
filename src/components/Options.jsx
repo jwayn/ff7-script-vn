@@ -20,6 +20,8 @@ export default (props) => {
         if (window.localStorage.getItem('useCustomBackgroundColor') !== null) props.setUseCustomBackgroundColor(JSON.parse(window.localStorage.getItem('useCustomBackgroundColor')));
         if (window.localStorage.getItem('customBackgroundColor') !== null) props.setCustomBackgroundColor(window.localStorage.getItem('customBackgroundColor'));
         if (window.localStorage.getItem('fadeOptions') !== null) setFadeOptions(JSON.parse(window.localStorage.getItem('fadeOptions')));
+        if (window.localStorage.getItem('numSearchResults') !== null) props.setNumBacklogResults(JSON.parse(window.localStorage.getItem('numBacklogResults')));
+        if (window.localStorage.getItem('numBacklogResults') !== null) props.setNumSearchResults(JSON.parse(window.localStorage.getItem('numSearchResults')));
     });
 
     
@@ -114,6 +116,16 @@ export default (props) => {
         props.setCurrentDialoguePage(index);
         props.setShowOptions(false)
     }
+
+    function handleBacklogResultsNumUpdate(event) {
+        props.setNumBacklogResults(event.target.value);
+        window.localStorage.setItem('numBacklogResults', event.target.value);
+    }
+
+    function handleSearchResultsNumUpdate(event) {
+        props.setNumSearchResults(event.target.value);
+        window.localStorage.setItem('numSearchResults', event.target.value);
+    }
     
     return (
         <div class={styles.optionsContainer} classList={{[styles.full]: props.showOptions() == true}}>
@@ -181,6 +193,16 @@ export default (props) => {
                         </div>
                     </div>
 
+                    <div class={styles.ffbox}>
+                        <div classList={{[styles.ffbox]: true, [styles.inline]: true}}>
+                            <label for="searchResults">How many results to show in search?</label>
+                            <input onInput={(event) => handleSearchResultsNumUpdate(event)} value={props.numSearchResults()} name="searchResults" type="number" min="0" />
+                        </div>
+                        <div classList={{[styles.ffbox]: true, [styles.inline]: true}}>
+                            <label for="backlogResults">How many results to show in the backlog?</label>
+                            <input onInput={(event) => handleBacklogResultsNumUpdate(event)} value={props.numBacklogResults()} name="backlogResults" type="number" min="0"/>
+                        </div>
+                    </div>
                     <div class={styles.ffbox}>
                         <div class={styles.radioGroup}>
                             <input type="checkbox" name="customBackgroundColor" id="customBackgroundColor" checked={props.useCustomBackgroundColor() === true} onChange={(e) => toggleUseCustomBackgroundColor(e.target.checked)} />

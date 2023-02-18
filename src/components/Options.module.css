@@ -62,6 +62,7 @@
     width: 100vw;
     z-index: 2;
     animation: fadein .2s 1 ease-out;
+    overflow-y: scroll;
 }
 
 .ffbox {
@@ -74,6 +75,15 @@
     color: white;
     padding: .5rem 1rem;
     width: 100%;
+}
+
+.inline {
+    flex-direction: row;
+}
+
+.inline > input {
+    width: 3rem;
+    margin-left: 1rem;
 }
 
 .ffbox > .ffbox {

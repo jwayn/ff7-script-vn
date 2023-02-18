@@ -46,7 +46,7 @@ export default (props) => {
 
     onMount(async () => {
         document.addEventListener("keyup", (e) => {
-            if (!props.menuIsUp) {
+            if (!props.menuIsUp && props.blockNavigation() !== true) {
                 if ([" ", "Enter"].includes(e.key)) {
                     endTextAnimationOrGoToNextDialogue();
                 } else if (["ArrowRight", "d"].includes(e.key)) {
