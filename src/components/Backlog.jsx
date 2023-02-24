@@ -38,7 +38,7 @@ export default (props) => {
             <div class={styles.backlogLinesContainer} ref={container}>
                 <For each={backlog()}>
                     {(line, i) =>
-                        <div class={styles.backlogLine} onClick={() => setDialoguePage(i())}>
+                        <div class={styles.backlogLine} onClick={() => setDialoguePage(line.originalIdx)}>
                             <div class={styles.backlogLineImage}>
                                 <Show when={line.asset}>
                                     <img src={getCharacterImage(line.backlogAsset)} alt={line.character}/>

@@ -2043,7 +2043,7 @@ CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「じゃあ、カームでな！
     const json = [];
 
     const csv = toParse.split('\n');
-    csv.forEach(line => {
+    csv.forEach((line, idx) => {
         line = line.split(',');
         const dialogue = {
             chapter: line[0].trim(),
@@ -2052,6 +2052,7 @@ CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「じゃあ、カームでな！
             asset: line[3],
             backlogAsset: line[4],
             dialogue: line[5].slice(1, -1).trim('「').trim('」').replaceAll('/n', '\n').replaceAll('＜', '').replaceAll('＞', ''),
+            originalIdx: idx,
         }
         json.push(dialogue);
     });

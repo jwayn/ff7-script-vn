@@ -52,10 +52,7 @@ export default (props) => {
 
     function makeSearch(term) {
         setShowSearchResults(true);
-        let results = structuredClone(props.data.map((line, idx) => {
-            line.originalIdx = idx;
-            return line;
-        }))
+        let results = structuredClone(props.data)
             .filter(line => line.dialogue.includes(term))
             .map(line => {
                 line.dialogue = line.dialogue.replaceAll(term, `<span class="${styles.highlight}">${term}</span>`);
