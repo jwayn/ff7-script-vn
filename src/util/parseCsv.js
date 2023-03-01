@@ -1356,7 +1356,7 @@ CH02,SECTOR 7 PLATE COLLAPSE,バレット,BARRET,BARRET,「おい、このワイ
 CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,INFO,＜ティファ、クラウド、バレットにつかまって、ワイヤーで飛び降りる＞,"<Tifa, Cloud, hold on to Barrett and jump down on the wire>.",,,
 CH02,SECTOR 7 PLATE COLLAPSE,INFO,INFO,INFO,＜その瞬間、プレートが落ちてきて、７番街が無情にも瓦礫に埋まる＞,"<At that moment, a plate falls and 7th Avenue is unceremoniously buried in rubble>.",,,
 CH03,DESTROYED PARK,INFO,INFO,INFO,＜六番街公園＞,<Rokubangai Park>.,,,バレット
-CH03,DESTROYED PARK,バレット,BARRET,BARRET,「マリン！ マリン！！」SYS
+CH03,DESTROYED PARK,バレット,BARRET,BARRET,「マリン！ マリン！！」
 CH03,DESTROYED PARK,バレット,BARRET,BARRET,「マリーーン！！」クラウド
 CH03,DESTROYED PARK,バレット,BARRET,BARRET,「ビッグス！」ティファ
 CH03,DESTROYED PARK,バレット,BARRET,BARRET,「ウェッジ！！」セフィロス
