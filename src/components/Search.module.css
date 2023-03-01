@@ -6,7 +6,6 @@
     backdrop-filter: blur(15px);
     animation: fadein .125s ease-out;
     z-index: 2;
-    overflow-y: scroll;
 }
 
 @keyframes fadein {
@@ -23,6 +22,7 @@
 
 .full {
     height: 100vh;
+    overflow-y: scroll;
 }
 
 .searchContainer {
