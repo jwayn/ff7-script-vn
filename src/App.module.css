@@ -63,6 +63,7 @@ body {
 .startButtonContainer {
   display: flex;
   flex-direction: column;
+  margin-top: 8rem;
 }
 
 .startButtonContainer button {
@@ -71,4 +72,5 @@ body {
   background: none;
   color: white;
   padding: .5rem;
+  font-size: 2rem;
 }
