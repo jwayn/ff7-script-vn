@@ -9,5 +9,4 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  base: "ff7-script-vn"
 });
