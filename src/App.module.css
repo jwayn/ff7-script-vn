@@ -45,3 +45,30 @@ body {
   background-position: center;
   height: 100vh;
 }
+
+.startScreen {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/assets/images/FF7_VN_INTRO_MENU.png');
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: contain;
+}
+
+.startButtonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.startButtonContainer button {
+  margin-bottom: .5rem;
+  border: none;
+  background: none;
+  color: white;
+  padding: .5rem;
+}

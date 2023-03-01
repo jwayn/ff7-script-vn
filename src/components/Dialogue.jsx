@@ -107,6 +107,9 @@ export default (props) => {
             </div>
         </Show>
         <div class={styles.dialogueBox} onClick={() => clickNextDialogue()}>
+            <Show when={props.debug() === true}>
+                {currentDialogueLine().originalIdx}
+            </Show>
             <div>
                 <h1>{currentDialogueLine().character}</h1>
                 <span class={styles.dialogueText}>{currentDialogueText()}</span>

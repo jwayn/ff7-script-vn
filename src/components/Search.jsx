@@ -90,6 +90,9 @@ export default (props) => {
                 <div class={styles.searchResults}>
                     <For each={searchResults()}>{(line, i) => 
                         <button onClick={() => handleSearchResultClick(line.originalIdx)} class={styles.ffbox}>
+                            <Show when={props.debug() === true}>
+                                {line.originalIdx}
+                            </Show>
                             <div class={styles.portrait}>
                                 <Show when={line.asset}>
                                     <img src={getCharacterImage(line.backlogAsset)} alt={line.character}/>

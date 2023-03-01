@@ -11,6 +11,7 @@ export default (props) => {
     const [soundEffectsOn, setSoundEffectsOn] = createSignal(true);
     const [resetModalVisible, setResetModalVisible] = createSignal(false);
     const [showChapterSelect, setShowChapterSelect] = createSignal(false);
+    const [dialoguePageBox, setDialoguePageBox] = createSignal(null);
     const cursorSound = new Audio("assets/audio/sound-effects/cursor.mp3");
     const saveSound = new Audio("assets/audio/sound-effects/save.mp3");
 
@@ -126,6 +127,19 @@ export default (props) => {
         props.setNumSearchResults(event.target.value);
         window.localStorage.setItem('numSearchResults', event.target.value);
     }
+
+    function evaluateDialoguePageAndGo() {
+        const num = Number(dialoguePageBox());
+        console.log(typeof num);
+        if (typeof num === "number") {
+            if(num >= 0 && num < props.totalDialogueLines) {
+                props.setShowOptions(false);
+                props.setCurrentDialoguePage(num);
+                return;
+            }
+        }
+        alert("Invalid values in dialogue page box")
+    }
     
     return (
         <div class={styles.optionsContainer} classList={{[styles.full]: props.showOptions() == true}}>
@@ -137,6 +151,7 @@ export default (props) => {
             </button>
             <Show when={props.showOptions() == true}>
                 <div classList={{[styles.ffbox]: true, [styles.options]: true}}>
+                    <h1 onDblClick={() => props.setDebug(!props.debug())}>Options</h1>
                     <div class={styles.ffbox}>
                         <div>
                             <h2>Text Speed</h2>
@@ -215,6 +230,17 @@ export default (props) => {
                             </input>
                         </Show>
                     </div>
+
+                    <Show when={props.debug() === true}>
+                        <div class={styles.ffbox}>
+                            <h2>Go to dialogue number</h2>
+                            <div class={styles.dialogueMover}>
+                                <label for="dialogueInput">Dialogue Number</label>
+                                <input onChange={e => setDialoguePageBox(e.target.value)} type="text" name="dialogueInput"></input>
+                            </div>
+                            <button class={styles.ffbox} onClick={e => evaluateDialoguePageAndGo()}>Go</button>
+                        </div>
+                    </Show>
 
                     <div class={styles.ffbuttons}>
                         <button class={styles.ffbox} onClick={() => showResetModal()}>Reset Progress?</button>

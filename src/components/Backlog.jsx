@@ -39,6 +39,9 @@ export default (props) => {
                 <For each={backlog()}>
                     {(line, i) =>
                         <div class={styles.backlogLine} onClick={() => setDialoguePage(line.originalIdx)}>
+                            <Show when={props.debug() === true}>
+                                {line.originalIdx}
+                            </Show>
                             <div class={styles.backlogLineImage}>
                                 <Show when={line.asset}>
                                     <img src={getCharacterImage(line.backlogAsset)} alt={line.character}/>

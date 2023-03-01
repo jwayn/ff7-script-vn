@@ -18,6 +18,8 @@ function App() {
   const [blockNavigation, setBlockNavigation] = createSignal(false);
   const [numSearchResults, setNumSearchResults] = createSignal(25);
   const [numBacklogResults, setNumBacklogResults] = createSignal(25);
+  const [showStartScreen, setShowStartScreen] = createSignal(true);
+  const [debug, setDebug] = createSignal(false);
 
   let ticking = false;
   let showSearchTimeout;
@@ -89,55 +91,75 @@ chapters = chapters.map(chapter => {
 });
 
   return (
-    <div class={styles.App}>
-      <Show when={showSearch() === true}>
-        <Search 
-          hideSearch={hideSearch}
-          setBlockNavigation={setBlockNavigation}
-          setShowSearch={setShowSearch}
-          numResults={numSearchResults}
-          setCurrentDialoguePage={setDialoguePage}
-          data={data} 
-        />
+    <>
+      <Show when={showStartScreen() === true}>
+        <div class={styles.startScreen}>
+          <div class={styles.startButtonContainer}>
+            <button onClick={() => {setDialoguePage(0); setShowStartScreen(false)}}>NEW GAME</button>
+            <Show when={currentDialoguePage() > 0}>
+              <button onClick={() => {setShowStartScreen(false)}}>Continue?</button>
+            </Show>
+          </div>
+        </div>
       </Show>
-      <Options 
-        setTextSpeed={setTextSpeed} 
-        textSpeed={textSpeed} 
-        customBackgroundColor={customBackgroundColor} 
-        setCustomBackgroundColor={setCustomBackgroundColor} 
-        useCustomBackgroundColor={useCustomBackgroundColor} 
-        setUseCustomBackgroundColor={setUseCustomBackgroundColor}
-        showOptions={showOptions}
-        setShowOptions={setShowOptions}
-        setModalIsPresent={setModalIsPresent}
-        setCurrentDialoguePage={setDialoguePage}
-        chapters={chapters}
-        numBacklogResults={numBacklogResults}
-        setNumBacklogResults={setNumBacklogResults}
-        setNumSearchResults={setNumSearchResults}
-        numSearchResults={numSearchResults}
-      />
-      <Show when={showBacklog() === true}>
-        <Backlog
-          showBacklog={showBacklog} 
-          setShowBacklog={setShowBacklog} 
-          currentDialoguePage={currentDialoguePage} 
-          setCurrentDialoguePage={setDialoguePage}
-          numResults={numBacklogResults}
-          data={data} 
-        />
+      <Show when={showStartScreen() !== true}>
+        <div class={styles.App}>
+          <Show when={showSearch() === true}>
+            <Search 
+              hideSearch={hideSearch}
+              setBlockNavigation={setBlockNavigation}
+              setShowSearch={setShowSearch}
+              numResults={numSearchResults}
+              setCurrentDialoguePage={setDialoguePage}
+              data={data}
+              debug={debug}
+            />
+          </Show>
+          <Options 
+            setTextSpeed={setTextSpeed} 
+            textSpeed={textSpeed} 
+            customBackgroundColor={customBackgroundColor} 
+            setCustomBackgroundColor={setCustomBackgroundColor} 
+            useCustomBackgroundColor={useCustomBackgroundColor} 
+            setUseCustomBackgroundColor={setUseCustomBackgroundColor}
+            showOptions={showOptions}
+            setShowOptions={setShowOptions}
+            setModalIsPresent={setModalIsPresent}
+            setCurrentDialoguePage={setDialoguePage}
+            chapters={chapters}
+            numBacklogResults={numBacklogResults}
+            setNumBacklogResults={setNumBacklogResults}
+            setNumSearchResults={setNumSearchResults}
+            numSearchResults={numSearchResults}
+            debug={debug}
+            setDebug={setDebug}
+            totalDialogueLines={data.length}
+          />
+          <Show when={showBacklog() === true}>
+            <Backlog
+              showBacklog={showBacklog} 
+              setShowBacklog={setShowBacklog} 
+              currentDialoguePage={currentDialoguePage} 
+              setCurrentDialoguePage={setDialoguePage}
+              numResults={numBacklogResults}
+              data={data} 
+              debug={debug}
+            />
+          </Show>
+          <Dialogue 
+            data={data} 
+            textSpeed={textSpeed} 
+            customBackgroundColor={customBackgroundColor} 
+            useCustomBackgroundColor={useCustomBackgroundColor} 
+            currentDialoguePage={currentDialoguePage} 
+            setCurrentDialoguePage={setDialoguePage}
+            menuIsUp={showBacklog() === true || showOptions() === true}
+            blockNavigation={blockNavigation}
+            debug={debug}
+          />
+        </div>
       </Show>
-      <Dialogue 
-        data={data} 
-        textSpeed={textSpeed} 
-        customBackgroundColor={customBackgroundColor} 
-        useCustomBackgroundColor={useCustomBackgroundColor} 
-        currentDialoguePage={currentDialoguePage} 
-        setCurrentDialoguePage={setDialoguePage}
-        menuIsUp={showBacklog() === true || showOptions() === true}
-        blockNavigation={blockNavigation}
-      />
-    </div>
+    </>
   );
 }
 
