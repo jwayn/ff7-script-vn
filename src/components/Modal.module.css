@@ -36,7 +36,7 @@
     animation: fadedropin .3s ease-out;
     min-height: 16rem;
     max-height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     justify-content: space-between;
 }
 

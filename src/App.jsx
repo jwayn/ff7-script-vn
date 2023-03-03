@@ -34,7 +34,7 @@ function App() {
 
   onMount(async () => {
     document.addEventListener("wheel", (event) => {
-      if (!ticking) {
+      if (!ticking && showStartScreen() !== true) {
         window.requestAnimationFrame(() => {
           if (event.deltaY < 0 && showBacklog() === false && showOptions() === false && showSearch() !== true) {
             hideSearch();
@@ -48,7 +48,7 @@ function App() {
     });
 
     document.addEventListener("mousemove", (event) => {
-      if (showSearch() !== true && showOptions() !== true && showBacklog() !== true) {
+      if (showSearch() !== true && showOptions() !== true && showBacklog() !== true && showStartScreen() !== true) {
         if (event.clientY <= 100 && !showSearchTimeout) {
           showSearchTimeout = setTimeout(() => {
             setShowSearch(true);
@@ -60,7 +60,7 @@ function App() {
     })
 
     document.addEventListener("keyup", (e) => {
-        if (e.key === "Escape") {
+        if (e.key === "Escape" && showStartScreen() !== true) {
           if(showSearch() == true && modalIsPresent() !== true) {
             hideSearch();
           } else if(showBacklog() !== true && modalIsPresent() !== true) {
@@ -108,7 +108,7 @@ chapters = chapters.map(chapter => {
                 </h3>
                 <div>
                   <p>
-                    <b>elro</b> who worked on cleaning up the script and midjourney assets
+                    <b>elro</b> who worked on cleaning up the script and creating midjourney assets
                   </p>
                   <a href="https://www.buymeacoffee.com/elro1822" target="_blank" rel="noopener noreferrer">Buy elro a coffee!</a>
                 </div>
