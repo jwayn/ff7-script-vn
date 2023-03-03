@@ -74,3 +74,12 @@ body {
   padding: .5rem;
   font-size: 2rem;
 }
+
+.creditsAttribution > div {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.disclaimer {
+  font-size: .7rem;
+}

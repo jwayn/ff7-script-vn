@@ -4,6 +4,7 @@ import parseCsv from './util/parseCsv';
 import Options from './components/Options';
 import Backlog from './components/Backlog';
 import Search from './components/Search';
+import Modal from './components/Modal.jsx';
 import { createSignal, onMount } from 'solid-js'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
   const [numBacklogResults, setNumBacklogResults] = createSignal(25);
   const [showStartScreen, setShowStartScreen] = createSignal(true);
   const [debug, setDebug] = createSignal(false);
+  const [showCreditsModal, setShowCreditsModal] = createSignal(false);
 
   let ticking = false;
   let showSearchTimeout;
@@ -93,12 +95,53 @@ chapters = chapters.map(chapter => {
   return (
     <>
       <Show when={showStartScreen() === true}>
+        <Show when={showCreditsModal() === true}>
+          <Modal 
+            title="Credits"
+            primaryButtonText="Back"
+            primaryButtonAction={() => setShowCreditsModal(false)}
+          >
+            <div class={styles.credits}>
+              <div class={styles.creditsAttribution}>
+                <h3>
+                  This fan project was made by:
+                </h3>
+                <div>
+                  <p>
+                    <b>elro</b> who worked on cleaning up the script and midjourney assets
+                  </p>
+                  <a href="https://www.buymeacoffee.com/elro1822" target="_blank" rel="noopener noreferrer">Buy elro a coffee!</a>
+                </div>
+                <div>
+                  <p>
+                    <b>yust</b> who worked on designing and programming the website
+                  </p>
+                  <a href="https://ko-fi.com/yust_" target="_blank" rel="noopener noreferrer">Buy yust a coffee!</a>
+                </div>
+              </div>
+              <p>
+                The script was adapted from the one available on <a href="http://ajatt.com/finalfantasy/ff7p-index.htm" target="_blank" rel="noopener noreferrer">AJATT</a>.
+              </p>
+              <p>
+                Please enjoy the the script adapted from chapters one through three of the game while we work on finalizing the assets for the rest of the chapters.
+              </p>
+              <p>
+                We hope you enjoy your language study, and please don't forget to buy the game!
+              </p>
+              <h4>Disclaimer</h4>
+              <p class={styles.disclaimer}>
+                The content within this website may contain copyrighted material used under the guidelines of fair use for educational purposes only. The views and opinions expressed in this content are those of the Square Enix and do not necessarily reflect the official policy or position of Square Enix. The copyrighted material has been included in this content because of its relevance and importance to the educational objectives of this project. The use of this copyrighted material is not intended to infringe upon the owner's rights nor is it intended to be claimed as our own. We ask that you please buy the game if you are using this as a learning resourcem, as this is intended to be used as an educational resource alongside the original Final Fantasy VII game.
+              </p>
+            </div>
+          </Modal>
+        </Show>
         <div class={styles.startScreen}>
           <div class={styles.startButtonContainer}>
             <button onClick={() => {setDialoguePage(0); setShowStartScreen(false)}}>NEW GAME</button>
             <Show when={currentDialoguePage() > 0}>
               <button onClick={() => {setShowStartScreen(false)}}>Continue?</button>
             </Show>
+            <button onClick={() => setShowCreditsModal(true)}>Credits</button>
           </div>
         </div>
       </Show>

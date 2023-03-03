@@ -6,16 +6,20 @@ export default (props) => {
         <div class={styles.container}>
             <div class={styles.ffmodal}>
                 <div class={styles.content}>
-                    <div class={styles.heading}>
+                    <h2 class={styles.heading}>
                         {props.title}
-                    </div>
+                    </h2>
                     <div class={styles.body}>
-                        {props.content}
+                        {props.children}
                     </div>
                 </div>
                 <div class={styles.buttons}>
-                    <button class={styles.secondary} onClick={() => props.secondaryButtonAction()}>{props.secondaryButtonText}</button>
-                    <button class={styles.primary} onClick={() => props.primaryButtonAction()}>{props.primaryButtonText}</button>
+                    <Show when={props.secondaryButtonText}>
+                        <button class={styles.secondary} onClick={() => props.secondaryButtonAction()}>{props.secondaryButtonText}</button>
+                    </Show>
+                    <Show when={props.primaryButtonText}>
+                        <button class={styles.primary} onClick={() => props.primaryButtonAction()}>{props.primaryButtonText}</button>
+                    </Show>
                 </div>
             </div>
         </div>

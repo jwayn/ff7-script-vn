@@ -260,12 +260,13 @@ export default (props) => {
             <Show when={resetModalVisible() == true}>
                 <Modal
                     title="Warning"
-                    content="Are you sure you want to reset your story progress? This will take you back to the very beginning."
                     primaryButtonText="Yes"
                     primaryButtonAction={resetStoryProgress}
                     secondaryButtonText="No"
                     secondaryButtonAction={hideResetModal}
-                />
+                >
+                    <span>Are you sure you want to reset your story progress? This will take you back to the very beginning.</span>
+                </Modal>
             </Show>
         </div>
     )

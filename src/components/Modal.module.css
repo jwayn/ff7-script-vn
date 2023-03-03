@@ -35,6 +35,8 @@
     width: 100%;
     animation: fadedropin .3s ease-out;
     min-height: 16rem;
+    max-height: 100%;
+    overflow-y: scroll;
     justify-content: space-between;
 }
 
@@ -72,4 +74,10 @@
     margin-bottom: 1rem;
     font-size: 1.5rem;
     margin-top: .25rem
+}
+
+a {
+    color: yellow;
+    font-weight: 600;
+    text-decoration: none;
 }
