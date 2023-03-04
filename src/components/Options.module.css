@@ -62,7 +62,7 @@
     width: 100vw;
     z-index: 2;
     animation: fadein .2s 1 ease-out;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .ffbox {

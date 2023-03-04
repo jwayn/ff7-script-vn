@@ -102,9 +102,21 @@ chapters = chapters.map(chapter => {
             primaryButtonAction={() => setShowCreditsModal(false)}
           >
             <div class={styles.credits}>
+              <p>
+                This project was created with the intent to help Japanese learners more effectively learn the language. All of the text and character likeness are the property of Square Enix.
+              </p>
+              <p>
+                The script was adapted from the one available on <a href="http://ajatt.com/finalfantasy/ff7p-index.htm" target="_blank" rel="noopener noreferrer">AJATT</a>.
+              </p>
+              <p>
+                Please enjoy the the script adapted from chapters one through three of the game while we work on finalizing the assets for the rest of the chapters.
+              </p>
+              <p>
+                We hope you enjoy your language study, and please don't forget to buy the game!
+              </p>
               <div class={styles.creditsAttribution}>
                 <h3>
-                  This fan project was made by:
+                  This fan project was created by:
                 </h3>
                 <div>
                   <p>
@@ -119,15 +131,6 @@ chapters = chapters.map(chapter => {
                   <a href="https://ko-fi.com/yust_" target="_blank" rel="noopener noreferrer">Buy yust a coffee!</a>
                 </div>
               </div>
-              <p>
-                The script was adapted from the one available on <a href="http://ajatt.com/finalfantasy/ff7p-index.htm" target="_blank" rel="noopener noreferrer">AJATT</a>.
-              </p>
-              <p>
-                Please enjoy the the script adapted from chapters one through three of the game while we work on finalizing the assets for the rest of the chapters.
-              </p>
-              <p>
-                We hope you enjoy your language study, and please don't forget to buy the game!
-              </p>
               <h4>Disclaimer</h4>
               <p class={styles.disclaimer}>
                 The content within this website may contain copyrighted material owned by © Square Enix, and used under the guidelines of fair use for educational purposes only. The views and opinions expressed in this content are those of © Square Enix and do not necessarily reflect the official policy or position of © Square Enix. The copyrighted material has been included in this content because of its relevance and importance to the educational objectives of this project. The use of this copyrighted material is not intended to infringe upon the owner's rights nor is it intended to be claimed as our own. This project is a non-commercial public resource with the purpose of aiding individuals in learning Japanese. We ask that you please buy the game if you are using this as a learning resource, as this is intended to be used as an educational resource alongside the original Final Fantasy VII game.

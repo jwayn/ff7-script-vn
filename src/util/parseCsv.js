@@ -2,7 +2,7 @@ export default () => {
 
     const toParse = `CH01,MIDGAR TRAIN STATION,バレット,BARRET,BARRET,「行くぞ、新入り！ オレに続け！」
 CH01,MIDGAR TRAIN STATION,INFO,INFO,INFO,＜戦闘：元ソルジャーＡ&Ｂ＞ /n ＜元ソルジャーを撃破＞/n  ＜戦闘終了＞
-CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,BIGGS,「さすが、ソルジャー！でもよ、反神羅（しんら）グループ【アパランチ】にソルジャーが参加するなんてスゲェよな！」
+CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,BIGGS,「さすが、ソルジャー！でもよ、反神羅（しんら）グループ【アバランチ】にソルジャーが参加するなんてスゲェよな！」
 CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,JESSIE,「その話って本当だったの？ ソルジャーって言ったら 私たちの敵でしょ？」
 CH01,MIDGAR REACTOR AREA,ジェシー,JESSIE,JESSIE,「どうして、そのソルジャーが私たちアバランチに協力するわけ？」
 CH01,MIDGAR REACTOR AREA,ビッグス,BIGGS,BIGGS,「早とちりするな、ジェシー。元、ソルジャーなんだってさ」
