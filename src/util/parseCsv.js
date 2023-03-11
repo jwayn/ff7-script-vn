@@ -2039,7 +2039,1404 @@ CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「チッ…………わかった
 CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「それにしたって野っ原を５人でゾロゾロ歩くなんて危なくてしょうがねえ。おまえ、パーティーを２組に分けてみろ」
 CH03,LEAVING MIDGAR,INFO,INFO,INFO,＜パーティー組替え：クラウド・ティファ・エアリス、バレット・レッド13＞
 CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「……やると思ったぜ」
-CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「じゃあ、カームでな！」`
+CH03,LEAVING MIDGAR,バレット,BARRET,BARRET,「じゃあ、カームでな！」
+CH04,KALM,INFO,INFO,INFO,＜カーム＞
+CH04,KALM,エアリス,AERITH,AERITH,「カームに着いたね」
+CH04,KALM,ティファ,TIFA,TIFA,「宿屋でみんなが待ってるわ。行きましょう、クラウド」
+CH04,KALM,エアリス,AERITH,AERITH,「じゃあ、先、行ってるね」
+CH04,KALM INN ENTRANCE LOBBY,INFO,INFO,INFO,＜宿屋＞
+CH04,KALM INN ENTRANCE LOBBY,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「クラウドさまですね。お連れさまが ２階でお待ちです」
+CH04,KALM INN,エアリス,AERITH,AERITH,「クラウド、おそい～っ！」
+CH04,KALM INN,バレット,BARRET,BARRET,「おそいじゃねぇか！」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「すまない。またせたようだな」
+CH04,KALM INN,エアリス,AERITH,AERITH,「これで、みんなそろったわね」
+CH04,KALM INN,バレット,BARRET,BARRET,「さあて…… 聞かせてもらおうじゃねえか」
+CH04,KALM INN,バレット,BARRET,BARRET,「セフィロス、星の危機。おまえが知っていることのすべてを」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……俺はセフィロスにあこがれて ソルジャーになったんだ」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「いくつかの作戦を セフィロスといっしょにこなすうちに 俺たちは親しくなった」
+CH04,KALM INN,バレット,BARRET,BARRET,「親友ってやつか？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「どうかな……」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「年もはなれていたし セフィロスは自分のことを ほとんど話さなかった」
+CH04,KALM INN,ティファ,TIFA,TIFA,「………」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「戦友……かな。俺たちは信頼しあっていた。あのときまでは……」
+CH04,KALM INN,エアリス,AERITH,AERITH,「あのとき？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「戦争終結後のソルジャーの任務は神羅に反対する人たちを……。ゆううつな仕事が多かったな」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……あれは５年前」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「俺は16歳だった……」
+CH04,SHINRA TRUCK,INFO,INFO,INFO,＜回想＞
+CH04,SHINRA TRUCK,INFO,INFO,INFO,＜16歳のクラウド、そしてセフィロス、二人の兵士をひきつれ、トラックの荷台の中で目的地の到着を待つ＞
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「すごい雨だな」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「おい、気分はどうだ？」
+CH04,SHINRA TRUCK,兵士Ｂ,SOLDIER B,SOLDIER B,「……だいじょうぶ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「俺は乗り物酔いなんて なったことないからな」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「よくわからないんだ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「準備はOK？」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「おい、おまえ」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「もうすこしおちつけ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「新しいマテリア、支給されたんだ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「早く使いたくって おちつかなくてさ」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「……子供か、おまえは」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「なあ、そろそろ今回の仕事 教えてくれよ」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「……今回の任務は いつもとちがう」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「それはうれしいね！」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「どうしてだ？」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「俺はあんたみたいになりたくてソルジャーになったんだ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「それなのにクラス１STに昇格したのと同時に 戦争が終わってしまった」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「俺がヒーローになるチャンスが 減ってしまったわけさ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「だから、そういうチャンスがあるなら 俺は絶対にモノにしてみせる」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「な、どんな気分だ？ 英雄セフィロスさん？」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「……おまえ、今回の任務が 知りたかったんじゃないのか？」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「今回の任務は 老朽化した魔晄炉の調査だ」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「異常動作を起こしているうえに 凶暴な動物が発生している」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「そいつらを始末しつつ 原因を見つけだし、排除する」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「凶暴な動物…… 場所はどこだ？」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「ニブルヘイムの魔胱炉だ」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「ニブルヘイム……」
+CH04,SHINRA TRUCK,クラウド,CLOUD,CLOUD,「ニブルヘイムは 俺の生まれ故郷なんだ」
+CH04,SHINRA TRUCK,セフィロス,SEPHIROTH,SEPHIROTH,「そうか……故郷か」
+CH04,SHINRA TRUCK,INFO,SEPHIROTH,SEPHIROTH,＜その時、トラックが揺れて、止まる＞
+CH04,SHINRA TRUCK STOP,運転手,DRIVER,DRIVER,「へ、へんな動物が！！ トラックに突っ込んで来ました！」
+CH04,SHINRA TRUCK STOP,セフィロス,SEPHIROTH,SEPHIROTH,「モンスターのお出ましか」
+CH04,SHINRA TRUCK STOP,INFO,INFO,INFO,＜戦闘：ドラゴン＞ /n ＜ドラゴンを撃破＞ /n ＜戦闘終了＞
+CH04,SHINRA TRUCK STOP,INFO,INFO,INFO,＜回想一時終了＞
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「セフィロスの強さは普通じゃない。世間で知られているどんな話よりも……すごかった」
+CH04,KALM INN,エアリス,AERITH,AERITH,「あれ～？ クラウドの活躍は？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「俺か？ 俺はセフィロスの戦いぶりに みとれていたな」
+CH04,KALM INN,ティファ,TIFA,TIFA,「………」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……そして俺たちは ニブルヘイムについたんだ」
+CH04,NIBELHEIM FRONT GATE,INFO,INFO,INFO,＜回想＞
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「どんな気分なんだ？」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「ひさしぶりの故郷なんだろ？」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「どんな気分がするものなんだ？」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「オレには故郷がないから わからないんだ……」
+CH04,NIBELHEIM FRONT GATE,クラウド,CLOUD,CLOUD,「ええと……両親は？」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「母の名はジェノバ」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「オレを生んですぐに死んだ。父は……」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「オレは何を話してるんだ……」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「さあ、行こうか」
+CH04,NIBELHEIM FRONT GATE,兵士Ａ,SOLDIER A,SOLDIER A,「ヒソヒソ…… （ウロチョロしてるとしかられるぞ）」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「たいくつなんだよな、見張りって」
+CH04,NIBELHEIM FRONT GATE,INFO,CLOUD,CLOUD,＜選択肢：「いつもの、やるか？」or「ガマンガマン、仕事だろ？」 /n →「いつもの、やるか？」を選択＞
+CH04,NIBELHEIM FRONT GATE,クラウド,CLOUD,CLOUD,「練習でもするか？」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「練習…… ああ、ポーズの練習か」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「ソルジャーは常に他人の目を 意識しなくちゃならないってか？」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「……どうだっけ？」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「……こうか？」
+CH04,NIBELHEIM FRONT GATE,クラウド,CLOUD,CLOUD,「うまくなったな！」
+CH04,NIBELHEIM FRONT GATE,兵士Ｂ,SOLDIER B,SOLDIER B,「俺、ソルジャーなんかに なりたくないんだよねえ」
+CH04,NIBELHEIM FRONT GATE,セフィロス,SEPHIROTH,SEPHIROTH,「魔胱のにおいがするな」
+CH04,NIBELHEIM FRONT GATE,INFO,INFO,INFO,＜回想一時終了＞
+CH04,KALM INN,バレット,BARRET,BARRET,「ちょっと待った！！」
+CH04,KALM INN,バレット,BARRET,BARRET,「な、あれじゃねえか？」
+CH04,KALM INN,バレット,BARRET,BARRET,「セフィロスが言ってた母親の名前……」
+CH04,KALM INN,バレット,BARRET,BARRET,「ジェノバ……覚えてるぞ！ 神羅ビルにいた首ナシのバケモノだな！」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「そのとおりだ」
+CH04,KALM INN,ティファ,TIFA,TIFA,「ちょっとバレット。クラウドの話、ちゃんと聞かせて。質問はあとよ」
+CH04,KALM INN,バレット,BARRET,BARRET,「でもよぉ、ティファ……」
+CH04,KALM INN,ティファ,TIFA,TIFA,「さあクラウド、つづけて」
+CH04,KALM INN,エアリス,AERITH,AERITH,「幼なじみの再会ね！」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……ティファには おどろかされたな」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……村はひっそりとしていた」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「みんな、モンスターを恐れて 家に閉じこもっていたのかな？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「いや、俺たちを 恐れていたのか……」
+CH04,NIBELHEIM TOWN CENTRE,INFO,INFO,INFO,＜回想＞
+CH04,NIBELHEIM TOWN CENTRE,セフィロス,SEPHIROTH,SEPHIROTH,「魔晄炉への出発は明朝。今日は早めに眠っておけ」
+CH04,NIBELHEIM TOWN CENTRE,セフィロス,SEPHIROTH,SEPHIROTH,「見張りはひとりでいいから おまえたちも休んでおけよ」
+CH04,NIBELHEIM TOWN CENTRE,セフィロス,SEPHIROTH,SEPHIROTH,「そうだったな……」
+CH04,NIBELHEIM TOWN CENTRE,セフィロス,SEPHIROTH,SEPHIROTH,「家族や知り合いと 会ってきてもかまわないぞ」
+CH04,NIBELHEIM TOWN CENTRE,兵士Ｂ,SOLDIER B,SOLDIER B,「はぁ…… ドキドキするなぁ」
+CH04,NIBELHEIM TOWN CENTRE,INFO,CLOUD,CLOUD,＜選択肢：「どうしてだ？」or「俺はワクワクしてる」 /n →「どうしてだ？」を選択＞
+CH04,NIBELHEIM TOWN CENTRE,兵士Ｂ,SOLDIER B,SOLDIER B,「いつ、モンスターが来るか わからないんだろ？」
+CH04,NIBELHEIM TOWN CENTRE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「英雄セフィロスが来るってんで カメラの用意して 待ってたんですよ」
+CH04,NIBELHEIM TOWN CENTRE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「セフィロスとモンスターのツーショットが欲しいんです」
+CH04,NIBELHEIM TOWN CENTRE,INFO,CLOUD,CLOUD,＜選択肢：「俺の写真をとれ」or「危険だから家に入ってろ」 /n →「俺の写真をとれ」を選択＞
+CH04,NIBELHEIM TOWN CENTRE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「……マイナーな人の写真はとらない主義なんですよう」
+CH04,NIBELHEIM RESIDENTS HOUSE,住民,RESIDENT,RESIDENT,「……ああ、神羅の方ですね。ごくろうさまです」
+CH04,NIBELHEIM RESIDENTS HOUSE,住民,RESIDENT,RESIDENT,「あら、ごめんなさい！ クラウドくんだったのね。気づかなくって」
+CH04,NIBELHEIM RESIDENTS HOUSE,女の子,SMALL GIRL,SMALL GIRL,「しんら～？」
+CH04,NIBELHEIM RESIDENTS HOUSE,男の子,SMALL BOY,SMALL BOY,「ちんら～？」
+CH04,NIBELHEIM RESIDENTS HOUSE,女の子,SMALL GIRL,SMALL GIRL,「ソルジャ？」
+CH04,NIBELHEIM RESIDENTS HOUSE,男の子,SMALL BOY,SMALL BOY,「そるざ？」
+CH04,NIBELHEIM RESIDENTS HOUSE,女の子,SMALL GIRL,SMALL GIRL,「モンスターやっつけるの？」
+CH04,NIBELHEIM RESIDENTS HOUSE,男の子,SMALL BOY,SMALL BOY,「……………つけるの？」
+CH04,NIBELHEIM RESIDENTS HOUSE,住民,RESIDENT,RESIDENT,「クラウドくん、なかなか たくましくなったわね」
+CH04,NIBELHEIM RESIDENTS HOUSE,女の子,SMALL GIRL,SMALL GIRL,「カッコイ～！！」
+CH04,NIBELHEIM RESIDENTS HOUSE,男の子,SMALL BOY,SMALL BOY,「カッキー！！」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜クラウド、ティファの家に入る＞
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,TIFA,TIFA,＜ここから、現代のティファの問い責めにあう＞
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「ねえ、クラウド……」
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「私の家にも入ったの？」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「ああ……」or「い、いや……」 /n →「ああ……」を選択＞
+CH04,NIBELHEIM TIFA'S HOUSE,クラウド,CLOUD,CLOUD,「ティファ、いるかなと思って」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜クラウド、ティファの部屋にも入る＞
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「クラウド……」
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「私の部屋にもはいったの？」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「ああ……」or「いや……」 /n →「ああ……」を選択＞
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜クラウド、ティファのタンスから『ちょっと背のびパンツ』を手に入れる。 /n →ポケットにしまう＞
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「クラウド……それ、本当なの？」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「ああ……」or「冗談だ、怒るな……」 /n →「冗談だ、怒るな……」を選択＞
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「……クラウド」
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「今はすごく真面目な話をしているんでしょ？」
+CH04,NIBELHEIM TIFA'S HOUSE,ティファ,TIFA,TIFA,「私のピアノも弾いたの？」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「いや、弾かなかった」or「ギンギンに弾いた」or「ちょっとだけ」 /n →「ちょっとだけ」を選択＞
+CH04,NIBELHEIM TIFA'S HOUSE,クラウド,CLOUD,CLOUD,「俺だって、がくふくらい読め…… えっと……
+CH04,NIBELHEIM TIFA'S HOUSE,クラウド,CLOUD,CLOUD,「ド…レ…ミ…シー…ラー… ド…レ…ミ…ソ…ファ…ド…レ…ド… いいや、もう」
+CH04,NIBELHEIM TIFA'S HOUSE,INFO,INFO,INFO,＜回想一時終了＞
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「ここは……俺の家だ。５年前の事件とは関係ないな」
+CH04,KALM INN,バレット,BARRET,BARRET,「でもよ、興味あるぜ」
+CH04,KALM INN,エアリス,AERITH,AERITH,「わたしも！ ひさしぶり、だったんでしょ？」
+CH04,KALM INN,バレット,BARRET,BARRET,「聞かせろよ！」
+CH04,KALM INN,バレット,BARRET,BARRET,「家族と会ったんだろ？」
+CH04,KALM INN,INFO,CLOUD,CLOUD,＜選択肢：「話したくないんだ」or「やれやれ……」 /n →「やれやれ……」を選択＞
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「家族っていっても……」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「親父は…… 俺がまだ子供のころに死んでしまった」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「だから母さんが…… この家には母さんがひとりで住んでいた」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「ああ、俺、母さんに会ったよ」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「母さんは……元気な人だった。全然変わってなかった」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「その何日かあとには 死んでしまったけど……」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「あの時は……本当に元気だった」
+CH04,CLOUD'S HOME,INFO,CLOUD,CLOUD,＜クラウドの家＞
+CH04,CLOUD'S HOME,INFO,INFO,INFO,＜回想＞
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「あの……」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「は～い？」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「クラウド！？」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「おかえりなさい、クラウド！」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「ただいま、母さん」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「どれどれ……晴れ姿、母さんにも よ～く見せておくれ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ふ～ん」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ほれぼれしちゃうわねえ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「これ、ソルジャーさんの制服かい？」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「……………母さん、俺」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「本当に立派になってぇ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「そんなんじゃ、あれだね。女の子もほっとかないだろ？」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「……べつに」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「心配なんだよ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「都会にはいろいろ誘惑が多いんだろ？」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ちゃんとした彼女がいれば 母さん、すこしは安心できるってもんだ」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「……俺はだいじょうぶだよ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「あんたにはねぇ……」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ちょっとお姉さんで あんたをグイグイ引っ張っていく」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「そんな女の子が ぴったりだと思うんだけどね」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「……興味ないな」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ちゃんとゴハンは 食べてるのかい？」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「だいじょうぶ。会社が面倒みてくれてる」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「そうなのかい」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「いったいどうしてるのかと思ってたんだよ」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「ねえ、クラウド」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「でもねぇ、クラウド」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「そうだろ、クラウド？」
+CH04,CLOUD'S HOME,クラウドの母親,CLOUD'S MOTHER,CLOUD'S MOTHER,「母さんはね、いつだって、あんたの」
+CH04,CLOUD'S HOME,クラウド,CLOUD,CLOUD,「……………もう、やめよう……」
+CH04,NIBELHEIM INN,INFO,INFO,INFO,＜宿屋＞
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「……ふむふむ」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「モンスター退治にやってきた神羅の人間だな？」
+CH04,NIBELHEIM INN,クラウド,CLOUD,CLOUD,「あんたは？」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「私はザンガン。世界中の子供たちに 武術を教える旅をしている」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「弟子は世界中に128人！」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「この村では ティファという女の子が 私の弟子になった」
+CH04,NIBELHEIM INN,クラウド,CLOUD,CLOUD,「ティファだって？」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「ティファはセンスが良いな。彼女は強くなるぞ」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「神羅の人間の戦いぶり しっかり見せてもらうよ」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「使えるようだったら ザンカン流格闘術に 取り入れるのもいいな」
+CH04,NIBELHEIM INN,ザンガン,ZANGAN,ZANGAN,「ま、しっかりやってくれ」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「あ…… 本日は神羅会社の皆さんの貸し切りになってましてねぇ」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「……？」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「……クラウドちゃん？」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「クラウドちゃんかい？」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「２年ぶりかねえ」
+CH04,NIBELHEIM INN,宿屋の店員,INNKEEPER_KALM,INNKEEPER_KALM,「セフィロスさんの部下なんて 大出世だねえ、ほんとにぃ」
+CH04,NIBELHEIM INN 2ND FLOOR,INFO,INFO,INFO,＜宿屋２階＞
+CH04,NIBELHEIM INN 2ND FLOOR,クラウド,CLOUD,CLOUD,「何を見ている？」
+CH04,NIBELHEIM INN 2ND FLOOR,セフィロス,SEPHIROTH,SEPHIROTH,「……この風景 オレは知ってるような気がする」
+CH04,NIBELHEIM INN 2ND FLOOR,兵士Ａ,SOLDIER A,SOLDIER A,「ベッドがひとつ足りない……」
+CH04,NIBELHEIM INN 2ND FLOOR,セフィロス,SEPHIROTH,SEPHIROTH,「……………」
+CH04,NIBELHEIM INN 2ND FLOOR,セフィロス,SEPHIROTH,SEPHIROTH,「……明日は早いぞ。そろそろ眠ったほうがいいな」
+CH04,NIBELHEIM INN 2ND FLOOR,INFO,CLOUD,CLOUD,＜選択肢：「まだ早いよ」or「ああ、そうしよう」 /n →「ああ、そうしよう」を選択＞
+CH04,NIBELHEIM INN 2ND FLOOR,セフィロス,SEPHIROTH,SEPHIROTH,「魔晄炉へのガイドは手配しておいた。若い娘らしいが たよりにしていいものか……」
+CH04,NIBELHEIM MANSION GATE,INFO,INFO,INFO,＜翌朝＞
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「写真とらせてくれるかなぁ」
+CH04,NIBELHEIM MANSION GATE,セフィロス,SEPHIROTH,SEPHIROTH,「ガイドが来たら出発だ」
+CH04,NIBELHEIM MANSION GATE,ティファパパ,TIFA'S FATHER,TIFA'S FATHER,「セフィロス、聞いてくれ。もしものことがあったら……」
+CH04,NIBELHEIM MANSION GATE,INFO,TIFA REACTOR,TIFA REACTOR,＜そこへ、15歳のティファが来る＞
+CH04,NIBELHEIM MANSION GATE,セフィロス,SEPHIROTH,SEPHIROTH,「……安心してくれ」
+CH04,NIBELHEIM MANSION GATE,ティファ,TIFA REACTOR,TIFA REACTOR,「だいじょうぶだから、パパ！」
+CH04,NIBELHEIM MANSION GATE,ティファ,TIFA REACTOR,TIFA REACTOR,「つよ～いソルジャーが ふたりもいるのよ」
+CH04,NIBELHEIM MANSION GATE,ティファ,TIFA REACTOR,TIFA REACTOR,「ティファです。よろしくおねがいします」
+CH04,NIBELHEIM MANSION GATE,クラウド,CLOUD,CLOUD,「ティファ！ あんたがガイド！？」
+CH04,NIBELHEIM MANSION GATE,ティファ,TIFA REACTOR,TIFA REACTOR,「そういうこと」
+CH04,NIBELHEIM MANSION GATE,ティファ,TIFA REACTOR,TIFA REACTOR,「この村で一番のガイドといえば 私のことでしょうね」
+CH04,NIBELHEIM MANSION GATE,クラウド,CLOUD,CLOUD,「でも、危険すぎる！ そんなことにあんたを巻きこむわけにはいかない！」
+CH04,NIBELHEIM MANSION GATE,セフィロス,SEPHIROTH,SEPHIROTH,「おまえが守ってやれば 問題はなかろう」
+CH04,NIBELHEIM MANSION GATE,セフィロス,SEPHIROTH,SEPHIROTH,「……では、行こうか」
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「あの……」
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「セフィロスさん！ 記念に１枚」
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「ティファちゃんからも たのんでくれないかな……」
+CH04,NIBELHEIM MANSION GATE,INFO,INFO,INFO,＜クラウド、ティファ、隣り合うと、セフィロスも仕方なしに隣に並ぶ＞
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「いきますよ～！」
+CH04,DARKNESS,INFO_PHOTO CLOUD,PHOTO CLOUD,PHOTO CLOUD,＜シャッターを押して、フラッシュがたかれる＞
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「はい、どうも！」
+CH04,NIBELHEIM MANSION GATE,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「写真できたら みなさんにあげますからね！」
+CH04,MT. NIBEL,INFO,INFO,INFO,＜ニブル山＞
+CH04,MT. NIBEL,クラウド,CLOUD,CLOUD,「魔晄炉はニブル山の中に造られていた」
+CH04,MT. NIBEL,クラウド,CLOUD,CLOUD,「ニブル山の寒々とした空気 変わっていなかったな…」
+CH04,MT. NIBEL BRIDGE,INFO,INFO,INFO,＜つり橋＞
+CH04,MT. NIBEL BRIDGE,ティファ,TIFA REACTOR,TIFA REACTOR,「さ、ここからが大変よ！ ついて来て！」
+CH04,MT. NIBEL BRIDGE,INFO,INFO,INFO,＜ティファ、走り出し、クラウドも後を追うと…＞
+CH04,MT. NIBEL BRIDGE,ティファ,TIFA REACTOR,TIFA REACTOR,「は、橋が！！」
+CH04,MT. NIBEL VALLEY,INFO,INFO,INFO,＜つり橋が壊れて、全員、谷底へ落っこちる＞
+CH04,MT. NIBEL VALLEY,セフィロス,SEPHIROTH,SEPHIROTH,「無事のようだな。もとの場所までもどれるのか？」
+CH04,MT. NIBEL VALLEY,ティファ,TIFA REACTOR,TIFA REACTOR,「このへんの洞窟はアリのすみたいに入り組んでいるから……」
+CH04,MT. NIBEL VALLEY,ティファ,TIFA REACTOR,TIFA REACTOR,「それにセフィロスさん、１人、姿が見えないけど……」
+CH04,MT. NIBEL VALLEY,INFO,INFO,INFO,＜兵士の一人が行方不明＞
+CH04,MT. NIBEL VALLEY,セフィロス,SEPHIROTH,SEPHIROTH,「冷たいようだが、さがしている時間はない。さあ、もどれないなら、先へ進むぞ。これからは一緒に行動する」
+CH04,MT. NIBEL CAVES,INFO,INFO,INFO,＜ニブル山洞窟＞
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「これは？」
+CH04,MT. NIBEL CAVES,ティファ,TIFA REACTOR,TIFA REACTOR,「不思議な色の洞窟ね……」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「魔晄エネルギーだな。この山は特にエネルギーが豊富なのだ。だから魔晄炉がつくられた」
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「……これは？」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「魔晄の泉。自然の驚異というやつだな」
+CH04,MT. NIBEL CAVES,ティファ,TIFA REACTOR,TIFA REACTOR,「こんなにきれいなのに……」
+CH04,MT. NIBEL CAVES,ティファ,TIFA REACTOR,TIFA REACTOR,「このまま魔晄エネルギーを吸い上げ続けたら この泉も消えてしまうのね」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「マテリアだ。魔晄エネルギーが凝縮されるとマテリアができる」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「天然のマテリアを見るなんて めったにない機会だ」
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「そういえば……どうしてマテリアを使うと 魔法を使うことができるんだ？」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「そんなことも知らずに ソルジャーをやってるのか？」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「……マテリアの中には いわゆる古代種の知識が封じこまれている」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「大地、星の力を自在に操る知識。その知識が星と我々をむすびつけ 魔法を呼び出す……といわれている」
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「魔法……不思議な力だ……」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「ハハハハハ！」
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「なにか変なこと言ったか？」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「ある男がな、不思議な力なんて 非科学的な言い方は許さん！ 魔法なんて呼び方もダメだ！」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「そう言って怒っていたのを 思い出しただけだ」
+CH04,MT. NIBEL CAVES,クラウド,CLOUD,CLOUD,「誰だ、それ？」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「神羅カンパニーの宝条。偉大な科学者の仕事を引き継いだ みじゅくな男だ」
+CH04,MT. NIBEL CAVES,セフィロス,SEPHIROTH,SEPHIROTH,「コンプレックスのかたまりのような男だな」
+CH04,MT. NIBEL CAVES,ティファ,TIFA REACTOR,TIFA REACTOR,「魔晄の泉…… この中には古代種の知識が 入っているのね」
+CH04,MT. NIBEL REACTOR OUTSIDE,INFO,INFO,INFO,＜ニブル魔晄炉前＞
+CH04,MT. NIBEL REACTOR OUTSIDE,ティファ,TIFA REACTOR,TIFA REACTOR,「ついたわ。ずいぶん遠回りしちゃったけどね」
+CH04,MT. NIBEL REACTOR OUTSIDE,クラウド,CLOUD,CLOUD,「ティファはここで待っていてくれ」
+CH04,MT. NIBEL REACTOR OUTSIDE,ティファ,TIFA REACTOR,TIFA REACTOR,「私も中へ行く！ 見たい！」
+CH04,MT. NIBEL REACTOR OUTSIDE,セフィロス,SEPHIROTH,SEPHIROTH,「この中は一般人立入禁止だ。神羅の企業秘密で いっぱいだからな」
+CH04,MT. NIBEL REACTOR OUTSIDE,ティファ,TIFA REACTOR,TIFA REACTOR,「でも！」
+CH04,MT. NIBEL REACTOR OUTSIDE,セフィロス,SEPHIROTH,SEPHIROTH,「おじょうさんを守ってやりな」
+CH04,MT. NIBEL REACTOR OUTSIDE,INFO,SOLDIER A,SOLDIER A,＜兵士がティファが行こうとするのを、さえぎる＞
+CH04,MT. NIBEL REACTOR OUTSIDE,ティファ,TIFA REACTOR,TIFA REACTOR,「ん、もう！」
+CH04,MT. NIBEL REACTOR OUTSIDE,ティファ,TIFA REACTOR,TIFA REACTOR,「しっかり守ってね！」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,INFO,INFO,＜ニブル魔晄炉＞
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,INFO,INFO,＜クラウド、セフィロス、奥へ進み、一番奥の中央のゲートで立ち止まる＞
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「JENOVA……なんだろう。ロックは……あかないか……」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,SEPHIROTH,SEPHIROTH,＜セフィロス、まわりにある多数の機械の中のあるひとつの前に立つ＞
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「動作異常の原因はこれだな。この部分が壊れているんだ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「クラウド、バルブを閉じてくれ」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,SEPHIROTH,SEPHIROTH,＜クラウド、言われるがまま、バルブを閉じる＞
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「なぜ壊れた……？」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,SEPHIROTH,SEPHIROTH,＜セフィロス、背伸びをして機械の窓ガラスから中を覗き込む＞
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「……わかったよ、宝条」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「でもな、こんなことしたって あんたはガスト博士にはかなわないのさ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「これは魔晄エネルギーを凝縮して さらに冷やすシステムだ……本来はな」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「さて……さらに凝縮すると 魔晄エネルギーはどうなる？」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「え、ええと…… そうだった！ マテリアができるんだな」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「そう、普通ならばな。でも宝条はこの中にあるものを入れた。……見ろ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「マドから中をのぞいて見ろ」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,CLOUD,CLOUD,＜クラウド、背伸びをして同じように覗き込む＞
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,CLOUD,CLOUD,＜中にいたのはモンスター化したような人間である＞
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「こ、これは！？」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「おまえたち普通のソルジャーは 魔晄を浴びた人間だ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「一般人とはちがうが それでも人間なんだ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「しかし、こいつらはなんだ？ おまえたちとは比べものにならないほど 高密度の魔晄に浸されている」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「……これがモンスター？」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「そうだ。モンスターを生み出したのは神羅カンパニーの宝条だ」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「魔晄のエネルギーが創り出す異形の生物。それがモンスターの正体」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「普通のソルジャーって？ あんたは違うのか？」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「お、おい、セフィロス！」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「ま、まさか……」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「……オレも？」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,SEPHIROTH,SEPHIROTH,＜セフィロス、いきなり刀を抜き、何度も機械を斬りつける＞
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「……オレはこうして生み出されたのか？」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「オレはモンスターと同じだというのか……」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「……セフィロス」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「お前も見ただろう！ こいつらの中にいるのは……まさしく人間だ……」
+CH04,MT. NIBEL REACTOR POD ROOM,クラウド,CLOUD,CLOUD,「人間！？　まさか！」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「……子供のころから オレは感じていた」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「オレは他のやつらとはちがう。オレは特別な存在だと思っていた」
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「しかし、それは…… それはこんな意味じゃない」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,INFO,INFO,＜すると、ひとつの機械が音をたてて、“人間”が出てくる。だが、すぐに死んでしまう＞
+CH04,DARKNESS,セフィロス,SEPHIROTH,SEPHIROTH,「オレは……人間なのか？」
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「セフィロスが何を言っているのか その時の俺にはよくわからなかった」
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「俺はなによりも神羅カンパニーが モンスターを創っていたということにショックをうけていた」
+CH04,KALM INN,INFO,INFO,INFO,＜回想一時終了＞
+CH04,KALM INN,バレット,BARRET,BARRET,「くっ……神羅めっ！ ますます許さねえ！」
+CH04,KALM INN,ティファ,TIFA,TIFA,「……あの魔晄炉には そんな秘密があったのね」
+CH04,KALM INN,レッド13,RED XIII_W,RED XIII_C,「ここ数年来のモンスターの増加にはそういった理由があったのか」
+CH04,KALM INN,レッド13,RED XIII_W,RED XIII_C,「これからのクラウドの話はじっくり聞く必要があるな。そうではないか、バレット？」
+CH04,KALM INN,バレット,BARRET,BARRET,「（な、なんでオレに話をふるんだ！？）」
+CH04,KALM INN,INFO,INFO,INFO,＜選択肢：「セーブして一息いれよう」or「このまま続けてくれ」 /n →「セーブして一息いれよう」を選択＞
+CH04,KALM INN,バレット,BARRET,BARRET,「た、確かにそうかもな。ここいらで一息いれることにするか」
+CH04,KALM INN,INFO,INFO,INFO,＜セーブ＞
+CH04,KALM INN,バレット,BARRET,BARRET,「……なるほどな」
+CH04,KALM INN,エアリス,AERITH,AERITH,「ねぇ、ティファ。あなたはずっと外で待ってたの？」
+CH04,KALM INN,ティファ,TIFA,TIFA,「…………ええ」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「俺たちはニブルヘイムへもどった。セフィロスは宿屋にこもり 誰とも言葉をかわそうとしない」
+CH04,KALM INN,ティファ,TIFA,TIFA,「そしていなくなったのよね」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「セフィロスがみつかったのは ニブルヘイムで一番大きな建物」
+CH04,KALM INN,ティファ,TIFA,TIFA,「村の人たちは神羅屋敷と呼んでいたわ。私たちが生まれたころには もう空き家になっていて……」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「むかし、その屋敷は 神羅カンパニーの人間が使っていた……」
+CH04,NIBELHEIM MANSION GATE,INFO,INFO,INFO,＜回想＞
+CH04,NIBELHEIM MANSION GATE,INFO,INFO,INFO,＜神羅屋敷＞
+CH04,NIBELHEIM MANSION INTERIOR,兵士Ｂ,SOLDIER B,SOLDIER B,「セフィロスさんの姿が見えないんだ。たしかに、この部屋に入っていったのを見たんだけど……」
+CH04,NIBELHEIM MANSION LAB,INFO,INFO,INFO,＜神羅屋敷地下研究室＞
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「……2000年前の地層から みつかった仮死状態の生物」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「その生物をガスト博士はジェノバと命名した……」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「X年X月X日。ジェノバを古代種と確認……」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「X年X月X日。ジェノバ・プロジェクト承認。魔晄炉１号機使用許可……」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「オレの母の名はジェノバ…… ジェノバ・プロジェクト…… これは偶然なのか？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「ガスト博士……どうして教えてくれなかった？ ……どうして死んだ？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「一人にしてくれ」
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「それ以降セフィロスは神羅屋敷に こもりきりになった……」
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「まるで何かに取りつかれたかのように 書物を読みあさり、地下室の明かりは決して消える事はなかった……」
+CH04,DARKNESS,INFO,INFO,INFO,＜そして……＞
+CH04,NIBELHEIM MANSION INTERIOR,兵士Ｂ,SOLDIER B,SOLDIER B,「セフィロスさんのようすが変なんだ」
+CH04,NIBELHEIM MANSION LAB,INFO,INFO,INFO,＜神羅屋敷地下研究室＞
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「クックックッ……」
+CH04,NIBELHEIM MANSION LAB,INFO,CLOUD,CLOUD,＜クラウド、セフィロスのいる神羅屋敷地下書斎へ行く＞
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「誰だ！！」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「フッ……裏切り者め」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「裏切り者？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「何も知らぬ裏切り者よ。教えてやろう」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「この星はもともとセトラのものだった。セトラは旅をする民族。旅をして、星を開き、そしてまた旅……」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「つらく、きびしい旅の果てに 約束の地を知り、至上の幸福を見つける」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「だが、旅を嫌う者たちが現れた。その者は旅することをやめ、家を持ち、安楽な生活を選んだ」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「セトラと星が生み出したものをうばい 何も返そうとしない」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「それがおまえたちの祖先だ」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「セフィロス……」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「昔、この星を災害が襲った」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「おまえたち祖先は 逃げ回り……隠れたおかげで生きのびた」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「星の危機はセトラの犠牲で回避された。その後でのうのうと数をふやしたのが おまえたちだ」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「セトラはこうしてレポートの中に残るだけの種族となってしまった」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「それがあんたとどういう関係があるんだ？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「わからないのか？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「2000年前の地層から発見されたジェノバと名づけられた古代種」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「そしてジェノバ・プロジェクト」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「ジェノバ・プロジェクトとは 古代種……つまりセトラの能力を持った人間を創り出すことだ」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「……創り出されたのはオレだ」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「つ、つくりだされた！？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「そう」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「ジェノバ・プロジェクトの責任者 天才的科学者ガスト博士が オレをつくりだした」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「そんなこと……どうやって……」
+CH04,NIBELHEIM MANSION LAB,クラウド,CLOUD,CLOUD,「セ、セフィロス？」
+CH04,NIBELHEIM MANSION LAB,セフィロス,SEPHIROTH,SEPHIROTH,「邪魔をするな。オレは母に会いに行く」
+CH04,NIBELHEIM BURNS,INFO,INFO,INFO,＜クラウド、セフィロスより大分遅れて神羅屋敷を出ると、そこには村全体が火の海に包まれていた＞
+CH04,NIBELHEIM BURNS,ザンガン,ZANGAN,ZANGAN,「おっ、あんたか！ あんたは正気なんだろうな？」
+CH04,NIBELHEIM BURNS,ザンガン,ZANGAN,ZANGAN,「それならこっちに来て 手伝ってくれ！」
+CH04,NIBELHEIM BURNS,ザンガン,ZANGAN,ZANGAN,「俺はこの家を見てくる。あんたはそっちの家を！」
+CH04,NIBELHEIM BURNS,兵士Ｂ,SOLDIER B,SOLDIER B,「……セフィロ……ス」
+CH04,NIBELHEIM BURNS,写真男,PHOTOGRAPHER,PHOTOGRAPHER,「……な、なぁ…… おれ、死んじゃうの？」
+CH04,NIBELHEIM BURNS,クラウド,CLOUD,CLOUD,「ひどい……」
+CH04,NIBELHEIM BURNS,クラウド,CLOUD,CLOUD,「セフィロス……ひどすぎる……」
+CH04,FIRE,INFO,SEPHIROTH,SEPHIROTH,＜セフィロス、村人を次々に殺し、ニブル山のニブル魔晄炉へ一人、向かう＞
+CH04,NIBELHEIM REACTOR,INFO,CLOUD,CLOUD,＜クラウド、追ってニブル魔晄炉＞
+CH04,NIBELHEIM REACTOR,INFO,TIFA REACTOR,TIFA REACTOR,＜ティファパパの亡骸をかかえて、うずくまるティファ＞
+CH04,NIBELHEIM REACTOR,ティファ,TIFA REACTOR,TIFA REACTOR,「パパ……」
+CH04,NIBELHEIM REACTOR,ティファ,TIFA REACTOR,TIFA REACTOR,「セフィロスね！」
+CH04,NIBELHEIM REACTOR,ティファ,TIFA REACTOR,TIFA REACTOR,「セフィロスがやったのね！」
+CH04,NIBELHEIM REACTOR,ティファ,TIFA REACTOR,TIFA REACTOR,「セフィロス……ソルジャー……魔晄炉……神羅……ぜんぶ！」
+CH04,NIBELHEIM REACTOR,ティファ,TIFA REACTOR,TIFA REACTOR,「ぜんぶ大キライ！」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,TIFA REACTOR,TIFA REACTOR,＜ティファ、剣をひろい、奥へと進む＞
+CH04,MT. NIBEL REACTOR POD ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「母さん、会いに来たよ。このとびらをあけておくれ」
+CH04,MT. NIBEL REACTOR POD ROOM,ティファ,TIFA REACTOR,TIFA REACTOR,「よくもパパを！ よくも村のみんなを！」
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,TIFA REACTOR,TIFA REACTOR,＜ティファ、剣を振り上げ、セフィロスへ突進するも、すぐになぎ払われ、セフィロスが剣を奪う。→そしてセフィロス、ティファを斬る。→ティファ、ふき飛んで階段の下に転がり落ちる＞
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,CLOUD,CLOUD,＜そこへクラウド、登場＞
+CH04,MT. NIBEL REACTOR POD ROOM,INFO,SEPHIROTH,SEPHIROTH,＜セフィロス、気にもとめず、奥の部屋（ジェノバルーム）へ入っていく＞
+CH04,MT. NIBEL REACTOR POD ROOM,ティファ,TIFA REACTOR,TIFA REACTOR,「……ピンチの……時には……来てくれるって 約束したのに……」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,INFO,INFO,INFO,＜ジェノバルーム＞
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「母さん、いっしょにこの星を取りもどそうよ」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「オレ、いいことを考えたんだよ。約束の地へ行こう」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「セフィロス……」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「俺の家族を！　俺の故郷を！ よくもやってくれたな！」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「クックックッ…… 母さん、またやつらが来たよ」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「母さんは優れた能力と知識、そして魔法で この星の支配者になるはずだった」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「けど、アイツラが．．．．．．．」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「何のとりえも無いアイツラが」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「母さん達からこの星を奪ったんだよね」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「でも、もう悲しまないで」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,INFO,INFO,INFO,＜するとセフィロス、それがジェノバドール（ジェノバの人形）だと気づき、取り外す。 /n →奥から見えたのは、真のジェノバであった＞
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「俺の悲しみはどうしてくれる！ 家族……友だち……故郷をうばわれた俺の悲しみは！！」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「あんたの悲しみと同じだ！」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「クックックッ……オレの悲しみ？ 何を悲しむ？」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「オレは選ばれし者。この星の支配者として選ばれし存在だ」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,セフィロス,SEPHIROTH,SEPHIROTH,「この星を、愚かなおまえたちから セトラの手にとりもどすために生をうけた。何を悲しめというのだ？」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「セフィロス……信頼していたのに……
+CH04,MT. NIBEL REACTOR JENOVA ROOM,クラウド,CLOUD,CLOUD,「いや、おまえは、もう 俺の知っているセフィロスじゃない！」
+CH04,MT. NIBEL REACTOR JENOVA ROOM,INFO,INFO,INFO,＜セフィロスとクラウド、互いに向き合う＞
+CH04,KALM INN,INFO,INFO,INFO,＜回想終了＞
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……この話はここで終わりなんだ」
+CH04,KALM INN,バレット,BARRET,BARRET,「ちょっと待てよ！ 続きはどうなったんだ？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……覚えていない」
+CH04,KALM INN,エアリス,AERITH,AERITH,「セフィロスはどうなったの？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「実力から言って、俺がセフィロスを倒せたとは思えないんだ」
+CH04,KALM INN,ティファ,TIFA,TIFA,「公式記録ではセフィロスは死んだことになっていたわ。新聞でみたもの」
+CH04,KALM INN,エアリス,AERITH,AERITH,「新聞は神羅が出してるのよ。信用できない」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「……俺はたしかめたい。あの時、何があったのかを」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「セフィロスに戦いをいどんだ俺はまだ生きている。セフィロスは、なぜ俺を殺さなかったのか？」
+CH04,KALM INN,ティファ,TIFA,TIFA,「……私も生きているわ」
+CH04,KALM INN,エアリス,AERITH,AERITH,「なんだか、いろいろ、へん。ねえ、ジェノバは？ 神羅ビルにいたのはジェノバ、よね？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「神羅がニブルヘイムからミッドガルへ運んだのは確実だな」
+CH04,KALM INN,エアリス,AERITH,AERITH,「そのあと、また誰かが持ち出した？ 神羅ビルからもなくなってたわよ」
+CH04,KALM INN,ティファ,TIFA,TIFA,「セフィロス……？」
+CH04,KALM INN,バレット,BARRET,BARRET,「が～～～っ！ わけがわかんねえ！」
+CH04,KALM INN,バレット,BARRET,BARRET,「オレは行くぜ オレは行くぜ！ オレは行くぜ！！ 考えるのはオマエたちにまかせた！」
+CH04,KALM INN,バレット,BARRET,BARRET,「おい、クラウド！ 出発の準備を整えろ！」
+CH04,KALM INN,INFO,INFO,INFO,＜選択肢：「ちょっと待て」or「わかったよ」 /n →「わかったよ」を選択＞
+CH04,KALM INN,バレット,BARRET,BARRET,「よっしゃ、行こうぜ！」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「やれやれ……」
+CH04,KALM INN,ティファ,TIFA,TIFA,「………」
+CH04,KALM INN,ティファ,TIFA,TIFA,「……ねぇクラウド」
+CH04,KALM INN,ティファ,TIFA,TIFA,「セフィロスに斬られた私はどんなふうだった？」
+CH04,KALM INN,クラウド,CLOUD,CLOUD,「もうダメだと思った。……悲しかったよ」
+CH04,KALM INN,ティファ,TIFA,TIFA,「………」
+CH04,KALM INN,エアリス,AERITH,AERITH,「わたし……」
+CH04,KALM INN,エアリス,AERITH,AERITH,「古代種……セトラ……ジェノバ……セフィロス……わたし……」
+CH04,KALM INN,ティファ,TIFA,TIFA,「行きましょう。バレットが待ってるわ」
+CH04,KALM INN,レッド13,RED XIII_W,RED XIII_C,「実に興味ぶかい話だ……」
+CH04,KALM INN ENTRANCE LOBBY,ティファ,TIFA,TIFA,「はい、クラウド。これをわたしておくわ」
+CH04,KALM INN ENTRANCE LOBBY,INFO,CLOUD,CLOUD,＜クラウド、PHSを受け取る＞
+CH04,KALM INN ENTRANCE LOBBY,エアリス,AERITH,AERITH,「『PHS』があれば いつでもクラウドに会えるね！」
+CH04,KALM INN ENTRANCE LOBBY,ティファ,TIFA,TIFA,「じゃあ、先に行くわね」
+CH04,CHOCOBO FARM,INFO,INFO,INFO,＜チョコボファーム・グリン&グリングリンの家＞
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「お客さんたち、この先の湿地帯をこえるつもりですか？」
+CH04,CHOCOBO HOUSE,INFO,INFO,INFO,＜選択肢：「ああ」or「興味ないね」 /n →「ああ」を選択＞
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「ふむ、それならチョコボを手に入れたほうが安全ですな」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「チョコボで湿地帯をイッキにかけ抜けるわけです」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「これがミドガルズオルムに襲われない方法」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「ミドガルズオルムとは…」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「身のたけ10メートルにならんとするヘビのバケモノ！！」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「湿地帯を進むズボズボ音を聞きつけ…」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「ウギャーッとおそいかかる！！！」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「そうならないためにも！ グリン&グリングリン牧場のチョコボをお買い上げください」
+CH04,CHOCOBO HOUSE,グリン,GURIN,GURIN,「チョコボのお買い上げは向かって一番右の建物 チョコボ小屋におります孫にお申し付け下さい」
+CH04,CHOCOBO HUT,INFO,INFO,INFO,＜チョコボ小屋＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「チョコボが欲しいの？」
+CH04,CHOCOBO HUT,クラウド,CLOUD,CLOUD,「う～ん……」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「くれ」or「いらない」 /n →「くれ」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「おじさんたち運が悪い！」
+CH04,CHOCOBO HUT,クラウド,CLOUD,CLOUD,「おじさん……」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「チョコボは売り切れちゃったんだ。外にいるのは、あずかり物なんでね」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「そうだ、チョコボがほしいなら 野生のをつかまえるといいよ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「野生のチョコボのこと 何か知りたいかい？」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「どこにいる？」or「どうやって捕まえる？」or「他には？」or「興味ないね」 /n →「どこにいる？」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「外で３本のツメあと見ただろ？ あれがあるところには野生のチョコボが必ずいるよ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「ただし『チョコボよせ』が無いとチョコボが現れないんだよ。もともと用心深い生き物だしね」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「チョコボよせ？」or「次の話を聞こう」 /n →「チョコボよせ？」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「『チョコボよせ』はチョコボをおびきだすマテリアさ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「これを装備しておくと野生のチョコボに会える。逆を言うとこれを装備しないとチョコボには会うことが出来ないわけさ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「野生のチョコボのこと 何か知りたいかい？」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「どこにいる？」or「どうやって捕まえる？」or「他には？」or「興味ないね」 /n →「どうやって捕まえる？」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「野生のチョコボは他のモンスターといっしょに出てくるんだ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「けど、そのままじゃ他のモンスターが ジャマでチョコボを捕まえることが出来ない」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「だから、まずチョコボのまわりにいるモンスターを倒す必要があるんだ」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「それから？」or「次の話を聞こう」 /n →「それから？」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「それに、野生のチョコボは用心深い ちょっとしたことで、逃げてしまう」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「けど、『野菜』を使うと 食べるのに夢中になって逃げにくくなるのさ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「野生のチョコボのこと 何か知りたいかい？」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「どこにいる？」or「どうやって捕まえる？」or「他には？」or「興味ないね」 /n →「他には？」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「チョコボは怒らせない方がいいよ 普段はおとなしいんだけど 怒らせると痛い目にあうのはこっちさ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「あっ、それと一度捕まえたチョコボは 一度チョコボからおりたら一目散に逃げてしまうよ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「野生のチョコボのこと 何か知りたいかい？」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「どこにいる？」or「どうやって捕まえる？」or「他には？」or「興味ないね」 /n →「興味ないね」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「じゃあ、そろそろ商談に入ろうかな」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「今なら『チョコボよせ』を2000ギルで売ってあげるよ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「買うかい？」
+CH04,CHOCOBO HUT,INFO,CLOUD,CLOUD,＜選択肢：「買う」or「買わない」 /n →「買う」を選択＞
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「まいどあり！」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「『野菜』も買っておいて そんはないよ」
+CH04,CHOCOBO HUT,グリングリン,GURINGURIN,GURINGURIN,「あっそれから、『野菜』によってチョコボが食べ終わる長さが違うからね」
+CH04,CHOCOBO HUT,クリン,KURIN,KURIN,「お兄ちゃんたち だいぶ、お金取られたでしょ？」
+CH04,CHOCOBO HUT,クリン,KURIN,KURIN,「でも、グリングリンお兄ちゃんやグリンおじいちゃんを怒らないでね」
+CH04,CHOCOBO HUT,クリン,KURIN,KURIN,「パパとママが死んでから ずっとそうなの……」
+CH04,CHOCOBO HUT,INFO,INFO,INFO,＜チョコボをつかまえ、湿地帯を越える＞
+CH04,MARSHLAND,INFO,INFO,INFO,＜ミスリルマイン前で、くし刺しにされたミドガルズオルムの惨殺死体を発見＞
+CH04,MARSHLAND,クラウド,CLOUD,CLOUD,「セフィロスが……やったのか……」
+CH04,MARSHLAND,ティファ,TIFA,TIFA,「すごい……」
+CH04,MARSHLAND,エアリス,AERITH,AERITH,「こんなことやっちゃう人が わたしたちの相手……」
+CH04,MITHRIL MINE,INFO,INFO,INFO,＜ミスリルマイン＞
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「ちょっと待った！」
+CH04,MITHRIL MINE,ティファ,TIFA,TIFA,「あなたは？」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「おれが、だれだかわかるか？」
+CH04,MITHRIL MINE,INFO,CLOUD,CLOUD,＜選択肢：「タークスだろ？」or「興味ないね」 /n →「タークスだろ？」を選択＞
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「知っているのなら話は早い……」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「おれたちタークスの仕事を説明するのは難しい……」
+CH04,MITHRIL MINE,クラウド,CLOUD,CLOUD,「人さらいだろ？」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「悪意に満ちた言い方をするとそうなる……」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「……しかし いまはそれだけではない」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「……………………」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「……………………」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「先輩！」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「ルード先輩！ しゃべるの苦手なんだから ムリしないで下さい」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「……イリーナ、たのむ」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「私、タークスの新人のイリーナ。レノがあんたたちにやられてタークスは人手不足」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「……おかげで私、タークスになれたんだけどね……」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「ま、それはともかく 私たちの任務はセフィロスの行方をつきとめること」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「それからあんたたちの邪魔をすること」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「あ、逆だったか。私たちの邪魔をしてるのはあんたたちだもんね」
+CH04,MITHRIL MINE,INFO,INFO,INFO,＜そこへ、ツォンが来る＞
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「……イリーナ。しゃべりすぎだぞ」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「ツォンさん！？」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「我々の任務を、彼らに教えてやる必要はない」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「すいません……ツォンさん」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「お前たちには、別の任務を与えてあったはずだ」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「行け。定時連絡を欠かすなよ」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「あっ！　そうでした！」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「それでは、私とルード先輩はジュノンの港へ向かったセフィロスを追いかけます！」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「……イリーナ。私の言葉の意味がわからなかったようだな」
+CH04,MITHRIL MINE,イリーナ,ELENA,ELENA,「あっ！ す、すいません……」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「……行け。セフィロスを逃すなよ」
+CH04,MITHRIL MINE,ルード&イリーナ,RUDE & ELENA_W,RUDE & ELENA_C,「はっ！」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「……レノが言ってた。きみたちに負わされたケガが治ったらあいさつしたいと」
+CH04,MITHRIL MINE,ルード,RUDE,RUDE,「親愛なるきみたちに新しい武器を見せたいそうだ」
+CH04,MITHRIL MINE,INFO,RUDE & ELENA_W,RUDE & ELENA_C,＜ルードとイリーナ、先に行く＞
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「さて……」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「エアリス……久しぶりだな」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「しばらくの間、君は神羅からは自由の身だ。セフィロスが現れたからな」
+CH04,MITHRIL MINE,エアリス,AERITH,AERITH,「……なに、言いたいの？ セフィロスに感謝しろって？」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「いや……」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「あまり会えなくなるが元気でな」
+CH04,MITHRIL MINE,エアリス,AERITH,AERITH,「……あなたに、そんなこと 言われるなんて、不思議」
+CH04,MITHRIL MINE,ツォン,TSENG,TSENG,「では、諸君。できれば神羅の邪魔はしないでもらいたいものだな」
+CH04,MITHRIL MINE,INFO,INFO,INFO,＜ツォン、去る＞
+CH04,FORT CONDOR INTERIOR,INFO,INFO,INFO,＜コンドルフォート＞
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「ここは長い長いあいだ神羅軍と闘ってきた戦場」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「いまはじっくりとコシをすえて彼らと闘っている」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「もしあんたらの旅に余裕があるならば我々に協力してくれ」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「でも無理にとはいわん。急ぎの用があるならそちらをすましてからのほうがよいだろう」
+CH04,FORT CONDOR INTERIOR,INFO,CLOUD,CLOUD,＜選択肢：「ジュノンの街はどこにある？」or「協力してもいいが」 /n →「協力してもいいが」を選択＞
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「そうか！　それなら上に登ってくわしい話をきいてくれ」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「ほう、珍しいな こんなところまで登ってくるとはな」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「……　変わった目をしているな。まあ、関係ないか。ここはもうすぐ神羅との戦場となる。まきぞえにならないうちに、降りなさい」
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「神羅ですって？」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「どういうこと？ 戦場って」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「あなたがたも、神羅とは何かあるらしいな。せっかく、ここまで登ってきたんだ。ちょっとだけ話を聞いていかないか？」
+CH04,FORT CONDOR INTERIOR,クラウド,CLOUD,CLOUD,「……」
+CH04,FORT CONDOR INTERIOR,INFO,CLOUD,CLOUD,＜選択肢：「いいだろう」or「やめておこう」 /n →「いいだろう」を選択＞
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「この山の上になにがのっているかわかるかな？」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「おっきな、鳥さん」
+CH04,FORT CONDOR INTERIOR,クラウド,CLOUD,CLOUD,「魔晄炉と、コンドルだな」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「確かに、山の上にあるのはコンドルと魔晄炉だ」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「神羅は、魔晄炉の上にコンドルがいることが気にくわないらしい」
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「魔晄炉の上にコンドルがいちゃダメなのかしら？」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「ど～して？」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「どうやら、この上の魔晄炉には なにやら、特別なマテリアがあるらしい」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「そこへコンドルがきたので神羅は、あわてて軍を送ってきた」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「軍の目的は、コンドルと この山に住むわたしたちの排除だ」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「今、コンドルは、数年に一度しか生まないタマゴを温めている」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「わたしたちは、神羅の手から コンドルの営みを守ってやりたい」
+CH04,FORT CONDOR INTERIOR,クラウド,CLOUD,CLOUD,「新しい命か……」
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「コンドルのタマゴ 生命の営み」
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「星の命 守らなくちゃ」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「コンドルのタマゴ、守らないと、ね？」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「残念ながら、私たちには直接、神羅と戦うだけの能力はない」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「兵を雇って、いっしょに戦ってもらっている」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「スポンサーとして、ギルの援助でもいい いっしょに戦ってくれるのでもいい…」
+CH04,FORT CONDOR INTERIOR,老人,OLD MAN,OLD MAN,「どうだろう いっしょに戦ってもらえないか？」
+CH04,FORT CONDOR INTERIOR,クラウド,CLOUD,CLOUD,「……」
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「クラウド……」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「クラウド 何 迷ってるの？」
+CH04,FORT CONDOR INTERIOR,クラウド,CLOUD,CLOUD,「……」
+CH04,FORT CONDOR INTERIOR,INFO,CLOUD,CLOUD,＜選択肢：「わかった」or「興味ないな」 /n →「わかった」を選択＞
+CH04,FORT CONDOR INTERIOR,ティファ,TIFA,TIFA,「クラウド、ありがとう」
+CH04,FORT CONDOR INTERIOR,エアリス,AERITH,AERITH,「そうよね。がんばりましょ」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「引き受けてくれてありがとう」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「じゃあさっそく戦術の説明をしようか」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「敵は、この山の魔晄炉を目指して登ってくる。それにたいして、ワナを置き 兵を雇って守るのだ」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「まあ、これだけなのだが…… この村は、お金がない。戦おうにも、お金がなくて何もできない」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「なにせ、兵を雇うと400ギルも必要となる。20部隊雇うと、8000ギルにもなってしまう」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「つまり、君たちにおねがいするのは時間があるのであれば 君たちのお金で兵を雇い、ワナを買って配置し、指示してもらいたい」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「時間がないのであれば 資金援助をおねがいしてもらいたい」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「資金援助してもらえば その資金で兵を雇い神羅の攻撃を防げる」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「ものすごい勝手なことを言っているのは じゅうぶん承知している」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「母親たちと子どもたちは、別の村に移した。私たちも、かくごはできている」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「話を元にもどそう。もしこの小屋に敵が進入したときは 君たちが直接戦わなければならなくなる」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「まあ、１回負けたからといって それで、終わりにはならないけど 何度も負けてしまうと、危険だね」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「さて、何か聞きたいことはあるかい？」
+CH04,FORT CONDOR INTERIOR,INFO,FORT CONDOR MAN,FORT CONDOR MAN,＜ここで多数の選択肢が出るが、もう大体把握しているので、最後の「もうじゅうぶんだ」を選択＞
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「お、ちょうどいいのが登ってきたぞ。手始めには、ちょうどいい敵だ。それじゃあいっちょ、おねがいしますか」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「もう準備はいいかい？」
+CH04,FORT CONDOR INTERIOR,INFO,CLOUD,CLOUD,＜選択肢：「まだ準備ができていない」or「準備はできている」or「資金援助する」or「今回はまかせる」or「説明を聞きたい」 /n →「準備はできている」を選択＞
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「今回の敵は、10匹程度だ。ビーストの数が多いようなので アタッカーを多めに配置した方がいいかもしれないな」
+CH04,FORT CONDOR CLIFF BATTLE,INFO,CLOUD,CLOUD,＜シミュレーションバトル開始＞ /n ＜敵を殲滅＞ /n ＜シミュレーションバトル終了＞
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「ふう、うまくいったな。しかし、神羅はかならずまたやってくる」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「次は、いつ攻めてくるかわからないから ときどき、見にきてくれよ」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「味方は、11体残ったから2200ギル返すよ」
+CH04,FORT CONDOR INTERIOR,若者,FORT CONDOR MAN,FORT CONDOR MAN,「そうそう、さっきの戦場で いいものをみつけたんだよ。君たちの役にたてばいいな」
+CH04,FORT CONDOR INTERIOR,INFO,CLOUD,CLOUD,＜クラウド、『マジックコーム』を受け取る＞
+CH04,JUNON LOWER TOWN,INFO,CLOUD,CLOUD,＜クラウド一行、アンダージュノンにたどりつく＞
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「なんだ、この村は？ やけにさびれているな……」
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「ここはどんなところだ？」
+CH04,JUNON LOWER TOWN,老婆,OLD WOMAN,OLD WOMAN,「なんだね、あんたたち？ どこから来たんだい」
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「黒いマントの男を見なかったか？」
+CH04,JUNON LOWER TOWN,老婆,OLD WOMAN,OLD WOMAN,「さあ……そんな人 とんと見かけんねぇ」
+CH04,JUNON DOLPHIN COVE,INFO,INFO,INFO,＜イルカの入り江＞
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「ねぇ～！ イルカさ～ん！！」
+CH04,JUNON DOLPHIN COVE,INFO,PRISCILLA,PRISCILLA,＜プリシラが呼ぶと、イルカが来る＞
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「わたしの名前はね プ～リ～シ～ラ！ 　はい、言ってみて！」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「あなたたち誰なの？ もしかして神羅の人間！？」
+CH04,JUNON DOLPHIN COVE,エアリス,AERITH,AERITH,「ちがうの！ わたしたち、神羅と無関係なのよ」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「……というわけなんだ」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「信用できないわ！ ここから出ていって」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「まいったな……」
+CH04,JUNON DOLPHIN COVE,ティファ,TIFA,TIFA,「あれを見て！」
+CH04,JUNON DOLPHIN COVE,INFO,INFO,INFO,＜モンスターが現れ、イルカを襲う＞
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「イルカさんが、あぶない！」
+CH04,JUNON DOLPHIN COVE,INFO,PRISCILLA,PRISCILLA,＜プリシラ、イルカのもとへ駆け寄るが、モンスターにはばまれ、水中に沈む＞
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「おい、助けるぞ！」
+CH04,JUNON DOLPHIN COVE,INFO,INFO,INFO,＜戦闘：ボトムスウェア＞ /n ＜ボトムスウェアを撃破＞ /n ＜戦闘終了＞
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「まいったな… もしかして死んでしまったのか？」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「プリシラ！！」
+CH04,JUNON DOLPHIN COVE,INFO,RESIDENT,RESIDENT,＜そこへ、住民がプリシラに駆け寄る＞
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「ダメだわい……呼吸しとらん……」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「オッ、あれじゃ！」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「若いの、人工呼吸じゃ！！」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「人工呼吸って！？」
+CH04,JUNON DOLPHIN COVE,エアリス,AERITH,AERITH,「クラウド、はやくっ！」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「あ、いや あの、女の子だし……」
+CH04,JUNON DOLPHIN COVE,ティファ,TIFA,TIFA,「クラウド、どうするの？」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「なんだ？　知らんのか～？ 教えてやるから、こっちに来なさい」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「……しかたない」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「とにかく息を大きく吸いこんで 限界までに息を止める。そして、その息を口うつしするのじゃ」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「早くするんじゃ！」
+CH04,JUNON DOLPHIN COVE,INFO,CLOUD,CLOUD,＜クラウド、人工呼吸をする＞
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「う、う～ん」
+CH04,JUNON DOLPHIN COVE,住民,RESIDENT,RESIDENT,「ほほっ！ だいじょうぶかプリシラ？」
+CH04,JUNON DOLPHIN COVE,INFO,RESIDENT,RESIDENT,＜住民、プリシラを持ち上げ、そのまま去る＞
+CH04,JUNON LOWER TOWN,INFO,CLOUD,CLOUD,＜クラウド一行、その住民の家の前まで来る＞
+CH04,JUNON LOWER TOWN,住民,RESIDENT,RESIDENT,「すまんね、クラウドくん。プリシラは、すこし休ませなくちゃいかんのじゃ」
+CH04,JUNON LOWER TOWN,老婆,OLD WOMAN,OLD WOMAN,「ちょっと、おはいり」
+CH04,JUNON RESIDENT HOUSE INSIDE,INFO,CLOUD,CLOUD,＜言われるがまま、家の中に入る＞
+CH04,JUNON RESIDENT HOUSE INSIDE,老婆,OLD WOMAN,OLD WOMAN,「話は聞いたよ。プリシラが世話になったね」
+CH04,JUNON RESIDENT HOUSE INSIDE,老婆,OLD WOMAN,OLD WOMAN,「あんたたちもつかれただろ？ 休むんならここをつかっておくれ」
+CH04,JUNON RESIDENT HOUSE INSIDE,老婆,OLD WOMAN,OLD WOMAN,「ゆっくりしていっておくれ」
+CH04,JUNON RESIDENT HOUSE INSIDE,エアリス,AERITH,AERITH,「休もっか？」
+CH04,JUNON RESIDENT HOUSE INSIDE,クラウド,CLOUD,CLOUD,「そうだな……」
+CH04,JUNON RESIDENT HOUSE INSIDE,INFO,CLOUD,CLOUD,＜選択肢：「やっぱりあとにしよう」or「ひと休みしよう」 /n →「ひと休みしよう」を選択＞
+CH04,DARKNESS,INFO,INFO,INFO,＜それぞれベッドで仮眠をとる…＞
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『……そういえば』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「また、あんたか？」
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「……あんた誰だ？」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『……そのうちわかるさ。……それより５年前』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「５年前……ニブルヘイム？」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『あのときは……ニブル山へ行ったとき ティファがガイドだったよな』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「ああ……おどろいたな」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,「でも、それ以外、ティファはどこにいたんだろ？』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「……さあな」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『せっかく久しぶりに会えるチャンスだったのに』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「……そうだな」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『どうして二人きりで会えなかったんだろう？』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「……わからない。はっきり覚えてないから……」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『なあ、ティファに聞いてみろよ』
+CH04,DARKNESS,クラウド,CLOUD,CLOUD,「……ああ」
+CH04,DARKNESS,謎の声,MYSTERY VOICE,MYSTERY VOICE,『さあ、起きろ！』
+CH04,JUNON RESIDENT HOUSE INSIDE,ティファ,TIFA,TIFA,「ねえ、起きて、起きてったら、クラウド！」
+CH04,JUNON RESIDENT HOUSE INSIDE,クラウド,CLOUD,CLOUD,「ティファ……」
+CH04,JUNON RESIDENT HOUSE INSIDE,クラウド,CLOUD,CLOUD,「俺とセフィロスがニブルヘイムに行ったとき ティファはどこにいた？」
+CH04,JUNON RESIDENT HOUSE INSIDE,ティファ,TIFA,TIFA,「……会ったでしょ？」
+CH04,JUNON RESIDENT HOUSE INSIDE,クラウド,CLOUD,CLOUD,「それ以外の時間だ」
+CH04,JUNON RESIDENT HOUSE INSIDE,ティファ,TIFA,TIFA,「う～ん……５年前なのよ。覚えてないわ」
+CH04,JUNON RESIDENT HOUSE INSIDE,ティファ,TIFA,TIFA,「ね、それより外の様子が変なの。早く来て、クラウド」
+CH04,JUNON LOWER TOWN,INFO,CLOUD,CLOUD,＜クラウド、外に出る。 /n →するとどこからともなくルーファウス歓迎式典の音楽が流れていた…＞
+CH04,JUNON LOWER TOWN,エアリス,AERITH,AERITH,「女の子が目をさましたらしいの」
+CH04,JUNON LOWER TOWN,ティファ,TIFA,TIFA,「ねっ、何だか様子が変でしょ？ きゅうに、さわがしくなって」
+CH04,JUNON LOWER TOWN,レッド13,RED XIII_W,RED XIII_C,「このさわがしさは 神羅と何か関係があるのかもな？」
+CH04,JUNON LOWER TOWN,バレット,BARRET,BARRET,「なんだか上の方が さわがしいな」
+CH04,JUNON LOWER TOWN,INFO,PRISCILLA,PRISCILLA,＜そこへ、プリシラが来る＞
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「もう、だいじょうぶなのか？」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「あのぅ……助けてくれて ありがとう……」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「神羅のやつとまちがえちゃってごめんね……」
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「かまわないよ」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「おにいちゃんにイイものあげる！」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「海のお守りなのよ だいじにしてね」
+CH04,JUNON LOWER TOWN,INFO,CLOUD,CLOUD,＜クラウド、『シヴァ』のマテリアを受け取る＞
+CH04,JUNON LOWER TOWN,バレット,BARRET,BARRET,「この音楽は何だ？ ずいぶんにぎやかじゃねえか」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「これは神羅の新しい社長の歓迎式のリハーサルだと思う」
+CH04,JUNON LOWER TOWN,バレット,BARRET,BARRET,「ルーファウス！？ これはあいさつに行かなくちゃな」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「ここはね、じいちゃんやばあちゃんが子供のころには とてもきれいな海岸だったって」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「でも神羅が上の街をつくってから 日もあたらなくなったし 海も汚れちゃって……」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「そんな話を聞いて育ったから わたし、神羅がにくらしくて しょうがないの」
+CH04,JUNON LOWER TOWN,エアリス,AERITH,AERITH,「ルーファウスもここから海をこえるつもりなのかな？」
+CH04,JUNON LOWER TOWN,エアリス,AERITH,AERITH,「あれっ？ それじゃ、セフィロスはもう、海を渡っちゃったってこと？」
+CH04,JUNON LOWER TOWN,レッド13,RED XIII_W,RED XIII_C,「クラウドよ、ルーファウスにとどめをささなかったのか？」
+CH04,JUNON LOWER TOWN,バレット,BARRET,BARRET,「なんとかして上の街に行きてぇな。柱でもよじのぼるか？」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「ダメダメ！ 柱の下は高圧電流が流れてるの むやみに近づいたらキケンよ」
+CH04,JUNON LOWER TOWN,プリシラ,PRISCILLA,PRISCILLA,「でも……イルカさんの力をかりれば なんとかなるかな。ちょっと来て」
+CH04,JUNON LOWER TOWN,INFO,PRISCILLA,PRISCILLA,＜プリシラ、イルカの入り江の方へ駆け出す＞
+CH04,JUNON LOWER TOWN,ティファ,TIFA,TIFA,「高圧電流の柱ねぇ……」
+CH04,JUNON LOWER TOWN,ティファ,TIFA,TIFA,「こういうことは、クラウドが うまくやってくれるのよね」
+CH04,JUNON LOWER TOWN,エアリス,AERITH,AERITH,「そうね、あの子のことは クラウドにまかせましょ！」
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「オッ、オイ！」
+CH04,JUNON LOWER TOWN,クラウド,CLOUD,CLOUD,「ちょっと、まてよ！」
+CH04,JUNON DOLPHIN COVE,INFO,CLOUD,CLOUD,＜クラウド一人、プリシラを追って、イルカの入り江に行く＞
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「おにいちゃん ちょっと見ていて」
+CH04,JUNON DOLPHIN COVE,INFO,PRISCILLA,PRISCILLA,＜プリシラが笛を吹くと、イルカがシャンプする＞
+CH04,JUNON DOLPHIN COVE,INFO,BARRET,BARRET,＜そこへ、バレットが来る＞
+CH04,JUNON DOLPHIN COVE,バレット,BARRET,BARRET,「見せてもらったぜ、イルカのジャンプ すごいもんじゃねぇか！」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「すごいでしょ！ このホイッスルを吹くと イルカさんがジャンプしてくれるの」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「ハイ！　ホイッスルをおにいちゃんにプレゼント」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「プ、プレゼントって……どうしろっていうんだ！？」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「海に入ってホイッスルを吹くと イルカさんが柱の上までジャンプさせてくれるわ！」
+CH04,JUNON DOLPHIN COVE,クラウド,CLOUD,CLOUD,「柱の上までジャンプだって！？」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「柱の上のほうに、ボウが突き出しているの。位置を合わせてジャンプすれば ボウに乗って、上の街まで上れるはずよ」
+CH04,JUNON DOLPHIN COVE,バレット,BARRET,BARRET,「クラウド、がんばれよ！ おまえが上手くやったら オレたちも行くからよ！」
+CH04,JUNON DOLPHIN COVE,バレット,BARRET,BARRET,「おっと、それにPHSをあずかっておいたぜ。ぬれたら壊れちまうからな」
+CH04,JUNON DOLPHIN COVE,プリシラ,PRISCILLA,PRISCILLA,「イルカさんとジャンプしてみる？」
+CH04,JUNON DOLPHIN COVE,INFO,CLOUD,CLOUD,＜選択肢：「もう1回説明してくれ」or「やってみる」or「やめておく」 /n →「やってみる」を選択＞
+CH04,JUNON DOLPHIN COVE,INFO,CLOUD,CLOUD,＜クラウド、イルカに乗り、ジャンプしてボウの上に飛び移る。→そのまま上にのぼり、エアポートにたどりつく＞
+CH05,JUNON AIRPORT CORRIDOR,INFO,INFO,INFO,＜エアポート通路＞
+CH05,JUNON AIRPORT CORRIDOR,兵士たち,SOLDIER 1ST CLASS GROUP_W,SOLDIER 1ST CLASS GROUP_C,「エホッ！ エホッ！」
+CH05,JUNON AIRPORT CORRIDOR,兵士たち,SOLDIER 1ST CLASS GROUP_W,SOLDIER 1ST CLASS GROUP_C,「新社長っ！！ 歓迎っ歓迎っ！！」
+CH05,JUNON AIRPORT CORRIDOR,兵士たち,SOLDIER 1ST CLASS GROUP_W,SOLDIER 1ST CLASS GROUP_C,「いそげっ！ いそげっ！！」
+CH05,JUNON AIRPORT CORRIDOR,隊長,COMMANDER,COMMANDER,「こらっ！ ま～だ、そんな格好しているのか！ こっちゃこい！」
+CH05,JUNON AIRPORT CORRIDOR,隊長,COMMANDER,COMMANDER,「ほれっ！！ 部屋にはいらんかっ！」
+CH05,JUNON ANTEROOM,INFO,INFO,INFO,＜控え室＞
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「今日は新社長ルーファウス様をおむかえする大切な日だってのに！ ほらっ、着替えろ！」
+CH05,JUNON ANTEROOM,クラウド,CLOUD,CLOUD,「神羅兵の制服だ」
+CH05,JUNON ANTEROOM,INFO,CLOUD,CLOUD,＜選択肢：「着替えない」or「着替える」 /n →「着替える」を選択＞
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「なつかしいな…」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「むだぐちたたくな！ はよせいっ！」
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「神羅の制服か…」
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「はじめてそでを通したとき ほこらしく思ったっけ」
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「いつからだったか…」
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「こいつを着るのがたまらなくいやになったのは」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「ほ～う！ にあっとるじゃないか！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「おまえ、お迎えの仕方は覚えてるだろうな！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「……忘れたって顔だな。しょうがない！　教えちゃる！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「自分と同じようにやるんだぞ」
+CH05,JUNON ANTEROOM,INFO,INFO,INFO,＜そこへ、部下の兵士２人が来る＞
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「隊長！！ 自分らが手伝うであります！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「見本であります！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「うたうであります！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「おうっ！ 見せてやれぃ！！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「まずは行進！！ 歓迎パレードであります！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「ではっ！ 自分のうたごえにあわせるであります！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「せいしゅくに～！！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「ア～ッ～！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「ア～ッ～！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「こりゃこりゃ！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「さんはいっ！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「行進はじめ～！！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「ル～ファウス～ ル～ファウス神羅～」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「わ～れらが～　神羅カンパニ～ あ～たらしい社長～」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「おいっちにっ！ いっちにっ！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「となりの兵士と歩調をあわせて おごそかにいさましく歩くであります！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「みんなの歩調があったら 銃をかがげるであります！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「わかったか！」
+CH05,JUNON ANTEROOM,INFO,CLOUD MARCH,CLOUD MARCH,＜選択肢：「まだまだです」or「かんぺきです」 /n →「かんぺきです」を選択＞
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よろしい！ 本番でもがんばるんだぞ！」
+CH05,JUNON ANTEROOM,INFO,SOLDIER 1ST CLASS 4,SOLDIER 1ST CLASS 4,＜そこへもう一人の兵士が来る＞
+CH05,JUNON ANTEROOM,兵士Ｄ,SOLDIER 1ST CLASS 4,SOLDIER 1ST CLASS 4,「ルーファウス様、到着です！ 準備完了です！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「さあ、本番だ！ 失礼のないようにな！」
+CH05,JUNON STREET,INFO,INFO,INFO,＜アルジュノン＞
+CH05,JUNON STREET,兵士,SOLDIER 1ST CLASS 3,SOLDIER 1ST CLASS 3,「歓迎パレード 開始します！！」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「いか～ん！！ 誰もおら～ん」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「遅刻した～！？」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「こらっ！　新入り！！ おまえがもたもたすっから！！」
+CH05,JUNON STREET,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「隊長！！ 近道するであります！」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「うむ！」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「それはいい作戦だ」
+CH05,JUNON STREET,隊長,COMMANDER,COMMANDER,「こっちゃこい！！」
+CH05,JUNON MAIN STREET,INFO,INFO,INFO,＜エルジュノン＞
+CH05,JUNON MAIN STREET,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「まずは、自分がいくであります！ 新入りさんは、よ～く見て 自分のまねをすればいいでありますよ！」
+CH05,JUNON MAIN STREET,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「うしろから、サササッとパレードのあいてる場所にしのびこむであります！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「いいか！ このパレードは全世界の神羅TVに生中継されておる！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「ぶざまなかっこうをさらせば ジュノン軍隊全体のはじとな～る。そこんとこ、きもにめいじて行動せい！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「んだば！！ 自分が合図したら列にしのびこ～め！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「さりげな～く、後ろから！ 列をみだすな！ 前からいこうとしてもダ～メだぞ！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「よしっ！！ かけ足準備！！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「とっつげき～！！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「こりゃ！！ 楽しようとすな！」
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「とっつげき～！！」
+CH05,JUNON MAIN STREET,INFO,CLOUD MARCH,CLOUD MARCH,＜クラウド、なんとか列に入る＞
+CH05,JUNON MAIN STREET,隊長,COMMANDER,COMMANDER,「それっ！！ １……！」
+CH05,JUNON MAIN STREET,INFO,INFO,INFO,＜そして……＞
+CH05,JUNON TV STATION,TV番組プロジューサー,TV PRODUCER,TV PRODUCER,「なんだったんだ！？ あの兵士は？」
+CH05,JUNON TV STATION,助監督,ASSISTANT DIRECTOR,ASSISTANT DIRECTOR,「さあ？」
+CH05,JUNON TV STATION,TV番組プロジューサー,TV PRODUCER,TV PRODUCER,「数字はあがったのか？」
+CH05,JUNON TV STATION,助監督,ASSISTANT DIRECTOR,ASSISTANT DIRECTOR,「ズタボロです！ ボク……クビですかねえ？」
+CH05,JUNON TV STATION,TV番組プロジューサー,TV PRODUCER,TV PRODUCER,「なぬ！！ おまえはクビ～！！」
+CH05,JUNON TV STATION,TV番組プロジューサー,TV PRODUCER,TV PRODUCER,「あの兵士には爆弾でもおくっとけ～！」
+CH05,JUNON STREET LIFT,INFO,CLOUD MARCH,CLOUD MARCH,＜クラウド、『手榴弾』を受け取る…＞
+CH05,JUNON STREET LIFT,INFO,INFO,INFO,＜リフト＞
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「うっし！ まにあった」
+CH05,JUNON STREET LIFT,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「おっおっ！ ルーファウス様！」
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「ほれ！ しずかにならんどれ！」
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「１歩たりとも動くなよ！」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「ごくろう」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「飛空艇はどうしたんだ？」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「大陸間移動可能な飛空艇はまだ準備中なんですよ」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「あと３日待っていただければ。ガハハハハハ！」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「空軍のゲルニカもか？」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「……ガハハハハハ！」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「その笑いかたはやめろ」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「もうオヤジのときのようにはいかないからな」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「ガハ……」
+CH05,JUNON STREET LIFT,ルーファウス,RUFUS,RUFUS,「船の準備はいいのか？」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「それはすぐに、はい」
+CH05,JUNON STREET LIFT,INFO,RUFUS,RUFUS,＜ルーファウス、リフトに乗る＞
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「こらっ！」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「こらっ！」
+CH05,JUNON STREET LIFT,ハイデッカー,HEIDEGGER,HEIDEGGER,「こらっ！」
+CH05,JUNON STREET LIFT,INFO,HEIDEGGER,HEIDEGGER,＜ハイデッカー、兵士（クラウド ）にやつあたりをして、すぐさまリフトに乗る。 /n →リフトが上に移動する＞
+CH05,JUNON STREET LIFT,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「災難だったな」
+CH05,JUNON STREET LIFT,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「ハイデッカーはイライラしてるからな」
+CH05,JUNON STREET LIFT,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「黒マントの男が街をうろついてるのに発見できないんだ」
+CH05,JUNON STREET LIFT,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「黒マントの男？」
+CH05,JUNON STREET LIFT,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「２、３日前にあらわれたんだ。そいつに兵士たちが何人か殺されてなぁ」
+CH05,JUNON STREET LIFT,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「その後、行方不明さ。あの英雄セフィロスだってウワサだぜ」
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「こら～っ！ すみやかに解散せ～っ！」
+CH05,JUNON STREET LIFT,INFO,SOLDIER MEN_W,SOLDIER MEN_C,＜兵士たち、すぐに退散するが、クラウドだけ残る＞
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「おいっ！　おまえっ！ 軍隊をなめとるんか？」
+CH05,JUNON STREET LIFT,INFO,CLOUD MARCH,CLOUD MARCH,＜選択肢：「興味ないね」or「知らないね」 /n →「興味ないね」を選択＞
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「たるんどる！！ おまえは休み時間な～し！！」
+CH05,JUNON STREET LIFT,隊長,COMMANDER,COMMANDER,「こっちゃこ～い！」
+CH05,JUNON ANTEROOM,INFO,INFO,INFO,＜控え室＞
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「軍隊をなめちょるな！！ 本日！！　次の指令は港でルーファウス様のお見送りだっ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「時間まで、みっ～ちり指導しちゃる！」
+CH05,JUNON ANTEROOM,INFO,SOLDIER MEN_W,SOLDIER MEN_C,＜そこへ、再び部下の兵士２人が来る＞
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「手伝うであります！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「おなじくであります！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よ～っし！！ 自分の号令にあわせてお見送りのキメポーズをするのだ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「本日の号令はフォーメーション名になっちょる！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よっ～く、覚えとけっ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「それではいくぞっ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「ジュノン軍隊式 お見送りはじめ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「○ボタン：サークル！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「△ボタン：トライアングル！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「□ボタン：スクウェア！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「Ｘボタン：クロス！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「左：レフトターン！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「うっし！ おまえもやってみそ！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「○ボタン：サークル！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「△ボタン：トライアングル！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「□ボタン：スクウェア！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「Ｘボタン：クロス！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「左：レフトターン！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「おっす！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「どうだ！　わかったか？」
+CH05,JUNON ANTEROOM,INFO,CLOUD MARCH,CLOUD MARCH,＜選択肢：「まだまだであります！」or「かんぺきであります！」 /n →「かんぺきであります！」を選択＞
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よ～し！ 本番でもがんばるんだぞっ！」
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「隊長！！ 本日のスペシャルポーズは？」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「んっ？ ……決めてない」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よしっ、新入り！！ 特別におまえに決めさせてやる！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「得意のキメポーズ、やってみろ！」
+CH05,JUNON ANTEROOM,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「そうだな…。俺の得意なのは」
+CH05,JUNON ANTEROOM,INFO,CLOUD MARCH,CLOUD MARCH,＜クラウド、戦闘で勝利した時のポーズをする＞
+CH05,JUNON ANTEROOM,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「おおっ～！」
+CH05,JUNON ANTEROOM,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「かっこいいであります！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よしっ！！ 本日のスペシャルはこれに決まり！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「よ～くっ！ 練習しとけっ！」
+CH05,JUNON ANTEROOM,兵士Ａ&Ｂ,SOLDIER MEN_W,SOLDIER MEN_C,「はっ！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「では！　港に集合！！ 遅れるな～！！」
+CH05,JUNON ANTEROOM,隊長,COMMANDER,COMMANDER,「すわっ！ 解散っ！！」
+CH05,JUNON ANTEROOM,INFO,CLOUD MARCH,CLOUD MARCH,＜隊長も出ていき、クラウド、ようやく自由の身になる＞
+CH05,JUNON BAR,INFO,INFO,INFO,＜エルジュノン・酒場＞
+CH05,JUNON BAR,レノ,RENO,RENO,「オレたちが来たからには社長の警備は万全だ、と」
+CH05,JUNON BAR,イリーナ,ELENA,ELENA,「先輩たち、つまらない仕事だとすぐさぼるんだから」
+CH05,JUNON DOCK,INFO,INFO,INFO,＜ジュノンドック＞
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「よ～し、時間だっ！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「整列っ～！」
+CH05,JUNON DOCK,INFO,AERITH SOLDIER,AERITH SOLDIER,＜ドックのそばに兵士になりすませたエアリスが＞
+CH05,JUNON DOCK,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「ルーファウス……様、到着よ！」
+CH05,JUNON DOCK,INFO,RUFUS & HEIDEGGER_W,RUFUS & HEIDEGGER_C,＜ルーファウス、ハイデッカーを連れ登場＞
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「いざっ本番！！ ジュノン軍隊式お見送り～！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「軍人らしく　元気よ～く さんはいっ！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「Ｘ：クロス！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「左：レフトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「Ｘ：クロス！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「△：トライアングル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「Ｘ：クロス！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「左：レフトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「△：トライアングル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「Ｘ：クロス！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「□：スクウェア！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「○：サークル！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「左：レフトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「Ｘ：クロス！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「右：ライトターン！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「すわっ！ 最後は決めるぞ！！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「スペシャ～ル！！」
+CH05,JUNON DOCK,ルーファウス,RUFUS,RUFUS,「くんれんがたりんようだな」
+CH05,JUNON DOCK,ルーファウス,RUFUS,RUFUS,「このせいせきでは、減給もありうると思ってくれたまえ」
+CH05,JUNON DOCK,ハイデッカー,HEIDEGGER,HEIDEGGER,「ガハハハハハ！！ 特別ボーナスだぞ、おまえら！！」
+CH05,JUNON DOCK,ハイデッカー,HEIDEGGER,HEIDEGGER,「ルーファウス社長のご好意だ！ きもに命じとけ！」
+CH05,JUNON DOCK,INFO,CLOUD MARCH,CLOUD MARCH,＜クラウド、『銀縁メガネ』を受け取る＞
+CH05,JUNON DOCK,ルーファウス,RUFUS,RUFUS,「セフィロスがここに来たというウワサがひろまれば クラウドたちもあらわれるはずだ」
+CH05,JUNON DOCK,ハイデッカー,HEIDEGGER,HEIDEGGER,「みつけしだいヒネリつぶします！」
+CH05,JUNON DOCK,ルーファウス,RUFUS,RUFUS,「邪魔をされてはかなわんからな」
+CH05,JUNON DOCK,ハイデッカー,HEIDEGGER,HEIDEGGER,「おまかせ下さい！ ガハハハハハハ！」
+CH05,JUNON DOCK,ルーファウス,RUFUS,RUFUS,「やめろと言ったはずだが……」
+CH05,JUNON DOCK,ハイデッカー,HEIDEGGER,HEIDEGGER,「ガハ……」
+CH05,JUNON DOCK,INFO,RUFUS & HEIDEGGER_W,RUFUS & HEIDEGGER_C,＜ルーファウス、ハイデッカー、ともに船に乗る＞
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「よーしっ！　解散！」
+CH05,JUNON DOCK,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「あぶなかったな」
+CH05,JUNON DOCK,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「ハイデッカーはイライラしてるからな」
+CH05,JUNON DOCK,兵士Ｂ,SOLDIER 1ST CLASS 2,SOLDIER 1ST CLASS 2,「なんでも本社の宝条が会社をやめると言い残して行方不明になったらしいんだ」
+CH05,JUNON DOCK,兵士Ａ,SOLDIER 1ST CLASS,SOLDIER 1ST CLASS,「ハイデッカーはその捜索も まかされたらしいからな」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「こらーっ！ 解散だと言っとろうが～！」
+CH05,JUNON DOCK,隊長,COMMANDER,COMMANDER,「あとかたづけがのこっちょる！ はよせいよ！」
+CH05,JUNON DOCK,INFO,CLOUD MARCH,CLOUD MARCH,＜クラウド、遅れて船に乗り込む＞
+CH05,JUNON DOCK,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「俺たちは新たな大陸に向け、海を渡る」
+CH05,JUNON DOCK,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「神羅の軍服につつまれながら……」
+CH05,SHIP CARGO BAY,INFO,INFO,INFO,＜運搬船・船倉＞
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「フフフ……わたし。エアリスよ」
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「ね、クラウド。ジュノンで飛空艇、見た？」
+CH05,SHIP CARGO BAY,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「……ウワサには聞いていたけど あれほど大きいとは思ってなかったな」
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「すっごいよね～」
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「ね、わたし、あれにのれるかな？」
+CH05,SHIP CARGO BAY,INFO,CLOUD MARCH,CLOUD MARCH,＜選択肢：「いつか俺がのせてやるよ」or「さあな……」 /n →「いつか俺がのせてやるよ」を選択＞
+CH05,SHIP CARGO BAY,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「……期待しててくれ」
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「うわ～！ 楽しみにしてるからね！」
+CH05,SHIP CARGO BAY,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「一緒にのろうね、飛空艇。約束、約束！」
+CH05,SHIP DECK,INFO,INFO,INFO,＜甲板＞
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「ハッ！ イジョウなしであります。ソルジャーどの！」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「なーんて。わかる？　ティファよ。どう、ビックリした？」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「……でも、ホントはね。こんな軍服キライ」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「軍服も、兵隊も、戦争も みんなみんなキライ」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「大切なものを、大切な人を みんなからうばってしまうから……」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「はやく、なくなるといいね。ね、クラウド？」
+CH05,SHIP DECK,INFO,CLOUD MARCH,CLOUD MARCH,＜選択肢：「ああ……」or「どうかな」 /n →「ああ……」を選択＞
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「うん、そうだよね！」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「それでは、はりきって見張りをつづけるであります！ フフフ……」
+CH05,SHIP DECK,兵士,SOLDIER 1ST CLASS 3,SOLDIER 1ST CLASS 3,「やれやれ、もう少しで コスタ・デル・ソルか……」
+CH05,SHIP DECK,兵士,SOLDIER 1ST CLASS 3,SOLDIER 1ST CLASS 3,「向こうについたら ひさしぶりの休みだ。ビーチで体をやこうかな……」
+CH05,SHIP DECK,レッド13_SOLDIER,RED XIII SOLDIER,RED XIII SOLDIER,「………… ……私だ。レッド13だ」
+CH05,SHIP DECK,レッド13_SOLDIER,RED XIII SOLDIER,RED XIII SOLDIER,「ちょっとフラフラするが なに、バレることはないだろう」
+CH05,SHIP DECK,レッド13_SOLDIER,RED XIII SOLDIER,RED XIII SOLDIER,「人間というものは たいてい、ものごとのそとがわしか見ないからな」
+CH05,SHIP DECK,レッド13_SOLDIER,RED XIII SOLDIER,RED XIII SOLDIER,「この服を着るだけでどこから見ても立派な人間だろう？」
+CH05,SHIP DECK,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「ね、クラウド。バレット見なかった？」
+CH05,SHIP DECK,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「ムチャなこと、ひとりでしてなきゃいいけど……」
+CH05,SHIP BRIDGE,INFO,INFO,INFO,＜艦橋＞
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「見ろよ、クラウド。ルーファウスとハイデッカーだぜ」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「みんな近くにいるってのに 手が出せねえなんて……」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「ウヌヌ……グヌヌヌ……」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「なんだあのヤロ……のんきにガハガハガハガハ笑いやがって……」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「あいつらのせいでビッグスは……ウェッジは……ジェシーは……！」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「ウヌヌ……グヌヌヌ……！ グヌヌヌヌ……！！」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「ガ～ッ！！ ガマンできねえぜ！」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「いっそのこと、ここで一気にカタをつけ……」
+CH05,SHIP BRIDGE,INFO,INFO,INFO,＜すると突然、警報が鳴る＞
+CH05,SHIP BRIDGE,警報アナウンス,EMERGENCY ALARM,EMERGENCY ALARM,「緊急連絡！ 不審人物を発見の報告アリ！ 作業のない各員は艦内を調査。発見しだい通報のこと！」
+CH05,SHIP BRIDGE,警報アナウンス,EMERGENCY ALARM,EMERGENCY ALARM,「くりかえす。不審人物を発見の報告アリ！ 作業のない各員は艦内を調査。発見しだい通報のこと！」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「しまった、見つかったか！？」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「いや、オレたちじゃねえようだ。となると……ティファたちか！？」
+CH05,SHIP BRIDGE,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「こうしちゃいられねえ。行こうぜ、クラウド！」
+CH05,SHIP DECK,INFO,INFO,INFO,＜甲板＞
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「みんなだいじょうぶ！？」
+CH05,SHIP DECK,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「だいじょうぶか！？」
+CH05,SHIP DECK,エアリス_SOLDIER,AERITH SOLDIER,AERITH SOLDIER,「あれ？」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「みんないる……わね」
+CH05,SHIP DECK,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「待てよオイ」
+CH05,SHIP DECK,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「てことは不審人物ってのは まさか……」
+CH05,SHIP DECK,全員,ABCTR_W,ABCTR_C,「セフィロス！？」
+CH05,SHIP DECK,ティファ_SOLDIER,TIFA SOLDIER,TIFA SOLDIER,「本当なの！？」
+CH05,SHIP DECK,バレット_SAILOR,BARRET SAILOR,BARRET SAILOR,「オレだってわからねえよ！」
+CH05,SHIP DECK,クラウド_MARCH,CLOUD MARCH,CLOUD MARCH,「……確かめよう」
+CH05,SHIP DECK,レッド13_SOLDIER,RED XIII SOLDIER,RED XIII SOLDIER,「それがもっとも論理的な行動だな。さて、誰が行く？」
+CH05,SHIP DECK,INFO,INFO,INFO,＜パーティー組替え：クラウド・バレット・レッド13＞
+CH05,SHIP DECK,クラウド,CLOUD,CLOUD,「………… セフィロスか……」
+CH05,SHIP DECK,クラウド,CLOUD,CLOUD,「……よし、行こう！」
+CH05,SHIP CARGO BAY,INFO,INFO,INFO,＜船倉＞
+CH05,SHIP CARGO BAY,瀕死の兵士,SOLDIER DYING,SOLDIER DYING,「……機関室に……不審……人物……」
+CH05,SHIP CARGO BAY,瀕死の兵士,SOLDIER DYING,SOLDIER DYING,「いや……ちが……う…… あれ……人間じゃ……人間なんかじゃ……な……」
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜機関室＞
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「セフィロス……なのか？」
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜兵士が倒れ、死ぬ＞
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「ちがう……セフィロスじゃない！」
+CH05,SHIP ENGINE BAY,???,MYSTERY VOICE,MYSTERY VOICE,「……長き眠りをへて……」
+CH05,SHIP ENGINE BAY,???,MYSTERY VOICE,MYSTERY VOICE,「……時は……」
+CH05,SHIP ENGINE BAY,???,MYSTERY VOICE,MYSTERY VOICE,「時は……満ちた……」
+CH05,SHIP ENGINE BAY,バレット,BARRET,BARRET,「見ろクラウド！！」
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜目の前にセフィロスが現れる＞
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「セフィロス！ 生きていたんだな！」
+CH05,SHIP ENGINE BAY,セフィロス,SEPHIROTH,SEPHIROTH,「…………だれだ」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「俺を忘れたっていうのか！ 俺はクラウドだ！」
+CH05,SHIP ENGINE BAY,セフィロス,SEPHIROTH,SEPHIROTH,「クラウド……」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「セフィロス！　何を考えている！ 何をするつもりだ！」
+CH05,SHIP ENGINE BAY,セフィロス,SEPHIROTH,SEPHIROTH,「……時は……満ちた……」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「何！？　何を言ってるんだ！？ もっと……」
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜セフィロスが飛び去り、戦闘に入る＞
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜戦闘：ジェノバ・BIRTH＞ /n ＜ジェノバ・BIRTHを撃破＞ /n ＜戦闘終了＞
+CH05,SHIP ENGINE BAY,レッド13,RED XIII_W,RED XIII_C,「これは神羅ビルから消えた……」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「ジェノバだ。ジェノバの腕だ」
+CH05,SHIP ENGINE BAY,バレット,BARRET,BARRET,「ジェノバを……こんなものを持ち歩いているのか？」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「やっぱりセフィロスだった」
+CH05,SHIP ENGINE BAY,レッド13,RED XIII_W,RED XIII_C,「時は満ちた…… どういう意味だ？」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「……時は……満ちた？」
+CH05,SHIP ENGINE BAY,バレット,BARRET,BARRET,「ワケがわかんねえぜ！」
+CH05,SHIP ENGINE BAY,バレット,BARRET,BARRET,「クラウド、ちょっとここまでを整理してくれねえか？」
+CH05,SHIP ENGINE BAY,INFO,CLOUD,CLOUD,＜選択肢：「やってみる」or「めんどうくさい」 /n →「やってみる」を選択＞
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「……やってみるから途中で口をはさまないでくれよ」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「セフィロスはこの星の支配者になるために約束の地を目指すと言い残し 姿を消した……それが５年前だ」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「そのセフィロスが現れ プレジデント神羅を殺した」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「俺たちはたったいまセフィロスと会った」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「そしてセフィロスはジェノバを持ち歩いている」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「……これはわかる。あいつの目的は母なるジェノバとともに約束の地へ、だからな」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「……だいだいそんなところだな」
+CH05,SHIP ENGINE BAY,アナウンス,ANOUNCEMENT,ANOUNCEMENT,「接岸作業員 コスタ・デル・ソル入港５分前 接岸準備を開始せよ」
+CH05,SHIP ENGINE BAY,バレット,BARRET,BARRET,「おおっと！ はやいとこ隠れたほうがよさそうだぜ」
+CH05,SHIP ENGINE BAY,INFO,INFO,INFO,＜バレット、レッド13が去り、クラウド、一人遠くを見る＞
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「生きていた……セフィロスが……」
+CH05,SHIP ENGINE BAY,クラウド,CLOUD,CLOUD,「約束の地……本当にあるのか……？」
+CH05,COSTA DEL SOL PORT,INFO,INFO,INFO,＜コスタ・デル・ソル港＞
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「カッ～！！ あついな、ここは！」
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「だがよ、せいせいしたぜ！ これで、ちっこいセーラー服とおさらばだからな」
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「いいか！！ こっからは一般人として行動しろ！」
+CH05,COSTA DEL SOL PORT,エアリス,AERITH,AERITH,「あら残念、バレットの水兵姿。かわいかったのに、けっこう」
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「……かわいいだと」
+CH05,COSTA DEL SOL PORT,ティファ,TIFA,TIFA,「うんうん」
+CH05,COSTA DEL SOL PORT,ティファ,TIFA,TIFA,「バレット、あのセーラー服、パジャマにしなさい」
+CH05,COSTA DEL SOL PORT,ティファ,TIFA,TIFA,「ね、クラウドもそう思うでしょ？」
+CH05,COSTA DEL SOL PORT,INFO,CLOUD,CLOUD,＜選択肢：「そうだな」or「そんなことよりセフィロスを」 /n →「そんなことよりセフィロスを」を選択＞
+CH05,COSTA DEL SOL PORT,クラウド,CLOUD,CLOUD,「俺たちはバカンスで来たんじゃない。セフィロスを追うんだ」
+CH05,COSTA DEL SOL PORT,クラウド,CLOUD,CLOUD,「先を急ぐぞ」
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「ケッ！！　クラウドさんよ。道草が好きなのは、おまえさんだろ」
+CH05,COSTA DEL SOL PORT,バレット,BARRET,BARRET,「こんな場ちがいなリゾート地は すっ飛ばしていくぜ！！」
+CH05,COSTA DEL SOL PORT,レッド13,RED XIII_W,RED XIII_C,「ゼェゼェ……」
+CH05,COSTA DEL SOL PORT,レッド13,RED XIII_W,RED XIII_C,「すまないが、少し急いでくれないか。ここは暑い、私のアカハナがかわいてしまう」
+CH05,COSTA DEL SOL PORT,クラウド,CLOUD,CLOUD,「わかった。小休止の後、出発する」
+CH05,COSTA DEL SOL PORT,クラウド,CLOUD,CLOUD,「あまり、遠くへは行くな」
+CH05,COSTA DEL SOL PORT,ティファ,TIFA,TIFA,「およぎにいっちゃおうかな」
+CH05,COSTA DEL SOL PORT,エアリス,AERITH,AERITH,「そうしよっか？」
+CH05,COSTA DEL SOL PORT,エアリス,AERITH,AERITH,「んん……？　クラウド君 いまなんか想像しちゃったかな？」
+CH05,COSTA DEL SOL PORT,エアリス,AERITH,AERITH,「クールな顔がくずれてますよ～」
+CH05,COSTA DEL SOL PORT,エアリス,AERITH,AERITH,「さ、いこいこ！」
+CH05,COSTA DEL SOL PORT,INFO,CLOUD,CLOUD,＜クラウド一行、とりあえず港を離れる。 /n → 遅れてルーファウス、ハイデッカーが船から降りてくる＞
+CH05,COSTA DEL SOL PORT,水兵,SAILOR,SAILOR,「長時間の船旅 おつかれさまです！！」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「ウム……ごくろう……」
+CH05,COSTA DEL SOL PORT,ハイデッカー,HEIDEGGER,HEIDEGGER,「ガハハハハ！！ スキッフ作業を急げ！」
+CH05,COSTA DEL SOL PORT,水兵,SAILOR,SAILOR,「ハッ！！」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「セフィロスが乗っていたらしいな」
+CH05,COSTA DEL SOL PORT,ハイデッカー,HEIDEGGER,HEIDEGGER,「……はっ」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「クラウドたちも乗っていたらしいな」
+CH05,COSTA DEL SOL PORT,ハイデッカー,HEIDEGGER,HEIDEGGER,「……はっ」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「どちらも取り逃がした……。大失態だな、ハイデッカーくん」
+CH05,COSTA DEL SOL PORT,ハイデッカー,HEIDEGGER,HEIDEGGER,「めんぼくない……です」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「いつから返事とあやまることしかできなくなったのだ…きみは」
+CH05,COSTA DEL SOL PORT,水兵,SAILOR,SAILOR,「スキッフ発進準備 完了いたしました！！」
+CH05,COSTA DEL SOL PORT,ルーファウス,RUFUS,RUFUS,「……なんとかしたまえ。期待している」
+CH05,COSTA DEL SOL PORT,INFO,RUFUS & HEIDEGGER_W,RUFUS & HEIDEGGER_C,＜ルーファウス、ヘリコプタースキッフに乗り込むと、ハイデッカー、辺りの水兵にいびり散らす＞
+CH05,COSTA DEL SOL JOHNNYS HOUSE,INFO,INFO,INFO,＜ジョニー家＞
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「なななななんだ？ あななななたは！！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「ああっ、あんたは？ もしかしてぇ！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「元ソルジャーかつ幼なじみでモテモテの遊び人」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「そ、そして……人殺し野郎！！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「えっっと……お名前なんでしたっけ？」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「おまえこそ誰だ？」or「クラウドだ、おぼえとけ」 /n →「おまえこそ誰だ？」を選択＞
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「そうだよな、ひさしぶりだもんな。俺のことなんか、わすれちゃったか」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「いいぜ、このまま、あんたと俺は関係なし。俺はこの街で新しいくらしをはじめた」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「おたがい、いろいろあったよな。や！　もうぐちるのはやめ！ いいよな、あんたたちみたいに の～天気に生きられりゃよ」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「はやく出てってくれよ！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「俺は、これでもハッピーにやってんだ。俺のラブリーなどうせい生活をじゃましないでくれ！」
+CH05,COSTA DEL SOL BEACH,INFO,INFO,INFO,＜ビーチ＞
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「あっ！ クラウド！！」
+CH05,COSTA DEL SOL BEACH,ティファ,TIFA,TIFA,「あれ、見て！」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「ん……？」
+CH05,COSTA DEL SOL BEACH,INFO,CLOUD,CLOUD,＜選択肢：「あいつは宝条…」or「水着の女の子か…」 /n →「水着の女の子か…」を選択＞
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「悪くないながめだな…」
+CH05,COSTA DEL SOL BEACH,ティファ,TIFA,TIFA,「もう！！　どこ見てんのよ！」
+CH05,COSTA DEL SOL BEACH,ティファ,TIFA,TIFA,「あそこの男、神羅の宝条よ！ ふざけないで 話つけてきて！」
+CH05,COSTA DEL SOL BEACH,水着ギャルＡ,SWIMMING GIRL A,SWIMMING GIRL A,「あら！！ なにか御用？」
+CH05,COSTA DEL SOL BEACH,INFO,CLOUD,CLOUD,＜選択肢：「そこの男に用がある」or「そいつは宝条か？」 /n →「そこの男に用がある」を選択＞
+CH05,COSTA DEL SOL BEACH,水着ギャルＡ,SWIMMING GIRL A,SWIMMING GIRL A,「（なによっ、えらそうに）」
+CH05,COSTA DEL SOL BEACH,水着ギャルＡ,SWIMMING GIRL A,SWIMMING GIRL A,「ねぇ、宝条博士～。こわい人が、用があるって～」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「いまいそがしい」
+CH05,COSTA DEL SOL BEACH,水着ギャルＡ,SWIMMING GIRL A,SWIMMING GIRL A,「……だって～。残念でしたぁ～」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「いや、まちたまえ。きみはたしか、私の記憶にある……」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「ああ、そうそう。思い出したよ」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「ひさしぶりだな クラウドくん」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「宝条……」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「たまにこういうのもいいものだね」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「……何をしている」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「見てのとおりだ。日光浴」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「まじめに答えろ！」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「ふん…… 私の目的は君と同じだと思うが」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「セフィロスか？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「君たちは会えたのか？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「そうか……ふむふむ」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「なんだ？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「いや、ちょっとした仮設を思いついたのだが……」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「君は、何かに呼ばれているという感じがしたことはないかな？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「または、どうしてもある場所へ行かなくてはならないという気持ちになるとか……」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「俺はセフィロスがいる場所ならどこへでも行く！」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「あいつを倒すために！ 決着をつけるためにな！」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「なるほど…… これはイケるかもしれないな」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「ソルジャーか……クックックッ。ん、私の実験のサンプルにならんか？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「ん…なんだ？ 剣でもぬくか？」
+CH05,COSTA DEL SOL BEACH,レッド13,RED XIII_W,RED XIII_C,「ゼェゼェ……やめろ、クラウド」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「クックックッ……」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「おや、ときにきみは…… 古代種の娘ではないか」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「わたし、エアリス。名前くらい覚えなさいよ」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「ねえ、宝条博士 教えてほしいの」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「わたし、自分が古代種なのは知っている。母さんから聞いたから」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「母さん？ ああ、イファルナか。元気にしてるのか？」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「知らないの？ 死んじゃったよ」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「……そうか」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「……ねえ、博士」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「ジェノバは古代種なの？ セフィロスは古代種なの？ わたしと同じ血、流れてるの？」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「……ボソボソ………西へ… ………………」
+CH05,COSTA DEL SOL BEACH,エアリス,AERITH,AERITH,「ボソボソ作戦？ ってことは、何か隠してる！」
+CH05,COSTA DEL SOL BEACH,宝条,PROF. HOJO,PROF. HOJO,「……………………」
+CH05,COSTA DEL SOL BEACH,レッド13,RED XIII_W,RED XIII_C,「ガルルル……！！ ……ゼェハァ……」
+CH05,COSTA DEL SOL BEACH,ティファ,TIFA,TIFA,「ねぇ！ 答えなさいよ！！」
+CH05,COSTA DEL SOL BEACH,クラウド,CLOUD,CLOUD,「……だめだ。むだだよ」
+CH05,COSTA DEL SOL BEACH,水着ギャルＡ,SWIMMING GIRL A,SWIMMING GIRL A,「この暑さのなか、実験服をぬぐことはない。知的な男のダンディズムよね～」
+CH05,COSTA DEL SOL BEACH,水着ギャルＢ,SWIMMING GIRL B,SWIMMING GIRL B,「宝条先生のボソボソを通訳するね」
+CH05,COSTA DEL SOL BEACH,水着ギャルＢ,SWIMMING GIRL B,SWIMMING GIRL B,「ここから西のコレル山をこえて進んでる……」
+CH05,COSTA DEL SOL BEACH,水着ギャルＢ,SWIMMING GIRL B,SWIMMING GIRL B,「わかったかしら？ わたし、よくわかんな～い」
+CH05,COSTA DEL SOL INN,INFO,INFO,INFO,＜宿屋＞
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「フゥ……。なんだか、つかれちゃったのね」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「わからないこと、おおくて…」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「ちょっとだけ、不安なんだ」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「ね、クラウド？」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「わたしのこと、どう思ってる？」
+CH05,COSTA DEL SOL INN,INFO,CLOUD,CLOUD,＜選択肢：「わからないよ」or「べつに……」 /n →「わからないよ」を選択＞
+CH05,COSTA DEL SOL INN,クラウド,CLOUD,CLOUD,「どうもこうも わからないよ」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「……………そうだね」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「わたしもね、わからないの。自分のこと」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「わたし、どのへんが古代種なの？」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「古代種ってどこがどうなるの？」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「へんだよね。わからないよ…」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「はぁ…　どうどうめぐり。こういうのってこたえ、あるのかなあ。むずかしいよね、いろいろ」
+CH05,COSTA DEL SOL INN,エアリス,AERITH,AERITH,「さきに休ませてね」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,INFO,INFO,INFO,＜ジョニー家＞
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「そうそう！ そんなことも、あったね～！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「でさ、でさ！ そんとき…」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「クラウド……。ごめん、今日はふたりにさせてね！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「ひさしぶりだし たまには息抜きもね」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「そういうことだから……。悪く思うなよ」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「あんまり遅くならないようにするから」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「ね、心配しないで！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,INFO,CLOUD,CLOUD,＜選択肢：「心配なんて…」or「ああ…」 /n →「心配なんて…」を選択＞
+CH05,COSTA DEL SOL JOHNNYS HOUSE,クラウド,CLOUD,CLOUD,「べつに心配なんて」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「そうなんだ…」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「イヒヒヒ……！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「やだ～！ そうなの～！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「そうそう。でね……」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「うんうん！」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「そうそう！ そんなことも、あったね～」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ジョニー,JOHNNY,JOHNNY,「でさ、でさ！ そんとき…」
+CH05,COSTA DEL SOL JOHNNYS HOUSE,ティファ,TIFA,TIFA,「ウフフフ！」
+CH05,COREL MOUNTAINS,INFO,INFO,INFO,＜コレル山＞
+CH05,COREL MOUNTAINS,登山家,MOUNTAINEER,MOUNTAINEER,「ふぅーっ！！」
+CH05,COREL MOUNTAINS,登山家,MOUNTAINEER,MOUNTAINEER,「おっ！」
+CH05,COREL MOUNTAINS,登山家,MOUNTAINEER,MOUNTAINEER,「あんたたちはちゃんと話しかけてくれるんだな」
+CH05,COREL MOUNTAINS,クラウド,CLOUD,CLOUD,「なんのこどだ？」
+CH05,COREL MOUNTAINS,登山家,MOUNTAINEER,MOUNTAINEER,「少し前にすれちがった黒マントのヤツがよ」
+CH05,COREL MOUNTAINS,登山家,MOUNTAINEER,MOUNTAINEER,「人が親切に、この先は危険だって教えてやってんのにムシしやがってよう」
+CH05,COREL MOUNTAINS,クラウド,CLOUD,CLOUD,「セフィロス……」
+CH05,COREL MOUNTAINS,ティファ,TIFA,TIFA,「先を急ぎましょう」
+CH05,COREL MOUNTAINS,エアリス,AERITH,AERITH,「ここにも、黒マントね…」
+CH05,COREL RAILWAY,クラウド,CLOUD,CLOUD,「いてっ！！ せまいな、ここ……」
+CH05,COREL RAILWAY,クラウド,CLOUD,CLOUD,「さっ、気を取り直して…。んっ、これかな」
+CH05,COREL RAILWAY,クラウド,CLOUD,CLOUD,「これを動かせば……」
+CH05,COREL RAILWAY,クラウド,CLOUD,CLOUD,「なにかがおこるはずだ」
+CH05,COREL RAILWAY,INFO,CLOUD,CLOUD,＜選択肢：「操作する」or「やめておこう」 /n →「操作する」を選択＞
+CH05,COREL RAILWAY,INFO,INFO,INFO,＜下の橋がかかる＞
+CH05,COREL MOUNTAINS BIRD NEST,INFO,INFO,INFO,＜鳥の巣＞
+CH05,COREL MOUNTAINS BIRD NEST,エアリス,AERITH,AERITH,「きゃっ、かわいいっ！」
+CH05,COREL MOUNTAINS BIRD NEST,ティファ,TIFA,TIFA,「うん！！ ……かわいいね」
+CH05,COREL MOUNTAINS BIRD NEST,クラウド,CLOUD,CLOUD,「どうするか…」
+CH05,COREL MOUNTAINS BIRD NEST,INFO,CLOUD,CLOUD,＜選択肢：「宝をもらってくぞ」or「おいていってあげようか」 /n →「宝をもらってくぞ」を選択＞
+CH05,COREL MOUNTAINS BIRD NEST,クラウド,CLOUD,CLOUD,「世の中はきびしいからな…。お宝はいただく」
+CH05,COREL MOUNTAINS BIRD NEST,ティファ,TIFA,TIFA,「クラウドったら！！ チョコボ頭のくせに！」
+CH05,COREL MOUNTAINS BIRD NEST,エアリス,AERITH,AERITH,「クラウド……」
+CH05,COREL MOUNTAINS BIRD NEST,INFO,INFO,INFO,＜戦闘：コカトリス＞ /n ＜コカトリスを撃破＞ /n ＜戦闘終了＞
+CH05,COREL MOUNTAINS BIRD NEST,INFO,CLOUD,CLOUD,＜クラウド、『フェニックスの尾』を10枚手に入れる＞
+CH05,COREL NORTH,INFO,INFO,INFO,＜北コレル＞
+CH05,COREL NORTH,INFO,BARRET,BARRET,＜クラウド一行、北コレルに到着すると、一足先に到着していたバレットが住民にぶたれている＞
+CH05,COREL NORTH,住民Ａ,RESIDENT A,RESIDENT A,「ケッ！ また、バレットさまに会えるとは思ってもみなかったぜ」
+CH05,COREL NORTH,住民Ｂ,RESIDENT B,RESIDENT B,「フン！また、どこかの町を追い出されてきたんだろう？」
+CH05,COREL NORTH,住民Ｂ,RESIDENT B,RESIDENT B,「なにせ、きさまは死神だからな」
+CH05,COREL NORTH,住民Ｃ,RESIDENT C,RESIDENT C,「どのツラさげて、もどってきたんだ？」
+CH05,COREL NORTH,住民Ｃ,RESIDENT C,RESIDENT C,「見てみろ！おまえのせいで 北コレルはガレキの町になっちまった……」
+CH05,COREL NORTH,住民Ｃ,RESIDENT C,RESIDENT C,「なんとか言ったらどうなんだ！」
+CH05,COREL NORTH,住民Ｃ,RESIDENT C,RESIDENT C,「自分がやったことを忘れたんじゃねぇだろうな？」
+CH05,COREL NORTH,バレット,BARRET,BARRET,「…す、すまん…」
+CH05,COREL NORTH,住民Ｃ,RESIDENT C,RESIDENT C,「チッ、おもしろくねぇ！」
+CH05,COREL NORTH,住民Ａ,RESIDENT A,RESIDENT A,「こんなデクノボウにかまってるとロクなことがねぇな！」
+CH05,COREL NORTH,バレット,BARRET,BARRET,「きこえただろ… オレのせいで、この町は……壊れてしまったのさ……」
+CH05,COREL ROPEWAY STATION,INFO,INFO,INFO,＜ロープウェイ駅＞
+CH05,COREL ROPEWAY STATION,エアリス,AERITH,AERITH,「バレット、どうしのたの？」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「すまねえな」
+CH05,COREL ROPEWAY STATION,クラウド,CLOUD,CLOUD,「何があったんだ？」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「このあたりにオレの故郷があった」
+CH05,COREL ROPEWAY STATION,レッド13,RED XIII_W,RED XIII_C,「あった、とは？」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「今はもうない。砂の下に埋もれちまったらしい。……たった４年で」
+CH05,COREL ROPEWAY STATION,エアリス,AERITH,AERITH,「だからって、どうして、さっきの人たち あんなひどいこと言うの？」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「オレのせいだからだ。ぜんぶオレのせいなんだ」
+CH05,COREL OLD TOWN,INFO,INFO,INFO,＜回想＞
+CH05,COREL OLD TOWN,バレット,BARRET,BARRET,「……オレの故郷、コレルは古くからの炭坑の村だった」
+CH05,COREL OLD TOWN,バレット,BARRET,BARRET,「ほこりっぽくて のどかで、まずしくて…… そんなちっぽけな村だった」
+CH05,COREL OLD TOWN,バレット,BARRET,BARRET,「「魔晄炉」という名を初めて耳にする、あの時までは……」
+CH05,COREL OLD TOWN INSIDE HOUSE,村長,VILLAGE HEADMAN,VILLAGE HEADMAN,「どうする？ 反対してるのはダインだけだが……」
+CH05,COREL OLD TOWN INSIDE HOUSE,ダイン,DYNE,DYNE,「俺は反対だ。コレルの炭坑をすてるなんてできない相談だからな！」
+CH05,COREL OLD TOWN INSIDE HOUSE,ダイン,DYNE,DYNE,「コレルの炭坑は、俺たちのじいさんたち、おやじたちが命がけで守ってきたものだ」
+CH05,COREL OLD TOWN INSIDE HOUSE,ダイン,DYNE,DYNE,「俺たちの時代になって すてることなんてできない！」
+CH05,COREL OLD TOWN INSIDE HOUSE,バレット,BARRET,BARRET,「でもよ、ダイン。今の時代、石炭なんて誰も使わない。時代にはさからえないんだ」
+CH05,COREL OLD TOWN INSIDE HOUSE,スカーレット,SCARLET,SCARLET,「そう、時代は魔晄エネルギー」
+CH05,COREL OLD TOWN INSIDE HOUSE,スカーレット,SCARLET,SCARLET,「だいじょうぶですよ、ダインさん。魔晄炉完成のあかつきには我々神羅カンパニーがみなさんの生活を保障します」
+CH05,COREL OLD TOWN INSIDE HOUSE,バレット,BARRET,BARRET,「な、ダイン。オレは女房のミーナにこれ以上苦しい生活をさせたくないんだ」
+CH05,COREL OLD TOWN INSIDE HOUSE,ダイン,DYNE,DYNE,「そんなの俺だって同じなんだ！」
+CH05,COREL OLD TOWN INSIDE HOUSE,ダイン,DYNE,DYNE,「でも、それでも俺には炭坑をすてるなんてできないんだよ！」
+CH05,COREL OLD TOWN INSIDE HOUSE,村長,VILLAGE HEADMAN,VILLAGE HEADMAN,「ダイン……わかってくれ」
+CH05,COREL OLD TOWN INSIDE HOUSE,バレット,BARRET,BARRET,「こうしてコレル魔晄炉は建設され……完成した」
+CH05,COREL OLD TOWN INSIDE HOUSE,バレット,BARRET,BARRET,「オレたちは豊かな生活を夢みていた。しかし…………」
+CH05,COREL OLD TOWN ON FIRE,バレット,BARRET,BARRET,「オレとダインが村を離れているほんのわずかな時間の出来事だった」
+CH05,COREL OLD TOWN ON FIRE,バレット,BARRET,BARRET,「コレル村は神羅の軍によってやきはらわれてしまったんだ」
+CH05,COREL OLD TOWN ON FIRE,バレット,BARRET,BARRET,「大勢の人たちも……オレたちの家族も……みんな……いっしょに……」
+CH05,COREL OLD TOWN ON FIRE,INFO,INFO,INFO,＜回想終了＞
+CH05,COREL ROPEWAY STATION,クラウド,CLOUD,CLOUD,「神羅の軍？ いったいの何のために！？」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「魔晄炉で爆発事故が起こったんだ」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「神羅はその事故の責任をコレル村のオレたちに押しつけた。反対派のしわざだと言ってな」
+CH05,COREL ROPEWAY STATION,ティファ,TIFA,TIFA,「ひどいっ！」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「ああ、たしかにな。でもよ、オレは神羅以上に自分を許せなかったんだ」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「オレさえ魔晄炉に賛成しなければ……」
+CH05,COREL ROPEWAY STATION,ティファ,TIFA,TIFA,「自分を責めちゃだめよ。そのころは、みんな神羅のあまい言葉におどらされていたんだから」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「だからよ、だからこそオレは自分にハラが立つんだ！！」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「あまい言葉にのせられたあげく女房を……ミーナを失い……」
+CH05,COREL ROPEWAY STATION,ロープウェイ運転手,ROPEWAY OPERATOR,ROPEWAY OPERATOR,「オーイ、あんたら！ 『ゴールドソーサー』に行くなら早く乗っておくれ」
+CH05,COREL ROPEWAY STATION,ロープウェイ運転手,ROPEWAY OPERATOR,ROPEWAY OPERATOR,「料金は、必要ないからね！」
+CH05,COREL ROPEWAY STATION,？,MYSTERY VOICE,MYSTERY VOICE,「ロープウェイに乗りますか？」
+CH05,COREL ROPEWAY STATION,INFO,CLOUD,CLOUD,＜選択肢：「乗る」or「乗らない」 /n →「乗る」を選択＞
+CH05,COREL ROPEWAY STATION,クラウド,CLOUD,CLOUD,「乗ろうぜ」
+CH05,COREL ROPEWAY STATION,バレット,BARRET,BARRET,「ダインは親友だったぜ。ガキのころからよう……」
+CH05,COREL ROPEWAY STATION,ティファ,TIFA,TIFA,「私、知らなかったわ。バレット、何も言わなかったから……」
+CH05,COREL ROPEWAY STATION,エアリス,AERITH,AERITH,「……………」
+CH05,COREL ROPEWAY STATION,レッド13,RED XIII_W,RED XIII_C,「……………」
+CH05,COREL ROPEWAY STATION,ティファ,TIFA,TIFA,「……………」
+CH05,COREL ROPEWAY STATION,ティファ,TIFA,TIFA,「早くのらなきゃ！」
+CH05,COREL ROPEWAY STATION,INFO,INFO,INFO,＜クラウド一行、ロープウェイに乗り込む。 /n → ロープウェイ、出発＞
+CH05,GOLDEN SAUCER ENTRANCE,INFO,INFO,INFO,＜ゴールドソーサー、到着＞
+CH05,GOLDEN SAUCER ENTRANCE,ロープウェイ運転手,ROPEWAY OPERATOR,ROPEWAY OPERATOR,「ようこそゴールドソーサーへ」
+CH05,GOLDEN SAUCER ENTRANCE,ぬいぐるみ,CHOCOBO COSTUME,CHOCOBO COSTUME,「!^^! ようこそゴールドソーサーへ !^^! 」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「団体様ですか？　入団チケットは１回3000ギルです 何回でも入園できるゴールドチケットは30000ギルになります」
+CH05,GOLDEN SAUCER ENTRANCE,INFO,CLOUD,CLOUD,＜選択肢：「3000ギル払う」or「30000ギル払う」or「払わない」 /n →「30000ギル払う」を選択＞
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「ありがとうございます」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「ゴールドチケットは お客様がお無くしならない限り何度でも入園できます」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「ここゴールドソーサーでは料金を『GP』でお支払いただくものが多数あります」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「『GP』はゴールドソーサーでのみ使うことの出来るお金だと思っていただければ、けっこうです」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「GPはワンダースクェアの各種ゲームとチョコボレース場でのみお求めいただけます」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「それとGPの個人の所有は10000までとなっておりますのでお気をつけ下さい」
+CH05,GOLDEN SAUCER ENTRANCE,係員,WELCOME LADY,WELCOME LADY,「どうぞ、心行くまで お楽しみください」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「うわ～！ 楽しまなくっちゃ！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「そんな場合じゃないのはわかってるけど、ね」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「ね、バレットも元気だして！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,バレット,BARRET,BARRET,「……そんな気分にはなれねえ。オレのことは放っておいてくれ」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「そ～ぉ？ 仕方ないね」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,INFO,AERITH,AERITH,＜エアリス、クラウドの元へ行く＞
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「行こっ！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,ティファ,TIFA,TIFA,「ヒソヒソ……。（エアリス！ ちょっとひどいんじゃない？）」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「ヒソヒソ……。（こういうとき、ヘンに気をつかわないほうがいいよ）」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,ティファ,TIFA,TIFA,「ヒソヒソ……。（そうかな……）」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「だいじょうぶよ！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,INFO,AERITH,AERITH,＜エアリス、バレットに駆け寄る＞
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「わたしたち、遊んでくるね」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,バレット,BARRET,BARRET,「勝手にしろ！ チャラチャラしやがってよ！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,バレット,BARRET,BARRET,「オレたちはセフィロスを追ってるんだぞ！ それを忘れるんじゃねえ！」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,INFO,BARRET,BARRET,＜バレット、どこかへ飛び出す＞
+CH05,GOLDEN SAUCER ENTRANCE ROOM,エアリス,AERITH,AERITH,「……怒っちゃった」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,ティファ,TIFA,TIFA,「あ、でも、だいじょうぶみたい。なんだかいつものバレット。少し元気でたみたい」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,ティファ,TIFA,TIFA,「セフィロスが来てるかもしれないから気をつけなくちゃね」
+CH05,GOLDEN SAUCER ENTRANCE ROOM,INFO,CLOUD,CLOUD,＜選択肢：「いっしょに行く」or「いっしょに行かない」 /n →「いっしょに行く」を選択＞
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,INFO,INFO,＜ワンダースクェア・広場入口＞
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「ヘイ・ユー！！ 暗～い顔してますな～」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「どうですか～？ みなさんの未来占うで～」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「明るい未来、ゆかいな未来！ あっ、ひさんな未来が出たらかんにんしてや～！」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「あらら、すいません！ ボクは、占いマシーンです。名前は……」
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,CAIT SITH,CAIT SITH,＜ケット・シーの名前入力画面＞
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「占うのは未来だけか？」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「バカにしたらあかんで！ 失せ物、失せ人 なんでもございや！」
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「セフィロスという男はどこにいる？」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「セフィロスですな！」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「ほな、いきまっせ！！」
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,CAIT SITH,CAIT SITH,＜ケット・シー、占い中＞
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「……中吉。活発な運勢になります」
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「周りの人の好意に甘えてひと頑張りしておくと 夏以降にどっきりな予感。……なんだこれは？」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「あれっ？　もっぺんやりましょうか」
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,CAIT SITH,CAIT SITH,＜ケット・シー、占い中＞
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「忘れ物に注意。ラッキーカラーは青？」
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「……もういい」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「待って～な、もっぺんやらして！」
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,CAIT SITH,CAIT SITH,＜ケット・シー、占い中＞
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「……なんだと！？」
+CH05,GOLDEN SAUCER WONDERSQUARE,ティファ,TIFA,TIFA,「何てかいてあるの？」
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「求めれば必ず会えます。しかし最も大切なものを失います」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「ええんか、わるいんか ようわからんなぁ……」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「こんな占い初めてですわ。気になりますな～」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「ほな、いきましょうか」
+CH05,GOLDEN SAUCER WONDERSQUARE,ティファ,TIFA,TIFA,「はぁ？」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「占い屋ケット・シーとしては こんな占い不本意なんです」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「きっちりと見届けんと気持ちがおさまらん。みなさんといっしょに行かせてもらいますわ！」
+CH05,GOLDEN SAUCER WONDERSQUARE,ティファ,TIFA,TIFA,「いいの？　クラウド」
+CH05,GOLDEN SAUCER WONDERSQUARE,ケット・シー,CAIT SITH,CAIT SITH,「どないに言われてもついてきます！」
+CH05,GOLDEN SAUCER WONDERSQUARE,クラウド,CLOUD,CLOUD,「お、おい！」
+CH05,GOLDEN SAUCER WONDERSQUARE,INFO,CAIT SITH,CAIT SITH,＜ケット・シー、パーティーに加わる＞
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,INFO,INFO,INFO,＜バトルスクェア・闘技場入口＞
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,クラウド,CLOUD,CLOUD,「！！」
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,クラウド,CLOUD,CLOUD,「ん！？」
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,INFO,SOLDIER DYING,SOLDIER DYING,＜人が倒れている＞
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,クラウド,CLOUD,CLOUD,「死んでる……」
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,ティファ,TIFA,TIFA,「え！？」
+CH05,GOLDEN SAUCER BATTLESQUARE ENTRANCE,ティファ,TIFA,TIFA,「ちょ、ちょっとクラウド！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,INFO,INFO,INFO,＜闘技場受付に行くと、中は人間の死体でいっぱいであった＞
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,クラウド,CLOUD,CLOUD,「セフィロスがやったのか！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,クラウド,CLOUD,CLOUD,「これは……ちがう…… 銃で撃たれている…… セフィロスは銃など使わない…」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,被害者,VICTIM,VICTIM,「う、うう」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,クラウド,CLOUD,CLOUD,「おい、何があったんだ！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,被害者,VICTIM,VICTIM,「ウ…ウ…片腕が銃の男……」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,ティファ,TIFA,TIFA,「片腕が銃！？」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,ディオ,DIO,DIO,「そこまでだ！ おとなしくしろ！！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,INFO,DIO,DIO,＜そこへ部下二人をひきつれた大柄の男がやってくる＞
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,ディオ,DIO,DIO,「お前らがやったのか！？」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,クラウド,CLOUD,CLOUD,「ち、ちがう、俺たちじゃない！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,ケット・シー,CAIT SITH,CAIT SITH,「はよ逃げな、やばいで」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,クラウド,CLOUD,CLOUD,「お、おい！」
+CH05,GOLDEN SAUCER BATTLESQUARE RECEPTION,ディオ,DIO,DIO,「捕らえろ！！」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,INFO,INFO,INFO,＜逃げるケット・シーを追うクラウド、ティファは、さらに奥の闘技場グラウンドへ行く＞
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,ディオ,DIO,DIO,「ここまでだな」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,クラウド,CLOUD,CLOUD,「まて、話を…」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,ケット・シー,CAIT SITH,CAIT SITH,「クラウドさん……」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,INFO,INFO,INFO,＜変な兵器（？）にはさみうちをされ、捕まる＞
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,ディオ,DIO,DIO,「あと、１人だな」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,部下,SECURITY,SECURITY,「はい」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,クラウド,CLOUD,CLOUD,「おい！ 少しは、こっちの話を聞け！！」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,ディオ,DIO,DIO,「聞くことはない。下で、罪をつぐなうのだ！！」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,ディオ,DIO,DIO,「やれ！」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,部下,SECURITY,SECURITY,「はい」
+CH05,GOLDEN SAUCER BATTLESQUARE DEEPER,INFO,CLOUD,CLOUD,＜部下がスイッチを押すと、真ん中に穴が開いて、クラウドをつかまえている兵器もろとも、下へ落っこちる＞`
     const json = [];
 
     const csv = toParse.split('\n');

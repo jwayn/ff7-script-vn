@@ -103,13 +103,13 @@ chapters = chapters.map(chapter => {
           >
             <div class={styles.credits}>
               <p>
-                This project was created with the intent to help Japanese learners more effectively learn the language. All of the text and character likeness are the property of Square Enix.
+                This project was created with the intent to help Japanese learners more effectively learn the language. All of the text and character likenesses are the property of Square Enix.
               </p>
               <p>
                 The script was adapted from the one available on <a href="http://ajatt.com/finalfantasy/ff7p-index.htm" target="_blank" rel="noopener noreferrer">AJATT</a>.
               </p>
               <p>
-                Please enjoy the the script adapted from chapters one through three of the game while we work on finalizing the assets for the rest of the chapters.
+                Please enjoy the the script adapted from chapters one through five of the game while we work on finalizing the assets for the rest of the chapters.
               </p>
               <p>
                 We hope you enjoy your language study, and please don't forget to buy the game!
